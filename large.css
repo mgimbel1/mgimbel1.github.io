@@ -17,8 +17,8 @@ header, footer,main,nav{
 }
 header, footer {
   text-align: center;
-  background-color: #00BFFF ;
-  color: #FFFFF0 ;
+  background-color: #26312b;
+  color: #fff;
 }
 
 header {
@@ -54,7 +54,6 @@ li {
 .l2h1 
 {
   font-size: 1.5rem;
-  
   font-family: 'Roboto', sans-serif;
   border-bottom:1px solid;
 }
