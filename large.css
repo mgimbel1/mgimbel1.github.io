@@ -17,8 +17,8 @@ header, footer,main,nav{
 }
 header, footer {
   text-align: center;
-  background-color: #7FFFD4 ;
-  color: 	#FAEBD7 ;
+  background-color: #7FFFD4;
+  color: 	#808080;
 }
 
 header {
@@ -47,7 +47,7 @@ li {
 
 #b{
   text-decoration: underline;
-  color: black;
+  color: blue;
 }
 * { margin: 0; box-sizing: border-box; } 
 
