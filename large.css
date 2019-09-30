@@ -4,7 +4,7 @@ body {
   height: 100%;
 }
 
-f1 {
+h1 {
 font-size: 1.5rem;
 margin:0.15rem;
 font-family: 'Roboto', sans-serif;
@@ -17,8 +17,8 @@ header, footer,main,nav{
 }
 header, footer {
   text-align: center;
-  background-color: #00FFFF;
-  color: #ff8000;
+  background-color: #26312b;
+  color: #fff;
 }
 
 header {
@@ -47,11 +47,11 @@ li {
 
 #b{
   text-decoration: underline;
-  color: white;
+  color: blue;
 }
 * { margin: 0; box-sizing: border-box; } 
 
-.l2f1 
+.l2h1 
 {
   font-size: 1.5rem;
   font-family: 'Roboto', sans-serif;
@@ -69,10 +69,16 @@ li {
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 2rem;
   text-align: center;
-  margin: 2rem 0 0 0;
+  margin: 1rem 0 0 0;
 }
 
 section img {
   width: 200px;
   height: auto;
 }
+
+main section {
+    border: 1px solid #26312b;
+    border-radius: 10px 10px 10px 10px;
+    padding: .25rem;
+    }
