@@ -14,12 +14,13 @@ header, footer,main,nav{
   max-width: 45rem;
   margin: 0 auto;
   padding: .75rem;
-}
+  
 header, footer {
   text-align: center;
-  background-color:#00FFFF ;
-  color: #F0FFFF ;
-}
+  background-color:##FAEBD7 ;
+  color: #7FFFD4;
+  
+  
 
 header {
   margin-top: 10px;
