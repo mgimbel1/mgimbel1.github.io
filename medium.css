@@ -1,21 +1,9 @@
 @media only screen and (min-width: 560px) {
-	h1 {
-font-size: 2.5rem;
-}
 
-h1 {
-font-size: 1.5rem;
-}
+	
+	
+	
 
-header, footer {
-  border-radius: 10px;
-}
-header img{
-  float: right;
-  border-radius: 0 10px 0 0;
 
 }
-	.l2main {
-  grid-template-columns: 1fr 1fr;
-}
-}
+/*end of media query*/
