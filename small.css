@@ -7,7 +7,14 @@
   font-size: 16px;
   }
   /*header rules here */
-  header { background-color:#FAEBD7;
-  padding: 1rem 2%;
-
-  }
+  header {background-color: #FAEBD7;
+  padding:1rem 2%; }
+  
+  header h1{margin:0;}
+  
+  header h2{margin:0;}
+ 
+  
+  
+  /* nav rules here */
+  nav {background-color: #111;}
