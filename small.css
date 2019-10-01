@@ -11,7 +11,7 @@ body{
 /*header rules here */
 
 header{
-background-color: #ffa500;
+background-color: #ffa500:
 padding:1rem; 2%;
 }
  header h1 {
@@ -25,4 +25,4 @@ margin:0;
 /*nav rules here */
 
 nav{back-ground-color:#787878;}
-nav{
+nav ul{margin:0;padding:0;}
