@@ -30,3 +30,18 @@
   }
   nav a:hover{background-color:#444;}
   
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .clearflix:after{
+    content:"";
+    display:table;
+    clear:both;
+  }
