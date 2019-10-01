@@ -1,5 +1,4 @@
 
-@media only screen and (max-width: 480px)
 body {
   font-size: 16px;
   line-height: 1.5;
@@ -19,8 +18,8 @@ header, footer,main,nav{
 }
 header, footer {
   text-align: center;
-  background-color: #7FFFD4;
-  color: 	#808080;
+  background-color: #26312b;
+  color: #fff;
 }
 
 header {
@@ -45,11 +44,11 @@ h2
 li {
   font-size: 15px;
   font-family: sans-serif;
-} 
+}
 
 #b{
   text-decoration: underline;
-  color: blue;
+  color: white;
 }
 * { margin: 0; box-sizing: border-box; } 
 
@@ -60,17 +59,13 @@ li {
   border-bottom:1px solid;
 }
 
-
-
 .l2h2 
 {
   font-size: 1rem;
   border-bottom: 0px;
 }
-{
-@media only screen and (min-width: 1024
-  }
-  .l2main {
+
+.l2main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 2rem;
