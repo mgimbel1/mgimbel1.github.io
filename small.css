@@ -18,3 +18,15 @@
   
   /* nav rules here */
   nav {background-color: #111;}
+  nav ul{margin:0;padding;}
+  nav li {list-style-type:none;}
+  
+  nav a {
+    display: block;
+    padding:.8rem 0;/*44 min height*/
+    color: #eee;
+    text-align:center;
+    text-decoration:none;
+  }
+  nav a:hover{background-color:#444;}
+  
