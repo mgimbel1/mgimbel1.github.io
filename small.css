@@ -30,8 +30,12 @@
   }
   nav a:hover{background-color:#444;}
   
-
+  /*main rules here */
   
+  main {padding:1rem 2%;
+        display:block;    
+  }
+  main h1{color:#FAEBD7;}
   
   
   
