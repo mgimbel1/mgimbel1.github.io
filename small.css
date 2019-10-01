@@ -46,6 +46,8 @@ mainfigure{
  width:100%;
  margin:0;
 }
+main figcaption{text-align:center;font-size:
+8rem;}
 
 .clearfix:after{
 content:"";
