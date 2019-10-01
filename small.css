@@ -49,6 +49,12 @@ mainfigure{
 main figcaption{text-align:center;font-size:
 8rem;}
 
+footer{
+   text-align:center;
+   padding: 1 rem 2%;
+   background-color:#19a8e4;
+}
+
 .clearfix:after{
 content:"";
 display: table;
