@@ -49,6 +49,15 @@ mainfigure{
 main figcaption{text-align:center;font-size:
 8rem;}
 
+.l2main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2rem;
+  text-align: center;
+  margin: 1rem 0 0 0;
+
+
+
 footer{
    text-align:center,auto;
    padding: 1 rem 2%;
