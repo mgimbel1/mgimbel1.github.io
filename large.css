@@ -1,8 +1,8 @@
 @media only screen and (min-width: 1028px;){
-main{max-width:75rem;margin:auto;}
+nav main{max-width:75rem;margin:auto;}
 	nav ul{padding-left 2%;}
-	Nav li{ width:auto;}
-	nav a{padding: .5rem 1rem;}
+	nav li{ width:auto;}
+	nav a{ padding: .5rem 1rem;}
 	main figure{width:31%}
 
 	div.news{column-count:3}
