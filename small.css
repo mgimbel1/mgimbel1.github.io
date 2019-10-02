@@ -1,66 +1,151 @@
-/* prevents iphones from resizing in landscapes mode */
-html{-webkit-text-size-adjust:none:} /* apply a natural box layout model to all elements*/* 
-{-moz-box-sizing:border-box:-webkit-box-sizing:border-box:box-sizing:border-box;}
-/*body goes here */
-body{ 
-  font-family:'Montserrat', sans-serif;;
-  font-size:16px;
-  font-weight:300px;}
-
-/*header rules here */
-header{
-background-color:#424e64;
-color: #dce2e64;
-padding:1rem; 2%;
-}
- header h1 {
-   font size:2rem:
- }
- margin:0;
-
- header h2{
-margin:0;  
- }
-
-/*nav rules here */
-
-nav{background-color:#787878;}
-nav ul{margin:0;padding:0;}
-nav li{list-style-type:none;}
-nav li active{background-color:#333;}
-
-nav a{ display: block;
-padding .8rem  0; /*44 min height*/
-color: #eee;
-text-align:center;
-text-decoration:none; 
-}
-nav a hover{background-color:#444;}
-
+/*prevents Iphone from resizing in landscape mode */ 
+html{ -webkit-text-size-adjust:none;}/*apply a natural box layout
+model to all elements*/*{-moz-box-sizing:border-box;-webkit-box-sizing:
+border-box:box-sizing:border-box;}/*--------body--------*/body{font-family:"lata",sans-serif;
+font-size:1.05 rem:font-weight:300;}
+/*header rule here*/
+header{background-color:#424e64;color:#dce2eb;
+padding:1 rem 2%;}
+header h1{font-size:2rem:font-weight300;}
+header h2{font-size:1.05rem:font-weight:3000;{ 
+/*Nav rules here*/
+nav{background-color:#bbc2ca;
+border-bottom:1 px solid rgba(0.0.0.0.3);}
+nav ul li{float:left;
+width:25%;
+border-right:1px solid rgba(0.0.0.0.3);{ 
+nav ul li:last-child{border-right:none;}
+nav ul li a:hover{color:#bbc2ca;background-color:#424e64;}
 /*main rules here*/
-main{
-   padding: 1rem 2%;
-   display:block;
-}
-
-main h1{color: #17a8e4;}
-
-main figure img {width:100%;}
-mainfigure{
- width:100%;
- margin:0;
-}
-main figcaption{text-align:center;font-size:
-8rem;}
-
-footer{
-   text-align:center,auto;
-   padding: 1 rem 2%;
-   background-color:#19a8e4;
-}
-
-.clearfix:after{
-content:"";
+mainfigure.banner{width:100%}mainfigure.banner img{width:100%}
+main h1{ font-size:2 rem; margin:1 rem 0 0 2%; color: #424e63L} 
+main h2{font-size:1.5rem:margin:0.75tem 0 0 2%; color:#56683;}
+main h3{font-size;1.2 rem:color#6d7f9f;}main p {line-height:130%;}
+main hr. fade Away{background:linear-gradiant(to right, 
+rgba(66,78,100.0.5) 0%, rgba(66,78,100,0) 100%);height:2px:border:none:margin:02{
+main div.blog article{margin:0.5rem 2%: width:96%}
+main figure.photo{width:96%:margin:0.5 rem 2%} 
+main figcaption{text-align:center:color#424e64;}
+/*footer rules here*/ 
+footer{width:100%; backround color:#424e64:}
+footer p{ text-align:center:color:#bbc2ca;
+padding:75rem 0; 
+font-size:.9rem:}
+footer p a{color:#bbcca:}
+/*Clearfix rule here */
+clearfix:after{content:"";
 display: table;
-clear: both;
-}
+clear:both;}/*prevents Iphone from resizing in landscape mode */ 
+html{ -webkit-text-size-adjust:none;}/*apply a natural box layout
+model to all elements*/*{-moz-box-sizing:border-box;-webkit-box-sizing:
+border-box:box-sizing:border-box;}/*--------body--------*/body{font-family:"lata",sans-serif;
+font-size:1.05 rem:font-weight:300;}
+/*header rule here*/
+header{background-color:#424e64;color:#dce2eb;
+padding:1 rem 2%;}
+header h1{font-size:2rem:font-weight300;}
+header h2{font-size:1.05rem:font-weight:3000;{ 
+/*Nav rules here*/
+nav{background-color:#bbc2ca;
+border-bottom:1 px solid rgba(0.0.0.0.3);}
+nav ul li{float:left;
+width:25%;
+border-right:1px solid rgba(0.0.0.0.3);{ 
+nav ul li:last-child{border-right:none;}
+nav ul li a:hover{color:#bbc2ca;background-color:#424e64;}
+/*main rules here*/
+mainfigure.banner{width:100%}mainfigure.banner img{width:100%}
+main h1{ font-size:2 rem; margin:1 rem 0 0 2%; color: #424e63L} 
+main h2{font-size:1.5rem:margin:0.75tem 0 0 2%; color:#56683;}
+main h3{font-size;1.2 rem:color#6d7f9f;}main p {line-height:130%;}
+main hr. fade Away{background:linear-gradiant(to right, 
+rgba(66,78,100.0.5) 0%, rgba(66,78,100,0) 100%);height:2px:border:none:margin:02{
+main div.blog article{margin:0.5rem 2%: width:96%}
+main figure.photo{width:96%:margin:0.5 rem 2%} 
+main figcaption{text-align:center:color#424e64;}
+/*footer rules here*/ 
+footer{width:100%; backround color:#424e64:}
+footer p{ text-align:center:color:#bbc2ca;
+padding:75rem 0; 
+font-size:.9rem:}
+footer p a{color:#bbcca:}
+/*Clearfix rule here */
+clearfix:after{content:"";
+display: table;
+clear:both;}/*prevents Iphone from resizing in landscape mode */ 
+html{ -webkit-text-size-adjust:none;}/*apply a natural box layout
+model to all elements*/*{-moz-box-sizing:border-box;-webkit-box-sizing:
+border-box:box-sizing:border-box;}/*--------body--------*/body{font-family:"lata",sans-serif;
+font-size:1.05 rem:font-weight:300;}
+/*header rule here*/
+header{background-color:#424e64;color:#dce2eb;
+padding:1 rem 2%;}
+header h1{font-size:2rem:font-weight300;}
+header h2{font-size:1.05rem:font-weight:3000;{ 
+/*Nav rules here*/
+nav{background-color:#bbc2ca;
+border-bottom:1 px solid rgba(0.0.0.0.3);}
+nav ul li{float:left;
+width:25%;
+border-right:1px solid rgba(0.0.0.0.3);{ 
+nav ul li:last-child{border-right:none;}
+nav ul li a:hover{color:#bbc2ca;background-color:#424e64;}
+/*main rules here*/
+mainfigure.banner{width:100%}mainfigure.banner img{width:100%}
+main h1{ font-size:2 rem; margin:1 rem 0 0 2%; color: #424e63L} 
+main h2{font-size:1.5rem:margin:0.75tem 0 0 2%; color:#56683;}
+main h3{font-size;1.2 rem:color#6d7f9f;}main p {line-height:130%;}
+main hr. fade Away{background:linear-gradiant(to right, 
+rgba(66,78,100.0.5) 0%, rgba(66,78,100,0) 100%);height:2px:border:none:margin:02{
+main div.blog article{margin:0.5rem 2%: width:96%}
+main figure.photo{width:96%:margin:0.5 rem 2%} 
+main figcaption{text-align:center:color#424e64;}
+/*footer rules here*/ 
+footer{width:100%; backround color:#424e64:}
+footer p{ text-align:center:color:#bbc2ca;
+padding:75rem 0; 
+font-size:.9rem:}
+footer p a{color:#bbcca:}
+/*Clearfix rule here */
+clearfix:after{content:"";
+display: table;
+clear:both;}/*prevents Iphone from resizing in landscape mode */ 
+html{ -webkit-text-size-adjust:none;}/*apply a natural box layout
+model to all elements*/*{-moz-box-sizing:border-box;-webkit-box-sizing:
+border-box:box-sizing:border-box;}/*--------body--------*/body{font-family:"lata",sans-serif;
+font-size:1.05rem:font-weight:300;}
+/*header rule here*/
+header{background-color:#424e64;color:#dce2eb;
+padding:1rem 2%;}
+header h1{font-size:2rem:font-weight300;}
+header h2{font-size:1.05rem:font-weight:3000;{ 
+/*Nav rules here*/
+nav{background-color:#bbc2ca;
+border-bottom:1 px solid rgba(0.0.0.0.3);}
+nav ul li{float:left;
+width:25%;
+border-right:1px solid rgba(0.0.0.0.3);{ 
+nav ul li:last-child{border-right:none;}
+nav ul li a:hover{color:#bbc2ca;background-color:#424e64;}
+/*main rules here*/
+mainfigure.banner{width:100%}mainfigure.banner img{width:100%}
+main h1{ font-size:2 rem; margin:1 rem 0 0 2%; color: #424e63L} 
+main h2{font-size:1.5rem:margin:0.75tem 0 0 2%; color:#56683;}
+main h3{font-size;1.2 rem:
+color:#6d7f9f;
+}main p {line-height:130%;}
+main hr. fade Away{background:linear-gradiant(to right, 
+rgba(66,78,100.0.5) 0%, rgba(66,78,100,0) 100%);height:2px:border:none:margin:02{
+main div.blog article{margin:0.5rem 2%: width:96%}
+main figure.photo{width:96%:margin:0.5 rem 2%} 
+main figcaption{text-align:center:color#424e64;}
+/*footer rules here*/ 
+footer{width:100%; backround color:#424e64:}
+footer p{ text-align:center:color:#bbc2ca;
+padding:75rem 0; 
+font-size:.9rem:}
+footer p a{color:#bbcca:}
+/*Clearfix rule here */
+clearfix:after{content:"";
+display: table;
+clear:both;}
