@@ -1,14 +1,15 @@
-/*A box layout model*/ *{-moz-box-sizing:border-box:border-box;} {-webkit-box-sizing:border-box:sizing border-box;}
-/*body rules here */
+/* prevents iphones from resizing in landscapes mode */
+html{-webkit-text-size-adjust:none:} /* apply a natural box layout model to all elements*/* 
+{-moz-box-sizing:border-box:-webkit-box-sizing:border-box:box-sizing:border-box;}
+/*body goes here */
 body{ 
   font-family:'Montserrat', sans-serif;;
   font-size:16px;
   font-weight:300px;}
 
 /*header rules here */
-
 header{
-background-color: #424e64:
+background-color:#424e64;
 color: #dce2e64;
 padding:1rem; 2%;
 }
