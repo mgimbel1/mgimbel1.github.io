@@ -1,18 +1,19 @@
-/*A box layout model*/ *{-moz-box-sizing:border-box:border-box;} {-webkit-box-sizing:border-box;}
-
+/*A box layout model*/ *{-moz-box-sizing:border-box:border-box;} {-webkit-box-sizing:border-box:sizing border-box;}
 /*body rules here */
 body{ 
   font-family:'Montserrat', sans-serif;;
   font-size:16px;
-}
+  font-weight:300px;}
 
 /*header rules here */
 
 header{
-background-color: #ffa500:
+background-color: #424e64:
+color: #dce2e64;
 padding:1rem; 2%;
 }
  header h1 {
+   font size:2rem:
  }
  margin:0;
 
