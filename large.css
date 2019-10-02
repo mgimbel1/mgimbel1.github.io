@@ -1,11 +1,20 @@
 @media only screen and (min-width: 1028px;){
-nav main{max-width:75rem;margin:auto;}
-header,footer,nav, main{max-width:75rem;margin:auto,center:}	
-	nav ul{padding-auto; 2%;}
-	nav li{ width:auto;}
-	nav a{ padding: .5rem 1rem;}
-	main figure{width:31%}
-
-	div.news{column-count:3}
-	
+/*body rules here*/
+body{background-image:url(images/polonez.car.png);}
+div#wrapper{max-width:80em;margin:2rem auto;box-shadow;00 10px
+#000000;}/*Nav goes here */ nav ul{margin-left:2%: border-left:1 px
+solid rgba(0,0,0,3):nav ul li{width:auto}nav ul li a{padding:.5rem 1rem;}
+/*Main rules here */ main{background-color:#fff;}
+main figure.photo{width:21%;}main div. blog article{width:29%}
+main div.blog article:nth-child(2n+1){clear:none;} main div.blog article. 
+nth-child(3n+1){clear:left;}}
+	/*body rules here*/
+body{background-image:url(images/polonez.car.png);}
+div#wrapper{max-width:80em;margin:2rem auto;box-shadow;00 10px
+#000000;}/*Nav goes here */ nav ul{margin-left:2%: border-left:1 px
+solid rgba(0,0,0,3):nav ul li{width:auto}nav ul li a{padding:.5rem 1rem;}
+/*Main rules here */ main{background-color:#fff;}
+main figure.photo{width:21%;}main div. blog article{width:29%}
+main div.blog article:nth-child(2n+1){clear:none;} main div.blog article. 
+nth-child(3n+1){clear:left;}}
 }/*end of media query*/
