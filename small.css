@@ -1,3 +1,5 @@
+/*A box layout model*/ *{-moz-box-sizing:border-box:border-box;} {-webkit-box-sizing:border-box;}
+
 /*body rules here */
 body{ 
   font-family:'Montserrat', sans-serif;;
