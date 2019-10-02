@@ -1,150 +1,95 @@
 /*prevents Iphone from resizing in landscape mode */ 
 html{ -webkit-text-size-adjust:none;}/*apply a natural box layout
 model to all elements*/*{-moz-box-sizing:border-box;-webkit-box-sizing:
-border-box:box-sizing:border-box;}/*--------body--------*/body{font-family:"lata",sans-serif;
-font-size:1.05 rem:font-weight:300;}
-/*header rule here*/
-header{background-color:#424e64;color:#dce2eb;
-padding:1 rem 2%;}
-header h1{font-size:2rem:font-weight300;}
-header h2{font-size:1.05rem:font-weight:3000;{ 
-/*Nav rules here*/
-nav{background-color:#bbc2ca;
-border-bottom:1 px solid rgba(0.0.0.0.3);}
-nav ul li{float:left;
-width:25%;
-border-right:1px solid rgba(0.0.0.0.3);{ 
-nav ul li:last-child{border-right:none;}
-nav ul li a:hover{color:#bbc2ca;background-color:#424e64;}
-/*main rules here*/
-mainfigure.banner{width:100%}mainfigure.banner img{width:100%}
-main h1{ font-size:2 rem; margin:1 rem 0 0 2%; color: #424e63L} 
-main h2{font-size:1.5rem:margin:0.75tem 0 0 2%; color:#56683;}
-main h3{font-size;1.2 rem:color#6d7f9f;}main p {line-height:130%;}
-main hr. fade Away{background:linear-gradiant(to right, 
-rgba(66,78,100.0.5) 0%, rgba(66,78,100,0) 100%);height:2px:border:none:margin:02{
-main div.blog article{margin:0.5rem 2%: width:96%}
-main figure.photo{width:96%:margin:0.5 rem 2%} 
-main figcaption{text-align:center:color#424e64;}
-/*footer rules here*/ 
-footer{width:100%; backround color:#424e64:}
-footer p{ text-align:center:color:#bbc2ca;
-padding:75rem 0; 
-font-size:.9rem:}
-footer p a{color:#bbcca:}
-/*Clearfix rule here */
-clearfix:after{content:"";
-display: table;
-clear:both;}/*prevents Iphone from resizing in landscape mode */ 
+border-box:box-sizing:border-box;}
+/*prevents Iphone from resizing in landscape mode */ 
 html{ -webkit-text-size-adjust:none;}/*apply a natural box layout
 model to all elements*/*{-moz-box-sizing:border-box;-webkit-box-sizing:
-border-box:box-sizing:border-box;}/*--------body--------*/body{font-family:"lata",sans-serif;
-font-size:1.05 rem:font-weight:300;}
-/*header rule here*/
-header{background-color:#424e64;color:#dce2eb;
-padding:1 rem 2%;}
-header h1{font-size:2rem:font-weight300;}
-header h2{font-size:1.05rem:font-weight:3000;{ 
-/*Nav rules here*/
-nav{background-color:#bbc2ca;
-border-bottom:1 px solid rgba(0.0.0.0.3);}
-nav ul li{float:left;
-width:25%;
-border-right:1px solid rgba(0.0.0.0.3);{ 
-nav ul li:last-child{border-right:none;}
-nav ul li a:hover{color:#bbc2ca;background-color:#424e64;}
-/*main rules here*/
-mainfigure.banner{width:100%}mainfigure.banner img{width:100%}
-main h1{ font-size:2 rem; margin:1 rem 0 0 2%; color: #424e63L} 
-main h2{font-size:1.5rem:margin:0.75tem 0 0 2%; color:#56683;}
-main h3{font-size;1.2 rem:color#6d7f9f;}main p {line-height:130%;}
-main hr. fade Away{background:linear-gradiant(to right, 
-rgba(66,78,100.0.5) 0%, rgba(66,78,100,0) 100%);height:2px:border:none:margin:02{
-main div.blog article{margin:0.5rem 2%: width:96%}
-main figure.photo{width:96%:margin:0.5 rem 2%} 
-main figcaption{text-align:center:color#424e64;}
-/*footer rules here*/ 
-footer{width:100%; backround color:#424e64:}
-footer p{ text-align:center:color:#bbc2ca;
-padding:75rem 0; 
-font-size:.9rem:}
-footer p a{color:#bbcca:}
-/*Clearfix rule here */
-clearfix:after{content:"";
-display: table;
-clear:both;}/*prevents Iphone from resizing in landscape mode */ 
-html{ -webkit-text-size-adjust:none;}/*apply a natural box layout
-model to all elements*/*{-moz-box-sizing:border-box;-webkit-box-sizing:
-border-box:box-sizing:border-box;}/*--------body--------*/body{font-family:"lata",sans-serif;
-font-size:1.05 rem:font-weight:300;}
-/*header rule here*/
-header{background-color:#424e64;color:#dce2eb;
-padding:1 rem 2%;}
-header h1{font-size:2rem:font-weight300;}
-header h2{font-size:1.05rem:font-weight:3000;{ 
-/*Nav rules here*/
-nav{background-color:#bbc2ca;
-border-bottom:1 px solid rgba(0.0.0.0.3);}
-nav ul li{float:left;
-width:25%;
-border-right:1px solid rgba(0.0.0.0.3);{ 
-nav ul li:last-child{border-right:none;}
-nav ul li a:hover{color:#bbc2ca;background-color:#424e64;}
-/*main rules here*/
-mainfigure.banner{width:100%}mainfigure.banner img{width:100%}
-main h1{ font-size:2 rem; margin:1 rem 0 0 2%; color: #424e63L} 
-main h2{font-size:1.5rem:margin:0.75tem 0 0 2%; color:#56683;}
-main h3{font-size;1.2 rem:color#6d7f9f;}main p {line-height:130%;}
-main hr. fade Away{background:linear-gradiant(to right, 
-rgba(66,78,100.0.5) 0%, rgba(66,78,100,0) 100%);height:2px:border:none:margin:02{
-main div.blog article{margin:0.5rem 2%: width:96%}
-main figure.photo{width:96%:margin:0.5 rem 2%} 
-main figcaption{text-align:center:color#424e64;}
-/*footer rules here*/ 
-footer{width:100%; backround color:#424e64:}
-footer p{ text-align:center:color:#bbc2ca;
-padding:75rem 0; 
-font-size:.9rem:}
-footer p a{color:#bbcca:}
-/*Clearfix rule here */
-clearfix:after{content:"";
-display: table;
-clear:both;}/*prevents Iphone from resizing in landscape mode */ 
-html{ -webkit-text-size-adjust:none;}/*apply a natural box layout
-model to all elements*/*{-moz-box-sizing:border-box;-webkit-box-sizing:
-border-box:box-sizing:border-box;}/*--------body--------*/body{font-family:"lata",sans-serif;
-font-size:1.05rem:font-weight:300;}
-/*header rule here*/
-header{background-color:#424e64;color:#dce2eb;
-padding:1rem 2%;}
-header h1{font-size:2rem:font-weight300;}
-header h2{font-size:1.05rem:font-weight:3000;{ 
-/*Nav rules here*/
-nav{background-color:#bbc2ca;
-border-bottom:1 px solid rgba(0.0.0.0.3);}
-nav ul li{float:left;
-width:25%;
-border-right:1px solid rgba(0.0.0.0.3);{ 
-nav ul li:last-child{border-right:none;}
-nav ul li a:hover{color:#bbc2ca;background-color:#424e64;}
-/*main rules here*/
-mainfigure.banner{width:100%}mainfigure.banner img{width:100%}
-main h1{ font-size:2 rem; margin:1 rem 0 0 2%; color: #424e63L} 
-main h2{font-size:1.5rem:margin:0.75tem 0 0 2%; color:#56683;}
-main h3{font-size;1.2 rem:
-color:#6d7f9f;
-}main p {line-height:130%;}
-main hr. fade Away{background:linear-gradiant(to right, 
-rgba(66,78,100.0.5) 0%, rgba(66,78,100,0) 100%);height:2px:border:none:margin:02{
-main div.blog article{margin:0.5rem 2%: width:96%}
-main figure.photo{width:96%:margin:0.5 rem 2%} 
-main figcaption{text-align:center:color#424e64;}
-/*footer rules here*/ 
-footer{width:100%; backround color:#424e64:}
-footer p{ text-align:center:color:#bbc2ca;
-padding:75rem 0; 
-font-size:.9rem:}
-footer p a{color:#bbcca:}
+border-box:box-sizing:border-box;}/*--------body--------*/
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  height: 100%;
+}
+
+h1 {
+font-size: 1.5rem;
+margin:0.15rem;
+font-family: 'Roboto', sans-serif;
+}
+
+header, footer,main,nav{
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: .75rem;
+}
+header, footer {
+  text-align: center;
+  background-color: #26312b;
+  color: #fff;
+}
+
+header {
+  margin-top: 10px;
+  display: block;
+}
+footer {
+  font-size: 0.8rem;
+}
+
+header img{
+  width: 200px;
+  height: auto;
+}
+h2
+{
+  font-size: 1rem;
+  border-bottom:1px solid;
+  margin-bottom: 0.5rem;
+
+  }
+li {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+#b{
+  text-decoration: underline;
+  color: white;
+}
+* { margin: 0; box-sizing: border-box; } 
+
+.l2h1 
+{
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  border-bottom:1px solid;
+}
+
+.l2h2 
+{
+  font-size: 1rem;
+  border-bottom: 0px;
+}
+
+.l2main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2rem;
+  text-align: center;
+  margin: 1rem 0 0 0;
+}
+
+section img {
+  width: 200px;
+  height: auto;
+}
+
+main section {
+    border: 1px solid #26312b;
+    border-radius: 10px 10px 10px 10px;
+    padding: .25rem;
+    }
 /*Clearfix rule here */
 clearfix:after{content:"";
 display: table;
