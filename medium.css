@@ -1,9 +1,0 @@
-@media only screen and (min-width: 560px;){
-/*main rules here */
-main figure.photo{width:46%;float:left;}main div.blogarticle{float:left;
-width:46%;}main div.blog article:nth-child(2n+1){clear:left}}
-
-
-
-
-}/*end of media query*/
