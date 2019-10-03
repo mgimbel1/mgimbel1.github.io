@@ -1,26 +1,28 @@
-/*prevents Iphone from resizing in landscape mode */ 
-html{ -webkit-text-size-adjust:none;}/*apply a natural box layout
-model to all elements*/*{-moz-box-sizing:border-box;-webkit-box-sizing:
-border-box:box-sizing:border-box;}
-/*prevents Iphone from resizing in landscape mode */ 
-html{ -webkit-text-size-adjust:none;}/*apply a natural box layout
-model to all elements*/*{-moz-box-sizing:border-box;-webkit-box-sizing:
-border-box:box-sizing:border-box;}/*--------body--------*/
 
+p.ex1 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+}
 
+p.ex2 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: medium;
+}
 
+p.ex3 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thick;
+}
 
-
-
-
-
-
-
-
-
-
-
-/*Clearfix rule here */
-clearfix:after{content:"";
-display: table;
-clear:both;}
+p.ex4 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 4px;
+}
