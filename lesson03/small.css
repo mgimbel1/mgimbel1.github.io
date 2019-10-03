@@ -1,105 +1,136 @@
-  
-/*body rules here*/
+/* body rules here */
 body {
+    font-family:'Open Sans', sans-serif;
     font-size: 100%;
-    font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
 }
-/*header rules*/
-header {
-    padding: .5rem 2%;
-}
-header h1 {
-    margin: 0;
-    font-size: 1rem;
-}
-header h2 {
-    margin: 0;
-    font-size: .5rem;
-}
-header, nav, main, footer {
+
+header,
+nav,
+main,
+footer {
+
+    max-width: 760px;
     margin: 0 auto;
-    max-width: 750px;
-}
-header, footer {
-    text-align: center;
-    background-color: black;
-    color: white;
-    margin: 0 auto;
-    border-radius: 10px;
-    border: solid thin black;
-}
-p {
-    text-align: left;
-}
- #p1 {
-    text-align: center;
-    
+
 }
 
-#p2 {
-    text-align: center;
-}
-#p3 {
-    text-align: center;
-}
-button {
+nav {
+    font-size: .75em;
     background-color: blue;
-    border-radius: 10px;
-    
-    }
+    color: white;
+    text-align: center;
+}
 
-main {
-    max-width: 750px;
-    margin: 0 auto;
-    }
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li a {
+	display: block;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
 
-h3 {
-   
-    background-color: white ;
+header, footer {
+    background-color:aqua;
     color: black;
     text-align: center;
+    padding: .5rem;
 }
-main picture {
-    display: block;
+
+header {
+    line-height: .5;
 }
+
+a:link {
+    color:blue;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: blue
+}
+
+a:active {
+    color: gray;  
+}
+
+a.school:link {
+    color: gray;
+}
+
+a.school:visited {
+    color: blue;
+}
+
+a.school:hover {
+    color: blue}
+
+a.school:active {
+    color: blue;
+}
+
+
 img {
     max-width: 100%;
     height: auto;
+    float: left;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: 1rem;
-}
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    line-height:100%;
 
-main section {
-    margin: 0.5rem;
-    border: 1px solid black;
-    padding: 0 1rem;
-    color: white;
-    background-color: black;
-    border-radius: 10px;
-
-}
-
-section:nth-child(2) {
-    display: none;
-    margin: 0.5rem;
-
-}
-
-header footer {
-    text-align: center;
-    background-color: black;
 }
 
 h2 {
-    color: white;
+    font-size: 1.75em;
+    font-family: 'Poppins', sans-serif;
 
+}
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(70, 40, 2);
+
+}
+h4, h5 {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
-    text-align: left;
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.2rem;
+    color: rgb(70, 40, 2);
+}
+
+h1.header {
+    background-color: #0059b3;
+    color: #ffe44d;
+}
+
+h1.weather, h2.weather, h3.weather {
+    color: #004080;
+}
+
+h4.weather, h5.weather {
+    background-color: #1e90ff;
+    color: #ffd700;
+}
+
+p.weather {
+    color: #00264d;
 }
