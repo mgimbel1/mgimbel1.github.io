@@ -22,7 +22,7 @@ header, nav, main, footer {
 }
 header, footer {
     text-align: center;
-    background-color:  #7FFFD4;
+    background-color: black;
     color: white;
     margin: 0 auto;
     border-radius: 10px;
