@@ -23,7 +23,7 @@ header, nav, main, footer {
 header, footer {
     text-align: center;
     background-color:  #7FFFD4;
-    color: cyan;
+    color: white;
     margin: 0 auto;
     border-radius: 10px;
     border: solid thin blue;
