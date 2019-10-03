@@ -56,7 +56,7 @@ main {
 h3 {
    
     background-color: #00FFFF ;
-    color: blue;
+    color: black;
     text-align: center;
 }
 main picture {
@@ -91,7 +91,7 @@ section:nth-child(2) {
 
 header footer {
     text-align: center;
-    background-color: #5BBA93;
+    background-color: black;
 }
 
 h2 {
