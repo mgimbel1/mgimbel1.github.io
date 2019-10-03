@@ -26,7 +26,7 @@ header, footer {
     color: white;
     margin: 0 auto;
     border-radius: 10px;
-    border: solid thin blue;
+    border: solid thin black;
 }
 p {
     text-align: left;
@@ -55,7 +55,7 @@ main {
 
 h3 {
    
-    background-color: #00FFFF ;
+    background-color: white ;
     color: black;
     text-align: center;
 }
