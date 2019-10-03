@@ -1,11 +1,10 @@
-/*Default rules*/
-/*rules for body of pg*/
+/*body rules here*/
 body {
     font-size: 100%;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
 }
-/*rules starting at the header and working down pg*/
+/*header rules*/
 header {
     padding: .5rem 2%;
 }
@@ -23,11 +22,11 @@ header, nav, main, footer {
 }
 header, footer {
     text-align: center;
-    background-color:  #5BBA93;
-    color: black;
+    background-color:  #7FFFD4;
+    color: cyan;
     margin: 0 auto;
     border-radius: 10px;
-    border: solid thin black;
+    border: solid thin green;
 }
 p {
     text-align: left;
@@ -56,7 +55,7 @@ main {
 
 h3 {
    
-    background-color: white;
+    background-color: blue ;
     color: black;
     text-align: center;
 }
