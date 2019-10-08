@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 4 - CIT 230</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Lesson 4 for Marissa Gimbel - CIT 230: Web Frontend Development at BYU-Idaho">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&7cSource+Serif+Pro&display=swap"rel="stylesheet">
+    <link href="small.css" rel="stylesheet">
+    <link href="medium.css" rel="stylesheet">
+    <link href="large.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="Clouds.PNG">
+        </picture>
+    
+        <section class="headings">
+            <h1>Weather in Idaho</h1>
+            <div class="motto">for Southeast Idaho</div>
+        </section>
+        
+    </header>
+
+    <nav class="navigation responsive">
+        <ul>
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div class="contentbox">hero image / weather summary</div>
+        <div class="contentbox">5-day forecast</div>
+        <div class="contentbox">article</div>
+        <div class="contentbox">contact information</div>
+    
+
+    </main>
+    <footer>
+&copy; 2019 |Marissa A. Gimbel | Weather in Idaho| <a id="b" href="https://www.byui.edu/online" target="_blank">BYUI Online student Learning </a> 
+<p id="lastMod"></p><p><script src="lastmodified.js"></script></p> 
+</footer> 
+</body> 
+</html> 
