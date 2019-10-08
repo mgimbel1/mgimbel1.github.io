@@ -19,7 +19,7 @@ nav {
     padding: 0;
     max-width: 900px;
     font-size: .75em;
-    background-color: #c3f0ff;
+    background-color: ##0000ff;
 }
 
 .navigation {
@@ -51,10 +51,9 @@ header, footer {
 
 header {
     line-height: .5;
-    background-color: #0059b3;
-    color: #ffe44d;
-    display: flex;
-    align-items: center;
+    background-color: #0000ff;
+    color: #00FFFF;
+    display: flex;00FFFF    align-items: center;
     justify-content: center;
  }
 
@@ -78,26 +77,26 @@ header {
  }
 
 footer {
-    background-color: #c3f0ff;
-    color: #00264d;
+    background-color: #808080;
+    color: #0000FF;
 }
 
 a:link {
-    color: #00264d;
+    color: #000000;
 }
 
 a:visited {
-    color: #0471df;
+    color: #0000FF;
 }
 
 a:hover {
-    color: #0567ca;
-    background-color: #ffe96cad;
+    color: #808080;
+    background-color: #00FFFF;
 }
 
 a:active {
-    background-color: #0059b3;
-    color: #ffe44d;  
+    background-color: #00FFFF;
+    color: #F0FFFF;  
 }
 
 
@@ -108,7 +107,7 @@ img {
 }
 
 h1 h2 h3 {
-    color: #004080;
+    color: #F0FFFF;
 }
 
 h1 {
