@@ -1,0 +1,157 @@
+/*body rules here*/ 
+body {
+    font-family:'Open Sans', sans-serif; 
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+/*header, nav, main,footer rules here*/ 
+header,
+nav,
+main,
+footer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 900px;
+    font-size: .75em;
+    background-color: #c3f0ff;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+nav li a {
+	display: block;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+
+header, footer {
+    text-align: center;
+    padding: .5rem;
+}
+
+header {
+    line-height: .5;
+    background-color: #0059b3;
+    color: #ffe44d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ header img {
+     width: 80px;
+     height: auto;
+ }
+
+ .motto {
+     font-style: italic;
+     font-size: 1.5em;
+     padding: 0;
+     margin: 0;
+ }
+
+ .headings {
+     display: flex;
+     flex-direction: column;
+     padding: 0;
+     margin: 0;
+ }
+
+footer {
+    background-color: #c3f0ff;
+    color: #00264d;
+}
+
+a:link {
+    color: #00264d;
+}
+
+a:visited {
+    color: #0471df;
+}
+
+a:hover {
+    color: #0567ca;
+    background-color: #ffe96cad;
+}
+
+a:active {
+    background-color: #0059b3;
+    color: #ffe44d;  
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+h1 h2 h3 {
+    color: #004080;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family:'Roboto', sans-serif; 
+    line-height:100%;
+
+}
+
+h2 {
+    font-size: 1.75em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4, h5 {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #94C9FF;
+    color: #00264d;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.2rem;
+    color: #00264d;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #0059b3;
+    padding: 15px;
+    font-style: italic;
+}
+.responsive li {
+	display: block;
+}
