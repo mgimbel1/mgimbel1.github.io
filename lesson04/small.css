@@ -45,7 +45,7 @@ nav li a {
 }
 
 header, footer {
-    text-align: left;
+    text-align: center;
     padding: .5rem;
 }
 
@@ -103,7 +103,7 @@ a:active {
 img {
     max-width: 100%;
     height: auto;
-    float: left;
+    float: right;
 }
 
 h1 h2 h3 {
