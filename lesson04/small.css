@@ -45,7 +45,7 @@ nav li a {
 }
 
 header, footer {
-    text-align: center;
+    text-align: left;
     padding: .5rem;
 }
 
@@ -54,7 +54,7 @@ header {
     background-color: #808080;
     color: #00FFFF;
     display: flex; align-items: left;
-    justify-content: center;
+    justify-content: left;
  }
 
  header img {
