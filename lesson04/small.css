@@ -25,7 +25,7 @@ nav {
 .navigation {
     list-style: none;
     text-align: left;
-    padding: 0;
+    padding: .5rem;
 }
 
 .navigation li:first-child {
