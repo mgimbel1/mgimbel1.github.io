@@ -54,7 +54,7 @@ header {
     background-color: #808080;
     color: #00FFFF;
     display: flex; align-items: left;
-    justify-content: left;
+    justify-content: center;
  }
 
  header img {
