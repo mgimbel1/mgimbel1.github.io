@@ -1,7 +1,7 @@
 /*body rules here*/ 
 body {
     font-family:'Open Sans', sans-serif; 
-    font-size: 100%;
+    font-size: auto;
     line-height: 1.5;
 }
 
