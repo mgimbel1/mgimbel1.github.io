@@ -17,9 +17,9 @@ footer {
 nav {
     margin: 0 auto;
     padding: 0;
-    max-width: 900px;
+    max-width: 70%;
     font-size: .75em;
-    background-color:#C0C0C0;
+    background-color:#00FFFF;
 }
 
 .navigation {
