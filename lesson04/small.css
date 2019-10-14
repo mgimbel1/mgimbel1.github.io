@@ -51,7 +51,7 @@ header, footer {
 
 header {
     line-height: .5;
-    background-color: #808080;
+    background-color: #7FFFD4;
     color: #00FFFF;
     display: flex; align-items: left;
     justify-content: center;
