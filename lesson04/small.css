@@ -24,7 +24,7 @@ nav {
 
 .navigation {
     list-style: none;
-    text-align: left;
+    text-align: center;
     padding: .05rem;
 }
 
@@ -53,7 +53,7 @@ header {
     line-height: .5;
     background-color:#F0FFFF;
     color: #00FFFF;
-    display: flex; align-items: left;
+    display: flex; align-items:center;
     justify-content: center;
  }
 
@@ -103,7 +103,7 @@ a:active {
 img {
     max-width: 100%;
     height: auto;
-    float: right;
+    float: center;
 }
 
 h1 h2 h3 {
