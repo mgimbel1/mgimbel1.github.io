@@ -1,0 +1,156 @@
+/*body rules here*/ 
+body {
+    font-family:'Open Sans', sans-serif; 
+    font-size: auto;
+    line-height: 1.5;
+}
+
+/*header, nav, main,footer rules here*/ 
+header,
+nav,
+main,
+footer {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    font-size: .75em;
+    background-color:#A9DFBF;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: .05rem;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+nav li a {
+	display: block;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+
+header, footer {
+    text-align: center;
+    padding: .5rem;
+}
+
+header {
+    line-height: .5;
+    background-color:#F0FFFF;
+    color: #00FFFF;
+    display: flex; align-items:center;
+    justify-content: center;
+ }
+
+ header img {
+     width: 80px;
+     height: auto;
+ }
+
+ .motto {
+     font-style: italic;
+     font-size: 1.5em;
+     padding: 0;
+     margin: 0;
+ }
+
+ .headings {
+     display: flex;
+     flex-direction: column;
+     padding: 0;
+     margin: 0;
+ }
+
+footer {
+    background-color:#00FFFF;
+    color: ##808080;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #0000FF;
+}
+
+a:hover {
+    color: #808080;
+    background-color: #00FFFF;
+}
+
+a:active {
+    background-color: #00FFFF;
+    color: #F0FFFF;  
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    float: center;
+}
+
+h1 h2 h3 {
+    color: #F0FFFF;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family:'Roboto', sans-serif; 
+    line-height:100%;
+
+}
+
+h2 {
+    font-size: 1.75em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+}
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4, h5 {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #94C9FF;
+    color: #00264d;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.2rem;
+    color: #00264d;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px double #0000FF;
+    padding: 15px;
+    font-style: italic;
+}
+.responsive li {
+	display: block;
+}
