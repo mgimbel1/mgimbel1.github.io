@@ -36,7 +36,7 @@ nav ul {
 }
 
 .navigation li {
-    display: dotted;
+    display: block;
 }
 
 nav li a {
