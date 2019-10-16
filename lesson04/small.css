@@ -146,9 +146,9 @@ p {
 
 .contentbox {
     display: block;
-    margin: 10px auto;
-    border: 1px double #0000FF;
-    padding: 15px;
+    margin: 5px auto;
+    border: 1px dotted #0000FF;
+    padding: 10px;
     font-style: italic;
 }
 .responsive li {
