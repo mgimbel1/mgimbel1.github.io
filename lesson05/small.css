@@ -17,7 +17,7 @@ footer{
 
 nav {
     font-size: .75em;
-    background-color::#A9DFBF;
+    background-color:#A9DFBF;
 }
 
 nav ul {
@@ -36,7 +36,7 @@ nav ul {
 }
 
 .navigation li {
-    display: none;
+    display: dotted;
 }
 
 nav li a {
