@@ -172,7 +172,7 @@ p {
     position: relative;
 }
 
-.wsummary {
+.weathersummary {
     display: grid;
     grid-template-columns: auto auto;
     position: absolute;
@@ -221,7 +221,7 @@ p {
 }
 
 .map {
-    display: none;
+    display: block;
 }
 
 
