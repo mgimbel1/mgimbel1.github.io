@@ -102,7 +102,7 @@ footer {
 
 a:link {
     color:#0000FF;
-    text-decoration: dashed;
+    text-decoration: none;
 }
 
 a:visited {
