@@ -55,7 +55,7 @@ footer {
 
 .active {
     font-weight: bold;
-    text-decoration-line:dotted;
+    text-decoration-line:underline;
 }
 
 #banner {
