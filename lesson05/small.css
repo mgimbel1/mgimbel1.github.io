@@ -133,7 +133,7 @@ h1 h2 h3 {
 h1 {
     font-size: 2.5em;
     font-weight: bold;
-    font-family: 'Trirong', serif;
+    font-family: 'open sans', serif;
     line-height: 100%;
     margin: .5rem;
 
@@ -141,7 +141,7 @@ h1 {
 
 h2 {
     font-size: 1.75em;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'open sans', sans-serif;
     text-align: center;
 
 }
