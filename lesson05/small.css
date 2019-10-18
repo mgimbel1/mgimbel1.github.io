@@ -147,6 +147,7 @@ h2 {
 }
 
 h3 {
+    font-margin:.5rem 2%;
     font-size: 1.25em;
     font-weight: bold;
     font-family: 'open sans', sans-serif;
@@ -168,6 +169,8 @@ p {
 }
 
 .herodiv {
+    height:100%;
+    width:100%;
     display: grid;
     position: relative;
 }
