@@ -202,7 +202,7 @@ p {
 
 .weatherforecastContainer {
     display:block ;
-    border:1px solid #0059b3;
+    border:100% solid #0059b3;
 }
 
 .article {
