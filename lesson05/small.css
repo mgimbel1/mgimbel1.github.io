@@ -200,8 +200,9 @@ p {
     padding-right: 10px;
 }
 
-.forecastContainer {
-    display: none;
+.weatherforecastContainer {
+    display:block ;
+    border:1px solid #0059b3;
 }
 
 .article {
