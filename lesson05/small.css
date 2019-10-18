@@ -126,8 +126,8 @@ a:active {
 
 
 img {
-    max-width: 50%;
-    height:50%;
+    max-width: auto;
+    height:auto;
     float: left;
 }
 
@@ -214,8 +214,8 @@ p {
 }
 
 .article img{
-    max-width: 50%;
-    height: 50%;
+    max-width: auto;
+    height: auto;
     float: none;
 }
 .contactInfo {
