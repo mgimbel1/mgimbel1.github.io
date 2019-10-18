@@ -88,7 +88,7 @@ header img {
     margin: 0;
 }
 
-.headings {
+.heading {
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -121,7 +121,7 @@ a:active {
 
 
 img {
-    max-width:90%;
+    max-width:auto;
     height: auto;
     float: left;
 }
