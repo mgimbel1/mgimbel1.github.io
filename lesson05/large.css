@@ -1,20 +1,14 @@
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 60em) {
     header img {
         width: 100%;
     }
-    
-    nav ul {
-         display: flex; 
+
+    main, footer {
+        max-width: 900px;
     }
 
-    .navigation li:first-child {
-        display: none;
-    }
-
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
+    .article img {
+        width: 80%
     }
 
 }
-© 2019 GitHub, Inc.
