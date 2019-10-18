@@ -11,7 +11,7 @@ nav {
 
 main,
 footer{
-    max-width: 100%;
+    max-width: auto;
     margin: 0 auto;
 }
 
@@ -121,7 +121,7 @@ a:active {
 
 
 img {
-    max-width: 100%;
+    max-width:90%;
     height: auto;
     float: left;
 }
@@ -211,7 +211,7 @@ p {
 }
 
 .article img{
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     float: none;
 }
