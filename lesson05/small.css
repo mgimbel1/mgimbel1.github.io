@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'open sans', sans-serif;
     font-size: 100%;
     line-height: 1.5;
 }
@@ -11,13 +11,13 @@ nav {
 
 main,
 footer{
-    max-width: auto;
+    max-width: 600px;
     margin: 0 auto;
 }
 
 nav {
     font-size: .75em;
-    background-color:#A9DFBF;
+    background-color: ##A9DFBF;
 }
 
 nav ul {
@@ -36,7 +36,7 @@ nav ul {
 }
 
 .navigation li {
-    display: block;
+    display: none;
 }
 
 nav li a {
@@ -55,22 +55,25 @@ footer {
 
 .active {
     font-weight: bold;
-    text-decoration-line:underline;
+    text-decoration-line: underline;
 }
 
 #banner {
-    display: block;
     margin: 0;
-    background:#F0FFFF;
+    background: #F0FFFF;      
     color: #00FFFF;
     font-size: 2rem;
     text-align: center;
 }
 
+.showme {display: block;}
+
+.hideme {display: none;}
+
 header {
     line-height: .5;
-    background-color: #00FFFF;             
-    color: #808080;                  
+    background-color: #00FFFF;
+    color: #ffe44d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +91,7 @@ header img {
     margin: 0;
 }
 
-.heading {
+.headings {
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -96,37 +99,37 @@ header img {
 }
 
 footer {
-    background-color:#FAEBD7;
-    color:#0000FF;
+    background-color: #FAEBD7;
+    color: #0000FF;
 }
 
 a:link {
-    color:#0000FF;
+    color: #0000FF;
     text-decoration: none;
 }
 
 a:visited {
-    color:: #0000FF; 
+    color:  #0000FF;
 }
 
 a:hover {
-    background-color: #0059b3;
-    color: #ffe44d;
+    background-color: 
+    color:#0059b3;
 }
 
 a:active {
-    background-color: #ffe96cad;
-    color: #3aabc6;
+    background-color: ffe96cad;
+    color:#3aabc6; 
 }
 
 
 img {
-    max-width:auto;
+    max-width: 100%;
     height: auto;
     float: left;
 }
 
-h1 h2 h3 {
+h1 h2 {
     color: #004080;
 }
 
@@ -136,7 +139,6 @@ h1 {
     font-family: 'open sans', serif;
     line-height: 100%;
     margin: .5rem;
-
 }
 
 h2 {
@@ -147,35 +149,34 @@ h2 {
 }
 
 h3 {
-    font-margin:.5rem 2%;
     font-size: 1.25em;
     font-weight: bold;
     font-family: 'open sans', sans-serif;
-    color: #0059b3;
+    color:#004080; 
+    margin: .5rem 2%;
 }
 
 h4,
 h5 {
     font-size: 1em;
     font-family: 'open sans', sans-serif;
-    color: #0059b3;
+    color:  #0059b3;
 }
 
 p {
     font-size: 1.25em;
     font-family: 'open sans', sans-serif;
     padding: 0.2rem;
-    color: #00264d;
+    color:  #00264d;
+    margin: .5rem 2%;
 }
 
 .herodiv {
-    height:100%;
-    width:100%;
     display: grid;
     position: relative;
 }
 
-.weathersummary {
+.wsummary {
     display: grid;
     grid-template-columns: auto auto;
     position: absolute;
@@ -190,6 +191,7 @@ p {
 
 .summaryInfo1 {
     text-align: right;
+    padding-left: 5px;
 }
 
 .summaryInfo2 {
@@ -200,9 +202,8 @@ p {
     padding-right: 10px;
 }
 
-.weatherforecastContainer {
-    display:block ;
-    border:100% solid #0059b3;
+.forecastContainer {
+    display: none;
 }
 
 .article {
@@ -211,7 +212,7 @@ p {
 }
 
 .article img{
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     float: none;
 }
@@ -225,9 +226,8 @@ p {
 }
 
 .map {
-    display: block;
+    display: none;
 }
-
 
 .responsive li {
     display: block;
