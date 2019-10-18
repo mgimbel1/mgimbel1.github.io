@@ -118,7 +118,7 @@ a:hover {
 }
 
 a:active {
-    background-color: ffe96cad;
+    background-color:#ffe96cad;
     color:#3aabc6; 
 }
 
@@ -176,7 +176,7 @@ p {
     position: relative;
 }
 
-.wsummary {
+.weathersummary {
     display: grid;
     grid-template-columns: auto auto;
     position: absolute;
@@ -202,7 +202,7 @@ p {
     padding-right: 10px;
 }
 
-.forecastContainer {
+.weatherforecastContainer {
     display: none;
 }
 
