@@ -101,7 +101,7 @@ header img {
 }
 
 footer {
-    background-color: #FAEBD7;
+    background-color: #b2b2ff;
     color: #0000FF;
 }
 
@@ -223,7 +223,7 @@ p {
     grid-template-columns: auto auto;
     column-gap: 20px;
     margin: 10px auto;
-    border: 1px solid #0059b3;
+    border: 1px solid #144eb7;
     padding: 30px;
 }
 
