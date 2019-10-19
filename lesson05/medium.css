@@ -1,21 +1,12 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 38.5em) {
     header img {
-        width: 85%;
-    }
-
-    nav li a {
-        padding: 12px 1px;
+        width: 100%;
     }
 
     nav ul {
         display: flex;
     }
 
-    nav li a {
-        text-align: center;
-
-
-    }
     .navigation li:first-child {
         display: none;
     }
@@ -24,6 +15,8 @@
         display: block;
         flex: 1 1 100%;
     }
+
+}
 
     .forecastContainer {
         display: block;
