@@ -11,7 +11,7 @@ nav {
 
 main,
 footer{
-    max-width: 600px;
+    max-width: 100%em;
     margin: 0 auto;
 }
 
