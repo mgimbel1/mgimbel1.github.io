@@ -58,7 +58,6 @@ main figure .myphoto{
     Width:50%;
     border:1px red dashed;
    
-main figure .myphoto img{width:100%;}
     
  .active {
     font-weight: bold;
