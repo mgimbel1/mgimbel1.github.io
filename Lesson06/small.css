@@ -13,6 +13,7 @@ main,
 footer{
     max-width: 600px; 
     margin: 0 auto;
+    
 }
 
 nav {
@@ -53,7 +54,13 @@ footer {
     padding: .5rem;
 }
 
-.active {
+main figure .myphoto{ 
+    Width:50%;
+    border:1px red dashed;
+   
+main figure .myphoto img{width:100%;}
+    
+ .active {
     font-weight: bold;
     text-decoration-line: underline;
 }
