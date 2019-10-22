@@ -151,7 +151,7 @@ h2 {
 h3 {
     font-size: 1.25em;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'open sans', sans-serif;
     color: #0059b3;
     margin: .5rem 2%;''
 }
@@ -159,13 +159,13 @@ h3 {
 h4,
 h5 {
     font-size: 1em;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'open sans', sans-serif;
     color: #0059b3;
 }
 
 p {
     font-size: 1.25em;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'open sans', sans-serif;
     padding: 0.2rem;
     color: #00264d;
     margin: .5rem 2%;
@@ -204,7 +204,7 @@ p {
 }
 
 .forecastContainer {
-    display: none;
+    display: block;
 }
 
 .article {
@@ -229,7 +229,6 @@ p {
 .map {
     display: none;
 }
-
 
 .responsive li {
     display: block;
