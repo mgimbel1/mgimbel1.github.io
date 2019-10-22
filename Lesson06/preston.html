@@ -13,9 +13,7 @@
     <link href="large.css" rel="stylesheet">
 </head>
 <body>
-    <div id="banner" class="">Saturday = Preston Pizza in the Park! 12 p.m. Saturday at the city park.
-    </div>
-    <header>
+   <header>
         <picture>
             <img src="weatherweb.PNG" alt=" weather thermometer icon">
         </picture>
@@ -40,7 +38,13 @@
     <main>
         <h2>Preston, Idaho</h2>
         <div class="herodiv">
-            <picture><img src="marissagimbelimage.jpeg" alt="large">&nbsp;</picture>
+            <picture>
+	<source media="min-width:700px)" srcset="marissalarge.jpg" >	    
+         <source media="(min-width: 650px)" srcset="marissagmedium.jpg">
+         <source media="(min-width: 465px)" srcset="marissagsmall.jpg">
+         <img src="marissagimbelimage.jpeg" alt="Flowers" style="width:auto;">
+</picture>
+	
             <section class="weathersummary">
                 <div class="summaryInfo1"><h3>Weather&nbsp;</h3></div>
                 <div class="summaryInfo2"><h3>Summary&nbsp;&nbsp;&nbsp;</h3></div>
