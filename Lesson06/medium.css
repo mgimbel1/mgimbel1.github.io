@@ -15,9 +15,7 @@
         display: block;
         flex: 1 1 100%;
     }
-
-}
-
+   
     .forecastContainer {
         display: block;
         text-align: center;
@@ -52,4 +50,16 @@
         border-right: 1px solid #0059b3;
         border-left: 1px solid #0059b3;
     }
-  
+
+    .article img{
+        max-width: 60%;
+        height: auto;
+        float: right;
+        padding: 0px 0px 5px 10px;
+    }
+
+.map {
+    display: block;
+}
+
+
