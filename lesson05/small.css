@@ -147,8 +147,11 @@ h2 {
 }
 
 h3 {
-color:blue;
-margin: 1em;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+    color: #0059b3;
+    margin: .1em;
 }
 
 h4,
