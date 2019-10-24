@@ -144,6 +144,7 @@ h2 {
     font-size: 1.75em;
     font-family: 'open sans', sans-serif;
     text-align: center;
+
 }
 
 h3 {
@@ -158,12 +159,8 @@ h4,
 h5 {
     font-size: 1em;
     font-family: 'open sans', sans-serif;
-    color: #0059b3h3 {
-
-margin: 1em;
-
+    color: #0059b3;
 }
-
 
 p {
     font-size: 1.25em;
