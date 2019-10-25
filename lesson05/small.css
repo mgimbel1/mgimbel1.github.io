@@ -83,7 +83,7 @@ header {
 
 header img {
     float: right;
-    width:100px;
+    width:100%;
     height: auto;
 }
 
@@ -241,16 +241,7 @@ p {
         margin:10px auto;
         border: 1px solid #0059b3;
        padding:30px;
-} 
-   
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-    
+}    
 responsive li {
  display: block;
 }
