@@ -36,7 +36,6 @@ nav ul {
 .navigation li:first-child {
     display: block;
 }
-
 .navigation li {
     display: none;
 }
@@ -82,7 +81,7 @@ header {
 }
 
 header img {
-    float: right;
+    float:left;
     width:100%;
     height: auto;
 }
