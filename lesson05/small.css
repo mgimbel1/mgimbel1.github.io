@@ -82,7 +82,8 @@ header {
 }
 
 header img {
-    width: 80px;
+    float: right;
+    width:70px;
     height: auto;
 }
 
@@ -124,7 +125,7 @@ a:active {
     color: #3aabc6;
 }
 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     float: left;
 }
