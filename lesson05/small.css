@@ -1,5 +1,6 @@
 body {
-    background-image: url("syringaPhiladelphuslewisiiflower.jpg");
+    background-color:yellow;
+    background url("syringaPhiladelphuslewisiiflower.jpg");
     font-family: 'opens sans', sans-serif;
     font-size: 100%;
     line-height: 1.5;
