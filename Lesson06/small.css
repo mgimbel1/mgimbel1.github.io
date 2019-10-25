@@ -1,4 +1,5 @@
 body {
+    background-image: url("img_tree.gif"), url("paper.gif");
     background-color:yellow;
     font-family: 'opens sans', sans-serif;
     font-size: 100%;
