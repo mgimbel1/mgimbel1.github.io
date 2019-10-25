@@ -125,7 +125,7 @@ a:active {
     color: #3aabc6;
 }
 img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     float: left;
 }
