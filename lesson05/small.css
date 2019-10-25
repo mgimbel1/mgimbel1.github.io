@@ -230,6 +230,8 @@ p {
 .map {
     display: none;
 }
+.address {
+        display:right;
 
 .responsive li {
     display: block;
