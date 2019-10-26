@@ -230,6 +230,10 @@ p {
     display: none;
 }
 
+.address{
+    display:none;
+}
+
 .responsive li {
     display: block;
 }
