@@ -153,9 +153,9 @@ h3 {
     font-size: 1.25em;
     font-weight: In ;
     font-family: 'open sans', sans-serif;
-    float:center; 
-   color: #0059b3;
-    margin: .5rem 2%;
+    text-align:center; 
+    color: #0059b3;
+    margin:5rem 2%;
 }
 
 h4,
