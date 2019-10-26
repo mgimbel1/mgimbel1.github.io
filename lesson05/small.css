@@ -178,7 +178,7 @@ p {
     margin-bottom: 30px;
 }
 
-.wsummary {
+.weathersummary {
     display: grid;
     grid-template-columns: auto auto;
     position: absolute;
