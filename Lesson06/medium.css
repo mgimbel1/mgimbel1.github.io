@@ -5,7 +5,6 @@
         nav ul {
         display: flex;
     }
-
     .navigation li:first-child {
         display: none;
     }
@@ -14,7 +13,6 @@
         display: block;
         flex: 1 1 100%;
     }
-   
     .forecastContainer {
         display: block;
         text-align: center;
@@ -30,7 +28,6 @@
         margin: 0px auto;
         padding: 15px;
     }
-
     .days {
         background-color: #0059b3;
         color: #ffe44d;
