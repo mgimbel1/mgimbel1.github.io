@@ -1,52 +1,52 @@
 @media only screen and (min-width: 38.5em) {
-    header img {
-        width: 100%;
-         }
-        nav ul {
-        display: flex;
-       }
-    .navigation li:first-child {
-        display: none;
-         }
-       .navigation li {
-        display: block;
-        flex: 1 1 100%;
-        }
-     .forecastContainer {
-        display: block;
-        text-align: center;
-        margin: 20px 20px 50px 20px;
-      }
-    .forecastContainer h3{
-        margin: 0;
-       }
-    .forecast {
-        max-width: 500px;
-        display: grid;
-        grid-template-columns: auto auto auto auto auto;
-        margin: 0px auto;
-        padding: 15px;
-       }
-    .days {
-        background-color: #0059b3;
-        color: #ffe44d;
-      }
-    .precip {
-        border-right: 1px solid #0059b3;
-        border-left: 1px solid #0059b3;
-        padding: 30px;
-       }
-    .temp {
-        border-bottom: 1px solid #0059b3;
-        border-right: 1px solid #0059b3;
-        border-left: 1px solid #0059b3;
-       }
-    .article img{
-        max-width: 60%;
-        height: auto;
-        float: right;
-        padding: 0px 0px 5px 10px;
-  }
+header img {
+width : 100%;
+}
+nav ul {
+display : flex;
+}
+.navigation li:first-child {
+display : none;
+}
+.navigation li {
+display : block;
+flex : 1 1 100%;
+}
+.forecastContainer {
+display : block;
+text-align : center;
+margin : 20px 20px 50px 20px;
+}
+.forecastContainer h3 {
+margin : 0;
+}
+.forecast {
+max-width : 500px;
+display : grid;
+grid-template-columns : auto auto auto auto auto;
+margin : 0 auto;
+padding : 15px;
+}
+.days {
+background-color : #0059b3;
+color : #ffe44d;
+}
+.precip {
+border-right : 1px solid #0059b3;
+border-left : 1px solid #0059b3;
+padding : 30px;
+}
+.temp {
+border-bottom : 1px solid #0059b3;
+border-right : 1px solid #0059b3;
+border-left : 1px solid #0059b3;
+}
+.article img {
+max-width : 60%;
+height : auto;
+float : right;
+padding : 0 0 5px 10px;
+}
 .map {
-    display: block;
-    }
+display : block;
+}
