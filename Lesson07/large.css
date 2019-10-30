@@ -1,0 +1,14 @@
+@media only screen and (min-width: 65em) {
+header img {
+width : 100%;
+}
+main, footer {
+max-width : 900px;
+}
+.weathersummary {
+font-size : 1vw;
+}
+.article img {
+width : 80%;
+}
+}
