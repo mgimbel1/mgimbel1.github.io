@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <title>Weather works first</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Lesson06 Marissa Gimbel Cit 230">
+    <link rel="shortcut icon" href="favicon13.ico (1).png">
+    <link rel="stylesheet" href="normalize.css"><link href="https://fonts.googleapis.com/css?family=Open+Sans&7cSource+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="small.css" rel="stylesheet">
+    <link href="medium.css" rel="stylesheet">
+    <link href="large.css" rel="stylesheet">
+</head>
+<body>
+<header>
+<picture>
+  <img src="clouds011_images.png" alt="icon" style="width:auto;">
+</picture>
+        <section class="heading">
+            <h1>Weather works first inc</h1>
+            <div class="motto">Weather works first in Southeast Idaho</div>
+        </section>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="https://mgimbel1.github.io/ ">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+           <li><a href="#">parks</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston, Idaho</h2>
+	 <div class="herodiv">
+<picture>
+  <source media="(min-width: 900px)" srcset="cit230_image_franklinOriginallarge.jpeg">	
+  <source media="(min-width: 650px)" srcset="cit230_image_franklinOriginalmedium.jpeg">
+  <source media="(min-width: 465px)" srcset=" cit230_image_franklinOriginalsmall.jpeg">
+  <img src="cit230_image_franklinOriginalsmall.jpeg" alt="Idaho" style="width:auto;">
+</picture>
+	        <section class="weathersummary">
+                <div class="summaryInfo1"><h3>Weather&nbsp;</h3></div>
+                <div class="summaryInfo2"><h3>Summary&nbsp;&nbsp;&nbsp;</h3></div>
+                <div class="summaryInfo1">Currently:&nbsp;</div>
+                <div class="summaryInfo2">Sunny</div>
+                <div class="summaryInfo1">High: &nbsp;</div>
+                <div class="summaryInfo2">40 &#8457;</div>
+                <div class="summaryInfo1">Wind Chill: &nbsp;</div>
+                <div class="summaryInfo2">30 &#8457;</div>
+                <div class="summaryInfo1">Humidity: &nbsp;</div>
+                <div class="summaryInfo2">20%</div>
+                <div class="summaryInfo1">Wind Speed: &nbsp;</div>
+                <div class="summaryInfo2">5 mph</div>
+		<div class="forecastContainer"></div>
+		</section>
+	        </div> 
+		 <section>
+	    <div class="forecastContainer">
+	    <h3>5 Day Forecast</h3>
+            <div class="forecast">
+            <div class="days">Tues</div>
+            <div class="days">Wed</div>
+	    <div class="days">Thurs</div>
+            <div class="days">Fri</div>
+            <div class="days">Sat</div>
+	
+                <div class="precip"><img src=" iconfinder_Citycons_sunny_1342926 (1).png" alt="sunny icon"></div>
+                <div class="precip"><img src="iconfinder_weather-few-clouds_118961 (1) .png" alt="cloudy"></div>
+                <div class="precip"><img src="iconfinder_weather-snow_118966 (1).png" alt= "snow icon"></div>
+                <div class="precip"><img src="iconfinder_Citycons_sunny_1342926 (1).png" alt="sunny icon"></div>
+                <div class="precip"><img src="iconfinder_Citycons_sunny_1342926 (1).png" alt="sunny icon"></div>
+                <div class="temp">45 &#8457;</div>
+                <div class="temp">40 &#8457;</div>
+                <div class="temp">30 &#8457;</div>
+                <div class="temp">32 &#8457;</div>
+                <div class="temp">35 &#8457;</div>
+		</div>   
+	        </div>    
+      <div class="article">
+      <picture>
+      <img src="marissapinic.jpg" alt="park" style="width:auto;">
+      </picture>
+	
+		<h3>Welcome to the spot </h3> 
+		<p>Join with friends and family each week on Saturday for Pizza and a movie.</p>
+        <p>This weekly gathering began as an opportunity to meet with local city leaders. To gain trust and learn from the locals while dining on pizza and watching a movie with the kids.</p>
+        </div>
+	</section>		
+	<div class="contactInfo">contactInformation</div>	
+	<div class="address"> www.weatherworksfirst.org</div>
+	<h3>weather works first inc</h3>
+	<div class="address"> Address 934 main Street </div>	
+	<h4>map of Idaho</h4>
+        <div class="prestonidaho"><img src="662-idaho-plus-vm-usid-j-qcn8-1-1-276x387.png" alt="location"> </div>
+
+ </main>		
+ <footer>
+	 &copy; 2019 |Marissa A. Gimbel | Preston |Idaho| <a id="b" href="https://www.byui.edu/online" target="_blank">BYUI Online student Learning </a>
+         <p id="lastMod"></p><script src="lastmodified.js"></script><script src="toggle01.js"></script><script src="windchill.js"></script> 
+</footer>
+</body>
+</html>
