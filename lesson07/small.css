@@ -25,5 +25,12 @@ div img {
     transition: filter 0.5s;
 }
 
-    Foot{
-        Background-color;Blue;
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  color:red;
+  text-align: center;
+}
