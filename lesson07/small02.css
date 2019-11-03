@@ -1,0 +1,36 @@
+body {
+    Background-color:Orange;  
+ h1 {
+    background: #448FA3;
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 400px;
+}
+#box {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 10px;
+}
+div {
+    border: solid thin black;
+}
+div img[data-src] {
+    filter: blur(0.2em);
+}
+div img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  color:red;
+  text-align: center;
+}
