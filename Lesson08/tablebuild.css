@@ -39,16 +39,18 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color:  #e7ffed;
+    background-color:#e7ffed;
 }
 
 tr:nth-child(odd) {
-    background-color: #e7f0ed;
+    background-color:#e7f0ed;
 }
 
+}
+.highest :nth-child(3){ background-color: #628ca6;  color: #ffffff;
+} 
 tfoot {
     font-size: .6rem;
     padding: 6px;
     margin: 0;
 }
-
