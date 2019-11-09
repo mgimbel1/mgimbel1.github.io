@@ -1,0 +1,26 @@
+@media only screen and (min-width: 60em) {
+    header img {
+        width: 100%;
+    }
+
+    main, footer {
+        max-width: 900px;
+    }
+
+    .article img {
+        width: 80%
+    }
+
+    .weathersummary {
+        font-size: 1vw;
+    }
+
+    .weatherGallery {
+        max-width: 900px;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 15px;
+    }
+
+.shadow:hover {
+    box-shadow: 0 0 20px #00264d;
+}
