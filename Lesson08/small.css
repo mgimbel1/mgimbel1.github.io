@@ -183,7 +183,7 @@ p {
     margin: auto;
 }
 
-.weathersummary {
+.wsummary {
     display: grid;
     grid-template-columns: auto auto;
     position: absolute;
