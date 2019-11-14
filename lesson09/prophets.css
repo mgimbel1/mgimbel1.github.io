@@ -4,13 +4,7 @@ header h1 {
 
 
 .cards > section {
-  background-color: header h1 {
-	text-align: center;
-}
-
-
-.cards > section {
-  background-color: grey;
+  background-color: white;
   text-align: center;
  
 
@@ -54,7 +48,7 @@ footer {
 
 }
 .cards > section {
-  background-color: gray;
+  background-color: white;
   text-align: center;
  
 
@@ -74,87 +68,12 @@ footer {
 	display: grid;
   grid-template-columns:auto;
   grid-gap: 10px;
-  background-color:             ;
+  background-color: #A3C7A1;
   padding: 10px;
 
 }
 .cards > section {
-  background-color:                 ;
-  text-align: center;
- 
-
-}
-
-};
-  text-align: center;
- 
-
-}
-section img {
-	max-width: 100%;
-	width: 320px;
-	height: 400px;
-}
-
-.cards:after {
-  content: "";
-  display: table;
-  clear: both;
-
-}
-
-footer {
-	text-align: center;
-}
-
-@media all and (min-width: 1024px) 
-{
-	.cards {
-	display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
-  background-color:        ;
-  padding: 10px;
-
-}
-}
-@media all and (min-width: 768px) and (max-width: 1023px) 
-{
-.cards {
-	display: grid;
-  grid-template-columns: auto auto ;
-  grid-gap: 10px;
-  background-color:#7FFFD4;
-  padding: 10px;
-
-}
-.cards > section {
-  background-color:#7FFFD4;
-  text-align: center;
- 
-
-}
-
-.cards:after {
-  content: "";
-  display: table;
-  clear: both;
-
-}
-}
-
-@media all and (min-width: 200px) and (max-width: 767px) 
-{
-	.cards {
-	display: grid;
-  grid-template-columns:auto;
-  grid-gap: 10px;
-  background-color:#7FFFD4;
-  padding: 10px;
-
-}
-.cards > section {
-  background-color:#7FFFD4;
+  background-color: white;
   text-align: center;
  
 
