@@ -32,7 +32,7 @@ footer {
 	display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
-  background-color: #A3C7A1;
+  background-color: gray;
   padding: 10px;
 
 }
@@ -48,7 +48,7 @@ footer {
 
 }
 .cards > section {
-  background-color: white;
+  background-color: gray;
   text-align: center;
  
 
@@ -73,7 +73,7 @@ footer {
 
 }
 .cards > section {
-  background-color: white;
+  background-color: gray;
   text-align: center;
  
 
