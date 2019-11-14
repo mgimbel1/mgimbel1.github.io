@@ -1,4 +1,3 @@
-
 var imgArray = new Array();
 
 imgArray[0] = new Image();
@@ -40,7 +39,9 @@ let info = document.createElement('section');
         let image = document.createElement('img');
 
 
-     
+       
+
+       
         h2.textContent = towns[i].name;
         p1.textContent = "Our Motto: " + towns[i].motto;
         p2.textContent = "Year Founded: " + towns[i].yearFounded;
@@ -60,7 +61,5 @@ let info = document.createElement('section');
 
       
 document.querySelector('section.cards').appendChild(card);
-      
-
 } 
 });
