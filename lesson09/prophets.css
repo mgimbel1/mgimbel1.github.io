@@ -10,7 +10,7 @@ header h1 {
 
 
 .cards > section {
-  background-color: white;
+  background-color: grey;
   text-align: center;
  
 
@@ -74,12 +74,12 @@ footer {
 	display: grid;
   grid-template-columns:auto;
   grid-gap: 10px;
-  background-color: light green;
+  background-color:             ;
   padding: 10px;
 
 }
 .cards > section {
-  background-color: gray;
+  background-color:                 ;
   text-align: center;
  
 
@@ -113,7 +113,7 @@ footer {
 	display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
-  background-color: light green;
+  background-color:        ;
   padding: 10px;
 
 }
@@ -124,12 +124,12 @@ footer {
 	display: grid;
   grid-template-columns: auto auto ;
   grid-gap: 10px;
-  background-color: light green;
+  background-color:#7FFFD4;
   padding: 10px;
 
 }
 .cards > section {
-  background-color: gray;
+  background-color:#7FFFD4;
   text-align: center;
  
 
@@ -149,12 +149,12 @@ footer {
 	display: grid;
   grid-template-columns:auto;
   grid-gap: 10px;
-  background-color: light green;
+  background-color:#7FFFD4;
   padding: 10px;
 
 }
 .cards > section {
-  background-color: gray;
+  background-color:#7FFFD4;
   text-align: center;
  
 
