@@ -1,22 +1,22 @@
 var imgArray = new Array();
 
 imgArray[0] = new Image();
-imgArray[0].src = 'images/franklin.jpg';
+imgArray[0].src = 'franklin.jpg';
 
 imgArray[1] = new Image();
-imgArray[1].src = 'images/fishhaven.jpg';
+imgArray[1].src = 'fishhaven.jpg';
 
 imgArray[2] = new Image();
-imgArray[2].src = 'images/greenville.jpg';
+imgArray[2].src = 'greenville.jpg';
 
 imgArray[3] = new Image();
-imgArray[3].src = 'images/placerton.jpg';
+imgArray[3].src = 'placerton.jpg';
 
 imgArray[4] = new Image();
-imgArray[4].src = 'images/preston.jpg';
+imgArray[4].src = 'preston.jpg';
 
 imgArray[5] = new Image();
-imgArray[5].src = 'images/sodaspring.jpg';
+imgArray[5].src = 'sodaspring.jpg';
 
 const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 fetch(requestURL, imgArray)
