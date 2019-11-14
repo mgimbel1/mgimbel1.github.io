@@ -15,7 +15,8 @@ section img {
   display: table;
   clear: both;
 }
-footer {	text-align: center;
+footer {	
+text-align: center;
 }
 @media all and (min-width: 1024px) 
 {
