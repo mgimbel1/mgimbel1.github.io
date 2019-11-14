@@ -43,7 +43,7 @@ footer {
 	display: grid;
   grid-template-columns: auto auto ;
   grid-gap: 10px;
-  background-color: #A3C7A1;
+  background-color: white;
   padding: 10px;
 
 }
@@ -68,7 +68,7 @@ footer {
 	display: grid;
   grid-template-columns:auto;
   grid-gap: 10px;
-  background-color: #A3C7A1;
+  background-color: white;
   padding: 10px;
 
 }
