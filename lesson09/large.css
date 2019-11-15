@@ -1,0 +1,61 @@
+@media only screen and (min-width: 60em) {
+    header img {
+        width: 100%;
+    }
+
+    main, footer {
+        max-width: 1200px;
+    }
+
+    .article img {
+        width: 80%
+    }
+
+    .wsummary {
+        font-size: 1vw;
+    }
+
+    .weatherGallery {
+        max-width: 900px;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        padding: 15px;
+    }
+
+.shadow:hover {
+    box-shadow: 0 0 20px 	#7FFFD4;
+}
+
+.towns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    max-width: 1150px;
+    min-width: 759px;
+}
+
+.towns section {
+    width: 330px;
+    display: block;
+}
+
+.towns p, .towns h2 {
+    text-align: center;
+}
+
+.towns h3 {
+    margin: 0;
+    padding: 0 0 25px 10px;
+    text-align: center;
+}
+
+.towndata {
+    width: 310px;
+}
+
+.homeArticle img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
