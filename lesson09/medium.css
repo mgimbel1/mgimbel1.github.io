@@ -1,80 +1,136 @@
-media all and (min-width: 768px) and (max-width: 1023px) 
+@media only screen and (min-width: 40em) {
+    header img {
+        width: 85%;
+    }
 
-{
-	.cards{
-   display:grid;
-   grid-template-columns: auto auto;
-    background: transparent;
-   grid-gap: 2px;
-   border: none;
-}
+    main,
+    footer {
+        max-width: 760px;
+    }
+
+    nav li a {
+        padding: 12px 1px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .wsummary {
+        font-size: 1.5vw;
+    }
+
+    .forecastContainer {
+        display: block;
+        text-align: center;
+        margin: 20px 20px 50px 20px;
+    }
+
+    .forecastContainer h3 {
+        margin: 0;
+    }
+
+    .forecast {
+        max-width: 500px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0px auto;
+        padding: 15px;
+    }
+
+    .days {
+        background-color: #0059b3;
+        color: #ffe44d;
+    }
+
+    .precip {
+        border-right: 1px solid #0059b3;
+        border-left: 1px solid #0059b3;
+        padding: 30px;
+    }
+
+    .temp {
+        border-bottom: 1px solid #0059b3;
+        border-right: 1px solid #0059b3;
+        border-left: 1px solid #0059b3;
+    }
+
+    .article img {
+        max-width: 60%;
+        height: auto;
+        float: right;
+        padding: 0px 0px 5px 10px;
+    }
+
+    .map {
+        display: block;
+    }
+
+    .weatherGallery {
+        max-width: 750px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .towns {
+        display: flex;
+        flex-wrap: wrap;
+        /*display: grid;
+        grid-template-columns: 1fr;*/
+        justify-content: center;
+        max-width: 767px;
+    }
+
+    .towns section {
+        max-width: 750px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .towns section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
 
 
-.headings h1 
-{
-color: #000;
-margin: 0 0 0 17px;
-font-size: 1.2em;
+    .towns h2 {
+        padding: 15px 0 0 15px;
+        margin: 0;
+        text-align: left;
+    }
 
-}
+    .towns h3 {
+        margin: 0;
+        padding: 0 32px 25px 15px;
+        text-align: left;
+    }
 
-.m 
-{
-font-style: italic;
-letter-spacing: 1pt;
-color: #000;
-margin-left: 10px;
-font-size: 1em;
-}
+    .towns p {
+        padding: 0 0 0 15px;
+        margin: 0;
+        text-align: left;
+    }
 
-main 
-{
-max-width: 45rem;
-margin: 0 auto;
-padding: .75rem;
-font-family: 'Noto Sans TC', sans-serif;
-color: black;
-}
-/*Navigation*/
-.navigation {display: flex;}
+    .townimage {
+        width: 300px;
+        height: 200px;
+        padding: 15px;
+    }
 
-.navigation li:first-child {display: none;}
-
-.navigation li 
-{
-display: block;
-flex: 1 1 10%;
-}
-
-.navigation li a {color: #fff;}
-
-a 
-{
-display: block;
-color: #fff;
-padding: 0.75rem;
-text-decoration: none;
-text-align: center;
-}
-
-table, th, td 
-{
-border: 1px solid black;
-border-collapse: collapse;
-margin-left:auto; 
-margin-right:auto;
-background-color: white;
-}
-th, td {padding: 10px;}
-
-
-
-
-
-
-.gallery{
-    grid-template-columns: 1fr 1fr;
-}
-
-
+    .towndata {
+        width: 350px;
+    }
 }
