@@ -92,7 +92,7 @@ header img {
     margin: 0;
 }
 
-.headings {
+.heading {
     display: flex;
     flex-direction: column;
     padding: 0;
