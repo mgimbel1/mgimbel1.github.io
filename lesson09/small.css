@@ -198,16 +198,16 @@ p {
     font-size: 2vw;
 }
 
-.wsummaryInfo1 {
+.summaryInfo1 {
     text-align: right;
     padding-left: 5px;
 }
  
-.wsummaryInfo2 {
+.summaryInfo2 {
     text-align: left;
 }
 
-.wforecastContainer {
+.forecastContainer {
     display: none;
 }
 
