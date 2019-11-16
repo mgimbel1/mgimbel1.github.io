@@ -1,6 +1,4 @@
-
 var imgArray = new Array();
-
 imgArray[0]= 'images/fishhaven.jpg';
 imgArray[1]= 'images/preston.jpg';
 imgArray[2]= 'images/sodaspring.jpg';
