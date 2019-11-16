@@ -23,7 +23,7 @@
     }
 
 .shadow:hover {
-    box-shadow: 0 0 20px 	#7FFFD4;
+    box-shadow: 0 0 20px #00264d;
 }
 
 .towns {
@@ -58,4 +58,5 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 }
