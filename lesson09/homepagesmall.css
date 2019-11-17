@@ -1,0 +1,120 @@
+.cards div{
+   padding: 0;
+   margin: 0;
+   border: none;
+}
+
+ .cards{
+    	border: none;
+   display:grid;
+   grid-template-columns: 1fr;
+   background: transparent;
+   grid-gap: 10px;
+   width:350px; /* or whatever width you want. */
+   max-width:350px; 
+   margin: 0 auto;
+}
+
+div.cards section {
+	display: grid;
+		border: none;
+   grid-template-columns: 1fr;
+}
+
+
+	
+
+.headings h1 
+{
+
+color: #000;
+font-size: 1.2em;
+margin: 0 0 0 17px;
+
+}
+
+.m 
+{
+font-style: italic;
+letter-spacing: 1pt;
+color: #000;
+margin-left: 10px;
+font-size: 1em;
+}
+
+
+#message 
+{
+display: block;
+text-align: center;
+color: white;
+font-size: 1em;
+padding: .5em;
+background-color: #19507c;
+}
+
+
+/*Navigation*/
+li:first-child {display: block;}
+li {display: none;}
+
+a 
+{
+display: block;
+color: #fff;
+padding: 0.75rem;
+text-align: left;
+text-decoration: none;
+}
+
+main div:nth-child(3) {display: none;}
+
+.top-left {font-size: 2vw;}
+
+main div:nth-child(3) {display: none;}
+
+.article img{
+max-width: 100%;
+text-align: center;
+height: auto;
+float: none;
+}
+.contact 
+{
+grid-template-columns: 1fr;
+}
+.contact section:first-child{display: none;}
+
+.contact section:nth-child(2)
+{
+	width: 100%;
+}
+
+
+.contact section:nth-child(2) p
+{
+margin:0 1em;
+font-size: 1em;
+}
+ul.social 
+{
+display: block;
+list-style-type: disc;   
+padding:0 0 0 10px;
+}
+.social li
+{
+display: inline-flex;
+margin-right: 3px;
+}
+
+.social a 
+{
+padding: 0;
+
+}
+
+.gallery{
+    grid-template-columns: 1fr;
+}
+}
