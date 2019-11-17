@@ -10,7 +10,7 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
     for (let i = 0; i <towns.length; i++ ) {
-        if (towns[i].name == "fishhaven.jpg" || towns[i].name == "preston.jpg" || towns[i].name == "sodaspring.jpg") { 
+        if (towns[i].name == "fishhaven" || towns[i].name == "preston" || towns[i].name == "sodaspring") { 
         
         let town = document.createElement('section');
         let data = document.createElement('div');
