@@ -1,0 +1,136 @@
+@media only screen and (min-width: 40em) {
+    header img {
+        width: 85%;
+    }
+
+    main,
+    footer {
+        max-width: 760px;
+    }
+
+    nav li a {
+        padding: 12px 1px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .wsummary {
+        font-size: 1.5vw;
+    }
+
+    .forecastContainer {
+        display: block;
+        text-align: center;
+        margin: 20px 20px 50px 20px;
+    }
+
+    .forecastContainer h3 {
+        margin: 0;
+    }
+
+    .forecast {
+        max-width: 500px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0px auto;
+        padding: 15px;
+    }
+
+    .days {
+        background-color: #0059b3;
+        color: #ffe44d;
+    }
+
+    .precip {
+        border-right: 1px solid #0059b3;
+        border-left: 1px solid #0059b3;
+        padding: 30px;
+    }
+
+    .temp {
+        border-bottom: 1px solid #0059b3;
+        border-right: 1px solid #0059b3;
+        border-left: 1px solid #0059b3;
+    }
+
+    .article img {
+        max-width: 60%;
+        height: auto;
+        float: right;
+        padding: 0px 0px 5px 10px;
+    }
+
+    .map {
+        display: block;
+    }
+
+    .weatherGallery {
+        max-width: 750px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .towns {
+        display: flex;
+        flex-wrap: wrap;
+        /*display: grid;
+        grid-template-columns: 1fr;*/
+        justify-content: center;
+        max-width: 767px;
+    }
+
+    .towns section {
+        max-width: 750px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .towns section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+
+    .towns h2 {
+        padding: 15px 0 0 15px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .towns h3 {
+        margin: 0;
+        padding: 0 32px 25px 15px;
+        text-align: left;
+    }
+
+    .towns p {
+        padding: 0 0 0 15px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .townimage {
+        width: 300px;
+        height: 200px;
+        padding: 15px;
+    }
+
+    .towndata {
+        width: 350px;
+    }
+}
