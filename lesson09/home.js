@@ -1,48 +1,55 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var imgArray = new Array();
 
-fetch(requestURL)
+imgArray[0]= 'fishhaven.jpg';
+imgArray[1]= 'preston.jpg';
+imgArray[2]= 'sodaspring.jpg';
+imgArray[3]= 'placerton.jpg';
+imgArray[4]= 'franklin.jpg';
+imgArray[5]= 'greenville.jpg';
+
+const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+fetch(requestURL, imgArray)
   .then(function (response) {
-    return response.json();
+  return response.json();
   })
-  .then(function (jsonObject) {
-    //console.table(jsonObject);  // temporary checking for valid response and data parsing
+.then(function (jsonObject) {
+console.table(jsonObject);  // temporary checking for valid response and data parsing
+var towns = jsonObject['towns'];
+towns[0] = towns[1];
+towns[1]= towns[4];
+towns[2]= towns[5];
+for (let i = 0; i < 3; i++ ) {
+let card = document.createElement('section');
+let info = document.createElement('section');
 
-    const towns = jsonObject['towns'];
-
-    for (let i = 0; i <towns.length; i++ ) {
-       if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs"){ 
-        
-        let town = document.createElement('section');
-        let data = document.createElement('div');
         let h2 = document.createElement('h2');
-        let h3 = document.createElement('h3');
+        let p1 = document.createElement('i');
         let p2 = document.createElement('p');
         let p3 = document.createElement('p');
         let p4 = document.createElement('p');
+           let div = document.createElement('div');
         let image = document.createElement('img');
-
-
+       
         h2.textContent = towns[i].name;
-        h3.textContent = towns[i].motto;
+        p1.textContent = towns[i].motto + " ";
         p2.textContent = "Year Founded: " + towns[i].yearFounded;
-        p3.textContent = "Current Population: " + towns[i].currentPopulation;
-        p4.textContent = "Average Rainfall: " + towns[i].averageRainfall + " inches";
-        image.setAttribute('src', "images/" + towns[i].photo);
-        image.setAttribute('alt', "photo of "+ towns[i].name);
-        image.setAttribute('class', 'townimage');
-        data.setAttribute('class', 'towndata');
+        p3.textContent = "Population: " + towns[i].currentPopulation; 
+        p4.textContent ="Annual Rain Fall: " + towns[i].averageRainfall;
+         image.setAttribute('src', imgArray[i]);
+           image.setAttribute('alt', towns[i].name + ' ' + 'sample ' + "image only");
 
-        data.appendChild(h2);
-        data.appendChild(h3);
-        data.appendChild(p2);
-        data.appendChild(p3);
-        data.appendChild(p4);
-        town.appendChild(data);
-        town.appendChild(image)
+            card.appendChild(info);
+  info.appendChild(h2);
+        info.appendChild(p1);
+        info.appendChild(p2);
+         info.appendChild(p3);
+        info.appendChild(p4);
+         card.appendChild(div);
+         div.appendChild(image);
 
-        document.querySelector('div.towns').appendChild(town);
-        
-    }
-    }
+      
+document.querySelector('div.cards').appendChild(card);
+      
+} 
+});
 
-  });
