@@ -1,0 +1,53 @@
+.cards div{
+   padding: 0;
+   margin: 0;
+   border: none;
+}
+
+
+.cards div{
+    background-color: transparent;
+   }
+
+.cards section section{
+text-align: center;
+border-radius:  4px;
+background: white;
+margin: 0;
+
+}
+
+.cards h2{
+margin: 0 0 .5em 0;
+
+}
+
+.cards section:nth-child(3) p:nth-child(5){
+	margin-bottom: 10px;
+}
+
+.cards section:nth-child(3) p:nth-child(4){
+	margin-bottom: -8px;
+}
+
+
+.homepage h2, p{
+    margin: 0 0 10px 15px;
+    line-height: 1em;
+
+}
+
+.homepage div {
+	background-color: transparent;
+	border: none;
+}
+
+div.wireframe a{
+  color: black;
+  background: white;
+}
+
+div.wireframe a:hover {
+  background: black;
+  color: white;
+}
