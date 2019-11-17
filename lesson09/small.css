@@ -1,6 +1,3 @@
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust:100%;}
-*{-moz-box-sizing: border-box;-webkit-box-sizing:border-box; box-sizing: border-box;}
-
 .homepage {
     grid-template-columns: 1fr 1fr;
 }
@@ -48,10 +45,7 @@ flex-direction: column;
 
 body 
 {
-background-image: url('../../lesson6/images/background.svg') ;
-background-size:cover;
-background-repeat: no-repeat;
-background-position: center;
+background-color:yellow;
 padding: 0;
 margin: 0;
 }
@@ -60,7 +54,7 @@ margin: 0;
 nav 
 {
 margin: 0 auto;
-font-family: 'Noto Sans TC', sans-serif;
+font-family: 'open sans', sans-serif;
 background-color: black;
 }
 
