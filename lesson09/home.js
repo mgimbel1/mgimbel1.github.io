@@ -42,8 +42,8 @@ fetch(requestURL)
 
         document.querySelector('div.towns').appendChild(town);
         
-    }
-    }
+   }
+   }
 
   });
 
