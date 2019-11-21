@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url ('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Open Sans, 'Calistoga', cursive, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #555d66;
+}
+
+/*---preston css top border message------*/
+#message {
+    text-align: center;
+    color: #EDC87E;
+    padding: .1rem;
+    background-color: rgb(225, 223, 223);
+}
+
+/*---preston css top border message using js------*/
+.showme {
+    display: block
+}
+
+/*---preston css top border message using js------*/
+.hideme {
+    display: none;
+}
+
+/*---- flex keeps the header in the middle of the screen --------------*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    font-family:  Open Sans, 'Calistoga', cursive, Arial, sans-serif;
+    background: white;
+    color: #7fb9c2;
+}
+
+.heading {
+    display: flex;
+    /*---- flex keeps the header in the middle of the screen --------------*/
+    flex-direction: column;
+}
+
+.heading h1 {
+    font-size: 1.6rem;
+    /* margin top right  bottom left margin: 25px; all four margins are 25px margin: 25px 50px;
+top and bottom margins are 25px right and left margins are 50px*/
+    margin: 0 0 0 17px;
+}
+
+/*---was .m -----*/
+.heading2 {
+    font-style: italic;
+    letter-spacing: 1pt;
+    font-size: .75rem;
+    margin-left: 20px;
+    font-weight: normal;
+    color: #EDC87E;
+}
+
+header img {
+    width: 60px;
+    margin: 0 2% 0 0;
+}
+
+/*---nav = navigation section as a whole------*/
+nav {
+    /*---nav width 100vw uses the vieport width at 100% to take entire screen
+    this is not needed we can take it out-*/
+    width: 100vw;
+    /* i want the nav to go all the way across otherwise max width to 600px margin10px auto*/
+    margin: 0 auto;
+    /*if I want i can add background-color: #ecf0f1;but I want it white so not needed*/
+    /* text color*/
+    color: #aab1b2;
+    padding: .5rem 2%;
+    text-align: left;
+    font-size: .75em;
+}
+
+/*---nav unordered list or in this case .navigation or nav ul------*/
+.navigation {
+    /*--gets rid of annoying white space alone sides of nav bar--*/
+    margin: 0;
+    padding: 0;
+    /*--nav ul should take up the width of the page--*/
+    /*-- can be put here or in li this takes away the bullet points*/
+    list-style: none;
+
+}
+
+/*---navigation this is the hamburger menu for the small view to show it------*/
+.navigation li:first-child {
+    display: block;
+    border-top: 1px solid #aab1b2;
+    border-bottom: 1px solid #aab1b2;
+}
+
+/*---navigation list= li or nav li or .navigation li------*/
+.navigation li {
+    /*---hide nav li or class navigation list in small view for hamburger-*/
+    display: none;
+}
+
+/*---nav class navigation a style the menu items can also be called nav a or nav li a------*/
+.navigation a {
+    /*---nav ul li a href links use nav a or .navigation a------*/
+    display: block;
+    /* I changed the color*/
+    color: #aab1b2;
+    /*I added some padding*/
+    padding: 0.75rem;
+    text-align: left;
+    /*-- deletes line from under link or get rid also of that underline*/
+    text-decoration: none;
+}
+
+/*---hange color when mouse passes by I can use .navigation a:hover
+or nav a:hover since I used a class I can use the class -----*/
+.navigation a:hover {
+    color: #7fb9c2;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/*---navigation active page or class .navigation li a ------*/
+nav li.active {
+    /* I changed the color-nav*/
+    color: #7fb9c2;
+    background-color: #ecf0f1;
+    text-decoration-line: underline;
+    border-radius: 4px;
+}
+
+/* when the button is clicked - the responsive class is added 
+and accounted for here  or it could be called . responsive li if there 
+isnt a class assigned to it*/
+/* the onclick JS toggles the .repsonsive class from display none 
+(.navigation li) to display block because the repsonsive class is added 
+to the end of the class list like this in HTML Line #6.<ul class="navigation responsive">
+  */
+.responsive li {
+    display: block;
+}
+
+main {
+    /* margin top right  bottom margin left margin: 25px; all four margins are 25px margin: 25px 50px;
+top and bottom margins are 25px right and left margins are 50px*/
+    margin: 0 auto;
+    max-width: 45rem;
+    padding: .75rem;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #aab1b2;
+
+}
+
+main h1,
+h2 {
+    text-align: center;
+    color: #7fb9c2;
+    clear: both;
+}
+
+main h2 {
+    font-size: 1.0rem;
+}
+
+p {
+    margin: .5rem auto;
+}
+
+main section {
+    margin: 10px;
+    color: #aab1b2;
+}
+
+main div img {
+    max-width: 100%;
+}
+
+.herodiv {
+    position: relative;
+    padding: .75rem;
+}
+
+/*---preston css------*/
+.herodiv img {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+/*---preston css------*/
+.herodiv h2 {
+
+    border-radius: 1px;
+}
+/*---preston css this could also be .herodiv h2------*/
+.weathersummary h2{
+    text-decoration: underline;
+}
+/*---preston css style actual box ------*/
+.weathersummary {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: white;
+    color: #4d4d4d;
+    opacity: .5;
+    border: 2px solid #EDC87E;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 10px;
+    padding: .50rem;
+}
+/*---preston css style actual box style contents in box------*/
+.weathersummary{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-auto-rows: ;
+    grid-gap: 1px;
+}
+
+/*---preston css------*/
+.weathersummary p {
+    margin: 0;
+    text-align: left;
+}
+.weatherh2{
+ margin: 0;
+}
+.openmap {
+    text-decoration: underline;
+    font-size: xx-small;
+}
+/*---home css------*/
+.homesummary {
+    position: absolute;
+    top: 6rem;
+    left: 9.5rem;
+    background-color: white;
+    opacity: .5;
+    border: 4px solid #EDC87E;
+    border-radius: 1px;
+    text-align: center;
+    padding-left: .50rem;
+    padding-right: .50rem;
+}
+
+.homesummary h2 {
+    font-style: italic;
+    font: bold;
+    color: gray;
+    text-decoration: none;
+    margin: 0;
+    letter-spacing: 2pt;
+}
+
+/*---preston css------*/
+.forecastcontainer {
+    display: none;
+}
+
+.article {
+    /* margin top right  bottom margin left margin: 25px; all four margins are 25px margin: 25px 50px;
+top and bottom margins are 25px right and left margins are 50px*/
+    margin: .5rem auto;
+    border: 1px solid #EDC87E;
+    border-radius: 2px;
+    background-color: white;
+    color: #4d4d4d;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+}
+
+.article a {
+    color: #7fb9c2;
+}
+
+.figure article {
+    margin: 0;
+}
+
+/*---preston css------*/
+.contactcontainer {
+    margin: 1rem 2%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    background: #f2f2f2;
+    grid-gap: 1px 1px;
+    text-align: left;
+    padding: 1rem 1rem;
+    justify-items: center;
+}
+
+/*---preston css------*/
+.map {
+    display: none;
+}
+
+/*---preston css------*/
+.address {
+    padding-top: 1rem;
+
+
+}
+
+/*---preston css------*/
+.icons {
+    height: 40px;
+    width: 40px;
+    padding: .5em;
+    flex: 1 0 15em;
+}
+
+
+footer p {
+    padding: .75rem;
+    font-size: .8rem;
+    margin-top: 5px;
+    background: white;
+    color: #aab1b2;
+    text-align: center;
+    border-top: 1px solid #aab1b2;
+}
+
+footer a {
+    color: #7fb9c2;
+}
+
+.wireframes {
+    font-size: .8rem;
+    margin-top: 5px;
+    background: white;
+    color: #aab1b2;
+    text-align: center;
+}
+
+/*---gallery css = paddding /* top | right | bottom | left */
+
+.gallerycontainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    place-items: center center;
+}
+
+.galleryheading h1 {
+    margin: 0;
+}
+
+.gallerycontainer figcaption {
+    display: none;
+}
+
+/*---storm center */
+form fieldset {
+    /*-seperate from each other -*/
+    margin: 2rem 0;
+    /*-thing solid blue border--*/
+    border: 1px solid #EDC87E;
+    /*-rounded corners--*/
+    border-radius: 10px;
+    /*--padding inside --*/
+    padding: .5rem 2%;
+    max-width: 960px;
+}
+
+/*-form legend is the title of the section--*/
+form legend {
+    /*--add blue color--*/
+    color: #aab1b2;
+    /*--margin to slide it over-*/
+    margin: 0 1rem;
+    /*---to push the little line away from the words---*/
+    padding: 0 .5rem;
+
+}
+
+/*--Style the user instructions label.top = class style the division
+ so form div-*/
+form label.top,
+form div {
+    /*--display-*/
+    display: block;
+    /*-seperate from each other using padding  --*/
+    padding-top: 1rem;
+    /*-change color to red --*/
+    color: #aab1b2;
+    /*-reduce the font size --*/
+    font-size: .8rem;
+}
+
+/*- start with first and third section covers all of the inputs 
+next form label top select to include selections--*/
+form label.top input,
+form label.top select {
+    /*the validation the drop downs are not following the rules add webikit appearance to none--*/
+    -webkit-appearance: none;
+    /*- make the boxes to appear below their titles --*/
+    display: block;
+    /*- adjust font --*/
+    font-size: 1rem;
+    /*-gray border around the input boxes  --*/
+    border: solid 1px #999;
+    /*-round the corners make them at least 44px so they can be touched on a mobile device-*/
+    border-radius: 4px;
+    /*-padding to give them space in the box and to get them off of the line in the box --*/
+    padding: .75rem;
+    /*- change the text color --*/
+    color: #aab1b2;
+    /*-small screens we want the inputs to be full width --*/
+    width: 100%;
+    /*-large screens we want the inputs to be smaller so they dont look so dumb we do this by setting a max-width--*/
+    max-width: 20rem;
+    /*-background color for inputs --*/
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*- side by side radio buttons--*/
+
+form label.sbs {
+    /*-display each as a block so they stack display: block;--*/
+    display: block;
+    /*-use padding for 44 px tall so they can be touched on a mobile device --*/
+    padding: .75rem 0;
+    /*-repeat the color of 55 for text good design  --*/
+    color: #aab1b2;
+}
+
+/*- fix the button --*/
+form input.submitBtn {
+    /*-take the border away from the button background color disapperas fix after the border  --*/
+    border: none;
+    /*-fix background color use the same color we used earlier --*/
+    background-color: #7fb9c2;
+    /*-get the text to show up change it to white --*/
+    color: white;
+    /*- round the corners 1rem--*/
+    border-radius: 1rem;
+    /*- increase the click area of the button by adding padding --*/
+    padding: .75rem 1.5rem;
+    /*- the button is touching the footer and lined up with the on the left side with the field set push over the button with margin for set margin 0 top 0 right 2rem bottom 2% left --*/
+    margin: 0 0 2rem 2%;
+
+    /*-set the width to 96% to match the input on smaller screens --*/
+    width: 96%;
+    /*- the width changed messed up the view with a larger screen so we are going to add a max-width to correct it just like the input --*/
+    max-width: 20rem;
+}
+
+/*- help the user quickly identify the requried input with a red block of color  --*/
+form label.top input:required {
+    /*--set border --*/
+    border-left: #EDC87E solid 6px;
+}
+
+/*--:required is a psuedo code --*/
+form label.top input:required:valid {
+    /*--change border to green when input has been made--*/
+    border-left: #7fb9c2 solid 6px;
+}
+
+/* storm center range input= flexiy input */
+.flexly {
+    /*the validation the drop downs are not following the rules add webikit appearance to none--*/
+    -webkit-appearance: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /*-seperate from each other using padding  --*/
+    padding-top: 1rem;
+    /*- adjust font --*/
+    font-size: 1rem;
+    /*-repeat the color of 55 for text good design  --*/
+    color: #aab1b2;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+}
+
+/*- stormcenter form textarea --*/
+textarea {
+    width: 100%;
+    max-width: 20rem;
+    height: 150px;
+    /*--padding inside --*/
+    padding: .5rem 2%;
+    /*-rounded corners--*/
+    border-radius: 10px;
+    /*-reduce the font size --*/
+    font-size: .8rem;
+    color: #aab1b2;
+    /*use the resize property to prevent textareas from being resized 
+    (disable the "grabber" in the bottom right corner)*/
+    resize: none;
+    /*-background color for inputs --*/
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 35rem;
+}
+
+.cards section {
+    border: 1px solid rgb(127, 185, 194);
+    background-color: rgba(127, 185, 194, .2);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards h2 {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: rgb(127, 185, 194);
+
+}
+
+.cards h3 {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.cards p {
+    padding: 0%;
+}
+
+/* api*/
+.apih2 {
+    text-align: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
