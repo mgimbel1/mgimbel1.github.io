@@ -7,12 +7,13 @@ html {
     box-sizing: border-box;
 }
 body {
+    background-color:green;
     font-size: 16px;
     line-height: 1.5;
-    font-family: Open Sans, 'Calistoga', cursive, Arial, sans-serif;
+    font-family: Open Sans, Calistoga, cursive, Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #555d66;
+    
 }
 
 /*---preston css top border message------*/
@@ -39,8 +40,8 @@ header {
     align-items: center;
     justify-content: center;
     padding: 5px 0;
-    font-family:  Open Sans, 'Calistoga', cursive, Arial, sans-serif;
-    background: white;
+    font-family:  Open Sans, Calistoga, cursive, Arial, sans-serif;
+    background: navy;
     color: #7fb9c2;
 }
 
