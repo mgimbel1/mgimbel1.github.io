@@ -1,0 +1,93 @@
+/* 64em is also 1028px (if basefont is 16px)@media only screen and (min-width:1028px) */
+@media only screen and (min-width: 64em) {
+  header img {
+    width: 80%;
+  }
+
+  .homesummary{
+    position: absolute;
+    top: 9rem;
+    left: 15rem;
+    
+}
+.homesummary h2{
+    
+    font-size: 30px;
+}
+.homesummary img{
+  width: 100%;
+  height: auto;
+}
+  /*---gallery html------*/
+  .gallerycontainer {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  /*---gallery html------*/
+  .gallerycontainer figcaption {
+    display: grid;
+  }
+
+  /* hover class box shadow over image*/
+  .item:hover {
+    box-shadow: 0 0 20px #333;
+  }
+
+  /*---gallery html------*/
+  /*show font in large view*/
+  .item {
+    font-size: smaller;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* stormcenter---*/
+  /*--change the large check boxes to smaller one for large view only  --*/
+  form label.sbs {
+    /*--this changes the size and brings them closer together  --*/
+    padding: .4rem 0;
+  }
+
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+.cards section{ display: block;}
+  .towns h2 {
+   padding: 0 ;
+  margin: 0;
+  text-align: center;
+}
+
+.towns h3 {
+  padding: 0 ;
+  margin: 0;
+  text-align: center;
+}
+
+.towns p {
+  padding: 0 ;
+  margin: 0;
+  text-align: center;
+}
+
+.townimage {
+    width: 100%;
+    height: auto;
+}
+
+.towndata {
+    width: auto;
+}
+
+  /*----------- FOOTER --------------*/
+}
