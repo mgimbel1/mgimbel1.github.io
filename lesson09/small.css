@@ -220,6 +220,7 @@ p {
 }
 
 .article img{
+    img width:100%;
     max-width: 100%;
     max-height: 511px;
     float: none;
