@@ -1,6 +1,6 @@
 body {
-     background-color:Yellow;
-     font-family: 'open sans', sans-serif;
+    background-color:Yellow;
+     font-family: 'Calistoga', 'opensans', 'Roboto'', sans-serif;
     font-size: 100%;
     line-height: 1.5;
 }
@@ -16,6 +16,7 @@ footer{
     margin: 0 auto;
 }
 
+/*---------------- Navigation --------------*/
 nav {
     font-size: .75em;
     background-color: #c3f0ff;
@@ -48,30 +49,24 @@ nav li a {
     font-size: 0.95rem;
 }
 
-header,
-footer {
-    text-align: center;
-    padding: .5rem;
-}
-
 .active {
     background-color: #ffe96cad;
     color: #3aabc6;
     font-weight: bold;
 }
 
-#banner {
-    margin: 0;
-    background: #ffe44d;
-    color: #0059b3;
-    font-size: 2rem;
-    text-align: center;
+
+a:visited {
+    color: #006fdd;
 }
 
-.showme {display: block;}
+a:hover {
+    background-color: #0059b3;
+    color: #ffe44d;
+}
 
-.hideme {display: none;}
 
+/*---------------- Header --------------*/
 header {
     line-height: .5;
     background-color: #0059b3;
@@ -86,13 +81,6 @@ header img {
     height: auto;
 }
 
-.motto {
-    font-style: italic;
-    font-size: 1.5em;
-    padding: .2em;
-    margin: 0;
-}
-
 .headings {
     display: flex;
     flex-direction: column;
@@ -100,72 +88,87 @@ header img {
     margin: 0;
 }
 
+.motto {
+    font-style: italic;
+    font-size: 1.5em;
+    padding: .2em;
+    margin: 0;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: .5rem;
+}
+
 footer {
     background-color: #c3f0ff;
     color: #00264d;
 }
 
-a:link {
-    color: #00264d;
-    text-decoration: none;
+footer a:link {
+    color: #0059b3;
+    text-decoration: underline;
 }
 
-a:visited {
-    color: #006fdd;
-}
-
-a:hover {
-    background-color: #0059b3;
-    color: #ffe44d;
-}
-
-a:active {
-    background-color: #ffe96cad;
-    color: #3aabc6;
-}
 
 h1 h2 {
-    color: #004080;
+    color: #004bd6;
 }
 
 h1 {
     font-size: 2.5em;
     font-weight: bold;
-    font-family: 'open sans', serif;
+    font-family: 'Calistoga', 'opensans', 'Roboto'', sans-serif;
     line-height: 100%;
     margin: .5rem;
 }
 
 h2 {
     font-size: 1.75em;
-    font-family: 'open sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-
 }
 
 h3 {
     font-size: 1.25em;
     font-weight: bold;
-    font-family: 'open sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #005ab3;
     margin: .5rem 2%;
+    text-align: center;    
 }
 
 h4,
 h5 {
     font-size: 1em;
-    font-family: 'open sans', sans-serif;
+    font-family: 'Calistoga', 'opensans', 'Roboto'', sans-serif;
     color: #0059b3;
 }
 
 p {
     font-size: 1.25em;
-    font-family: 'open sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 0.2rem;
     color: #00264d;
     margin: .5rem 2%;
 }
 
+/*---------------- Preston Banner --------------*/
+#banner {
+    margin: 0;
+    background: #ffe44d;
+    color: #0059b3;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.showme {display: block;}
+
+.hideme {display: none;}
+
+
+/*---------------- hero div --------------*/
 .herodiv {
     display: grid;
     position: relative;
@@ -173,18 +176,19 @@ p {
 }
 
 .herodiv img {
-    max-width: 100%;
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.wsummary {
+.weathersummary {
     display: grid;
     grid-template-columns: auto auto;
     position: absolute;
     top: 30px;
     left: 30px;
-    background: #c3f0ffa4;
-    color: #004181;
+    background: #c3f0ff;
+    color: #005ab3;
     padding: .5rem;
     box-shadow: 0 0 30px #00264d;
     opacity: .9;
@@ -200,25 +204,29 @@ p {
     text-align: left;
 }
 
-.socialMediaLogo {
-    padding-right: 10px;
-}
-
 .forecastContainer {
     display: none;
 }
 
+/*---------------- article --------------*/
 .article {
     display: block;
     border: 1px solid #0059b3;
     margin: 30px auto;
+    padding: 5px;
 }
 
 .article img{
-    max-width: 100%;
-    height: auto;
+    max-width: 96%;
+    max-height: 511px;
     float: none;
+    margin: 5px;
 }
+/*---------------- contact info --------------*/
+.socialMediaLogo {
+    padding-right: 10px;
+}
+
 .contactInfo {
     display: grid;
     grid-template-columns: auto auto;
@@ -236,6 +244,7 @@ p {
     display: block;
 }
 
+/*---------------- Gallery --------------*/
 figure {
     margin: 10px;
     padding: 10px;
@@ -254,4 +263,168 @@ figcaption {
 .weatherGallery {
     display: block;
     margin: 0px 0px 25px 0px;
+}
+
+/*---------------- Storm Center Form --------------*/
+
+form fieldset {
+    margin:2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color:#445ba9;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-weight: bold;
+}
+
+form label.top, label.stormInfo, label.addInfo, textarea {
+    display: block;
+    padding-top: 1rem;
+    color: #0059b3;
+    font-size: .8rem;
+}
+
+form label.top {
+    padding-bottom: 2rem;
+}
+
+form label.top input, form label.top select, form label.stormInfo input {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border:solid 1px #0059b3;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #d3f3fd6c;
+}
+
+form label.stormInfo {
+    display: block;
+    padding-bottom: 1.5rem;;
+}
+
+form label.stormInfo select {
+    padding: 2px;
+    font-size: .9rem;
+    background-color: #d3f3fd6c;
+    border:solid 1px #0059b3;
+    border-radius: 4px;
+}
+
+.rate {
+    display: block;
+    color: #0059b3;
+    font-size: .8rem;
+    height: 44px;
+    padding: 10px 0 5px 0;
+}
+
+#rating {
+    margin: 10px 0 15px 0;
+}
+
+form label.addInfo {
+    padding: 0;
+    margin: 0;
+}
+
+.danger, .addComment {
+    color: #0059b3;
+    font-size: .75em;
+    font-weight: bold;
+    font-family: 'Calistoga', 'opensans', 'Roboto'', sans-serif;
+}
+
+.addComment {
+    margin-top: 15px;
+}
+
+textarea {
+    padding: 10px;
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    max-width: 20rem;
+    border:solid 1px #0059b3;
+    border-radius: 4px;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #0059b3;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+/*---------------- Home Page --------------*/
+
+.homeArticle {
+    padding: .75rem;
+    border: 1px solid #555;
+}
+
+.homeArticle img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.towns {
+    display: block;
+    padding: 10px;
+    margin: 20px;
+}
+
+.towns p, h3, .wireframe {
+    text-align: center;
+}
+
+.towns section {
+    background-color: #d3f3fd6c;
+    border: 1px solid #0059b3;
+    margin: 20px;
+    max-width: 500px;
+}
+
+.towns p {
+    font-size: 1em;
+    margin: 0; 
+    padding: 1px;
+}
+
+.towns h2 {
+    margin: 20px 0 0 0;
+}
+
+.towns h3 {
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+
+.towns img  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
