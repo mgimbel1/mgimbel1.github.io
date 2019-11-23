@@ -38,7 +38,7 @@ nav ul {
 }
 
 .navigation li {
-    display: none;
+    display: block;
 }
 
 nav li a {
