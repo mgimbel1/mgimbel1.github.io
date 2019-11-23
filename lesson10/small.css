@@ -1,6 +1,6 @@
 body {
     background-color:Yellow;
-     font-family: 'Calistoga', 'opensans', 'Roboto'', sans-serif;
+     font-family: 'Calistoga', 'opensans', 'Roboto', 'sans-serif';
     font-size: 100%;
     line-height: 1.5;
 }
@@ -119,21 +119,21 @@ h1 h2 {
 h1 {
     font-size: 2.5em;
     font-weight: bold;
-    font-family: 'Calistoga', 'opensans', 'Roboto'', sans-serif;
+    font-family: 'Calistoga', 'opensans', 'Roboto', 'sans-serif';
     line-height: 100%;
     margin: .5rem;
 }
 
 h2 {
     font-size: 1.75em;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Calistoga', 'opensans', 'Roboto', 'sans-serif';
     text-align: center;
 }
 
 h3 {
     font-size: 1.25em;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Calistoga', 'opensans', 'Roboto', 'sans-serif';
     color: #005ab3;
     margin: .5rem 2%;
     text-align: center;    
@@ -142,7 +142,7 @@ h3 {
 h4,
 h5 {
     font-size: 1em;
-    font-family: 'Calistoga', 'opensans', 'Roboto'', sans-serif;
+    font-family: 'Calistoga', 'opensans', 'Roboto', 'sans-serif';
     color: #0059b3;
 }
 
@@ -339,7 +339,7 @@ form label.addInfo {
     color: #0059b3;
     font-size: .75em;
     font-weight: bold;
-    font-family: 'Calistoga', 'opensans', 'Roboto'', sans-serif;
+    font-family: 'Calistoga', 'opensans', 'Roboto', 'sans-serif';
 }
 
 .addComment {
