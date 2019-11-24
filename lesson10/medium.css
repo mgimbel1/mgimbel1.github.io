@@ -1,35 +1,24 @@
-/* 35em is also 560px (if basefont is 16px) tablet view 32.5 rem i s 527.10px
-@media only screen and (min-width:560px*/
-@media only screen and (min-width: 32.5rem) {
+  
+@media only screen and (min-width: 40em) {
     header img {
-        width: 80px;
+        width: 85%;
     }
 
-    header {
-        border-bottom: 1px solid#aab1b2;
+    main,
+    footer {
+        max-width: 760px;
     }
 
-    .heading h1 {
-        font-size: 2.0rem;
+    nav li a {
+        padding: 12px 1px;
     }
 
-    /*-- m*/
-    .heading2 {
-        font-size: 1.0rem;
-    }
-
-    /*-- navigation the whole section*/
-    nav {
-        border-bottom: 1px solid#aab1b2;
-    }
-
-    /*-- Display in a row using ul in this case I am using a class
-     .navigation the whole section* using class*/
-    .navigation {
-        /*-- diplaying links elements in a row flex direction row*/
+    nav ul {
         display: flex;
-        align-items: center;
-        justify-content: center;
+    }
+
+    nav li a {
+        text-align: center;
     }
 
     .navigation li:first-child {
@@ -38,125 +27,85 @@
 
     .navigation li {
         display: block;
-        flex: 1 1 10%;
+        flex: 1 1 100%;
     }
 
-    .navigation li a {
+    .wsummary {
+        font-size: 1.5vw;
+    }
+
+    .forecastContainer {
+        display: block;
         text-align: center;
+        margin: 20px 20px 50px 20px;
     }
 
-    /* this is for home page and preston page main picture*/
-    .herodiv {
-        font-size: 100%;
+    .forecastContainer h3 {
+        margin: 0;
     }
 
-    .herodiv img {
-        width: 100%;
-        height: auto;
-    }
-
-    .homesummary {
-        position: absolute;
-        top: 7rem;
-        left: 13rem;
-
-    }
-
-    .homesummary h2 {
-
-        font-size: 30px;
-    }
-
-    #main {
-        max-width: 760px;
-    }
-
-    /*---preston css------*/
-    .forecastcontainer {
+    .forecast {
+        max-width: 500px;
         display: grid;
         grid-template-columns: auto auto auto auto auto;
-        grid-template-rows: auto auto auto;
-        background: white;
-        color: #7fb9c2;
-        text-align: center;
-        font-size: 1rem;
-        max-width: 760px;
-        padding: .75rem;
+        margin: 0px auto;
+        padding: 15px;
     }
 
-
-   .days {
-        background: #f2f2f2f2;
+    .days {
+        background-color: #0059b3;
+        color: #ffe44d;
     }
 
-   .forecastcontainer  {
-        border-right: 1px solid #f2f2f2f2;
-        border-left: 1px solid #f2f2f2f2;
+    .precip {
+        border-right: 1px solid #0059b3;
+        border-left: 1px solid #0059b3;
+        padding: 30px;
     }
 
-    .currentTemp{
-        border-right: 1px solid #f2f2f2f2;
-        border-bottom: 1px solid #f2f2f2f2;
-        border-left: 1px solid #f2f2f2f2;
-    }
-    .weather_icon{
-        border-right: 1px solid #f2f2f2f2;
-        border-left: 1px solid #f2f2f2f2;
-
-    }
-    .forecastcontainer img {
-        width: 100%;
+    .temp {
+        border-bottom: 1px solid #0059b3;
+        border-right: 1px solid #0059b3;
+        border-left: 1px solid #0059b3;
     }
 
- 
+    .article img {
+        max-width: 60%;
+        height: auto;
+        float: right;
+        padding: 0px 0px 5px 10px;
+    }
 
     .map {
         display: block;
-        background: #f2f2f2;
     }
 
-    .address {
-        padding-left: 3rem;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    /*---gallery html------*/
-
-    .gallerycontainer {
+    .weatherGallery {
+        max-width: 750px;
+        display: grid;
         grid-template-columns: 1fr 1fr;
-        border-radius: 2px;
-        place-items: center center;
-    }
-
-    .item {
-        border-radius: 3px;
-        border: 1px solid #dbe1e2;
-        width: 100%;
-        padding: 10px 10px 9px 10px;
-
 
     }
 
-
-    .cards {
+    .towns {
         display: flex;
         flex-wrap: wrap;
+        /*display: grid;
+        grid-template-columns: 1fr;*/
         justify-content: center;
-        max-width: 700px;
+        max-width: 767px;
     }
 
-    .cards section {
+    .towns section {
+        max-width: 750px;
         display: flex;
         flex-direction: row;
-
     }
+    
+    .towns section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
 
     .towns h2 {
         padding: 15px 0 0 15px;
@@ -178,12 +127,11 @@
 
     .townimage {
         width: 300px;
-        height: auto;
+        height: 200px;
         padding: 15px;
     }
 
     .towndata {
         width: 350px;
     }
-
 }
