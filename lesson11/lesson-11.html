@@ -1,1 +1,105 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather works First inc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Lesson 11 Marissa A. Gimbel- CIT 230: Web Frontend Development at BYU-Idaho">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga|Open+Sans|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link href="small.css" rel="stylesheet">
+    <link href="medium.css" rel="stylesheet">
+    <link href="large.css" rel="stylesheet">
+ </head>
+
+<body>
+   <header>
+        <picture>
+            <img src="clouds01_image.PNG" alt="icon temp">
+        </picture>
+
+        <section class="headings">
+            <h1>Weather works first Inc </h1>
+            <div class="motto">Southeast Idaho park day</div>
+        </section>
+
+    </header>
+<nav class="navigation">
+        <ul>
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="https://mgimbel1.github.io/">Home</a></li>
+            <li class="active"><a href="preston-10.html">Preston</a></li>
+           <li><a href="#">Soda Springs</a></li>
+           <li><a href="#">Fish Haven</a></li>
+          <li><a href="#">Storm Center</a></li>
+          <li><a href="#">Parks</a></li>
+         <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+	</nav>
+	<main>
+	<h2>Preston, Idaho</h2>
+        <div class="herodiv">
+            <picture>
+		    <img src="delish-keto-pizza-073-1544039876.jpg" alt="pizza N' the park"
+                </picture>
+             <section class="wsummary">
+                <div class="summaryInfo1"><h3>Weather&nbsp;</h3></div>
+                <div class="summaryInfo2"><h3>Summary&nbsp;&nbsp;&nbsp;</h3></div>
+                <div class="summaryInfo1">Currently:&nbsp;</div>
+                <div class="summaryInfo2"><span id="currentCondition">condition</span></div>
+                <div class="summaryInfo1">Currently: &nbsp;</div>
+                <div class="summaryInfo2"><span id="currentTemp">00</span>&#176;F</div>
+                <div class="summaryInfo1">Wind Chill: &nbsp;</div>
+                <div class="summaryInfo2"><span id="wChill"></span></div>
+                <div class="summaryInfo1">Humidity: &nbsp;</div>
+                <div class="summaryInfo2"><span id="humidity">00</span>&#37;</div>
+                <div class="summaryInfo1">Wind Speed: &nbsp;</div>
+                <div class="summaryInfo2"><span id="windSpeed">00</span> mph</div>
+</section>
+</section>		    
+</div>
+</div>
+<section>
+	    <div class="article">
+            <img src="pinicinpark.jpg" alt="picnic in the park">
+            <h3>Join us for pizza. </h3>
+            <p>Join with friends and family each week on Saturday. Pizza will be served at the city park pavilion.</p>
+            <p>We gather every week. As walt disney said...<br>
+                " We keep moving forward opening new doors and doing new things, and doing new things   because we are 
+		    currious and it leads to other things"
+		   </p>
+                <p>This weekly gathering began as an opportunity to meet with city leaders. While it still provides this
+                        type of discussions, it also provides a way to meet with old friends and find new ones.</p>
+                <p>Can't wait to see you their.</p>
+        </div>
+
+        <div class="contactInfo">
+            <div class="map">
+                <img src=" 662-idaho-plus-vm-usid-j-qcn8-1-1-276x387.png" alt="map of Idaho">
+            </div>
+            <div>
+                <h3>Weather works first Inc</h3>
+                <p>934 Main Street<br>&nbsp;&nbsp;&nbsp;&nbsp;Preston, Idaho</p>
+                <span>&#9742;&nbsp;999-123-4567</span><br>
+                <span>&#9993;&nbsp;weather@weatherworksfirstINC.com</span>
+                <p> Follow us on 
+                  <img class="socialMediaLogo"
+                        src="iconfinder_1_Instagram_colored_svg_1_5296765.png" alt="instagram icon">
+  </p>
+ </div>
+</div>
+</div>	       
+    </main>
+    <footer>
+        &copy; <span id="copyyear"></span> | Weather works First INC | Marissa A. Gimbel| <br>
+        Weather information through <a href="http://api.openweathermap.org/">Open Weather Map</a><br>
+	<script src="toggle.js"></script><script src="api.js"></script><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+         <script>
+        WebFont.load({google:{families: ['Calistoga', 'opensans', 'Roboto']}});
+        </script>
+	</footer>    
+         </body>
+         </html>
