@@ -1,6 +1,5 @@
 body {
-    background-color:Yellow;
-     font-family: 'Calistoga', 'opensans', 'Roboto', 'sans-serif';
+    font-family: 'open sans', sans-serif;
     font-size: 100%;
     line-height: 1.5;
 }
@@ -83,6 +82,7 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 header img {
     width: 80px;
     height: auto;
@@ -113,49 +113,44 @@ footer {
     color: #00264d;
 }
 
-footer a:link {
-    color: #0059b3;
-    text-decoration: underline;
-}
-
 
 h1 h2 {
-    color: #004bd6;
+    color: #004080;
 }
 
 h1 {
     font-size: 2.5em;
     font-weight: bold;
-    font-family: 'Calistoga', 'opensans', 'Roboto', 'sans-serif';
+    font-family: 'open sans', serif;
     line-height: 100%;
     margin: .5rem;
 }
 
 h2 {
     font-size: 1.75em;
-    font-family: 'Calistoga', 'opensans', 'Roboto', 'sans-serif';
+    font-family: 'open sans', sans-serif;
     text-align: center;
+
 }
 
 h3 {
     font-size: 1.25em;
     font-weight: bold;
-    font-family: 'Calistoga', 'opensans', 'Roboto', 'sans-serif';
+    font-family: 'open sans', sans-serif;
     color: #005ab3;
     margin: .5rem 2%;
-    text-align: center;    
 }
 
 h4,
 h5 {
     font-size: 1em;
-    font-family: 'Calistoga', 'opensans', 'Roboto', 'sans-serif';
+    font-family: 'open sans', sans-serif;
     color: #0059b3;
 }
 
 p {
     font-size: 1.25em;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'open sans', sans-serif;
     padding: 0.2rem;
     color: #00264d;
     margin: .5rem 2%;
@@ -183,19 +178,20 @@ p {
 }
 
 .herodiv img {
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.weathersummary {
+.wsummary {
     display: grid;
     grid-template-columns: auto auto;
     position: absolute;
     top: 30px;
     left: 30px;
-    background: #c3f0ff;
-    color: #005ab3;
+    background: #c3f0ffa4;
+    color: #004181;
     padding: .5rem;
     box-shadow: 0 0 30px #00264d;
     opacity: .9;
@@ -210,6 +206,7 @@ p {
 .summaryInfo2 {
     text-align: left;
 }
+
 .forecastContainer {
     display: none;
 }
@@ -219,14 +216,12 @@ p {
     display: block;
     border: 1px solid #0059b3;
     margin: 30px auto;
-    padding: 5px;
 }
 
 .article img{
-    max-width: 96%;
+    max-width: 100%;
     max-height: 511px;
     float: none;
-    margin: 5px;
 }
 /*---------------- contact info --------------*/
 .socialMediaLogo {
@@ -345,7 +340,7 @@ form label.addInfo {
     color: #0059b3;
     font-size: .75em;
     font-weight: bold;
-    font-family: 'Calistoga', 'opensans', 'Roboto', 'sans-serif';
+    font-family: 'Poppins', sans-serif;
 }
 
 .addComment {
@@ -389,6 +384,7 @@ form label.top input:required:valid {
 }
 
 .homeArticle img {
+    width:100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -428,6 +424,7 @@ form label.top input:required:valid {
 }
 
 .towns img  {
+    width:100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
