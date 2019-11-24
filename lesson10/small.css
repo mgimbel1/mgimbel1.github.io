@@ -34,7 +34,7 @@ nav ul {
 }
 
 .navigation li:first-child {
-    display:none;
+    display: block;
 }
 
 .navigation li {
