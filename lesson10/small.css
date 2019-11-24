@@ -15,63 +15,7 @@ footer{
     margin: 0 auto;
 }
 
-/*---------------- Navigation --------------*/
-nav {
-    font-size: .75em;
-    background-color: #c3f0ff;
-}
 
-nav ul {
-    padding: 0;
-    margin: 0;
-}
-
-.navigation {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-}
-
-.navigation li:first-child {
-    display: block;
-}
-
-.navigation li {
-    display: none;
-}
-
-nav li a {
-    display: block;
-    text-align: left;
-    padding: 0.75rem;
-    text-decoration: none;
-    font-size: 0.95rem;
-}
-
-.active {
-    background-color: #ffe96cad;
-    color: #3aabc6;
-    font-weight: bold;
-}
-
-a:link {
-    color: #00264d;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #006fdd;
-}
-
-a:hover {
-    background-color: #0059b3;
-    color: #ffe44d;
-}
-
-a:active {
-    background-color: #ffe96cad;
-    color: #3aabc6;
-}
 
 /*---------------- Header --------------*/
 header {
