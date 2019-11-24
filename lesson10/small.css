@@ -55,6 +55,10 @@ nav li a {
     font-weight: bold;
 }
 
+a:link {
+    color: #00264d;
+    text-decoration: none;
+}
 
 a:visited {
     color: #006fdd;
@@ -65,6 +69,10 @@ a:hover {
     color: #ffe44d;
 }
 
+a:active {
+    background-color: #ffe96cad;
+    color: #3aabc6;
+}
 
 /*---------------- Header --------------*/
 header {
