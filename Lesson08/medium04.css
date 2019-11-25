@@ -1,4 +1,4 @@
-media only screen and (min-width: 45em) {
+@media only screen and (min-width: 40em) {
     header img {
         width: 85%;
     }
@@ -85,4 +85,52 @@ media only screen and (min-width: 45em) {
         grid-template-columns: 1fr 1fr;
 
     }
+
+    .towns {
+        display: flex;
+        flex-wrap: wrap;
+        /*display: grid;
+        grid-template-columns: 1fr;*/
+        justify-content: center;
+        max-width: 767px;
+    }
+
+    .towns section {
+        max-width: 750px;
+        display: flex;
+        flex-direction: row;
+    }
     
+    .towns section:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+
+    .towns h2 {
+        padding: 15px 0 0 15px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .towns h3 {
+        margin: 0;
+        padding: 0 32px 25px 15px;
+        text-align: left;
+    }
+
+    .towns p {
+        padding: 0 0 0 15px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .townimage {
+        width: 300px;
+        height: 200px;
+        padding: 15px;
+    }
+
+    .towndata {
+        width: 350px;
+    }
+}
