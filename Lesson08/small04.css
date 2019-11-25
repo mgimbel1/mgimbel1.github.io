@@ -1,6 +1,5 @@
 body {
-    background-color:Yellow;
-    font-family: 'McLaren', cursive;
+    font-family: 'open sans', sans-serif;
     font-size: 100%;
     line-height: 1.5;
 }
@@ -15,7 +14,7 @@ footer{
     max-width: 600px;
     margin: 0 auto;
 }
-
+/*----------------Nav-------------------*/
 /*-- Navigation ---*/
 nav {
     font-size: .75em;
@@ -73,8 +72,7 @@ a:active {
     background-color: #ffe96cad;
     color: #3aabc6;
 }
-
-/*Header */
+/*---------------- Header --------------*/
 header {
     line-height: .5;
     background-color: #0059b3;
@@ -89,7 +87,7 @@ header img {
     height: auto;
 }
 
-.heading {
+.headings {
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -110,26 +108,26 @@ footer {
 }
 
 footer {
-    background-color:	#FAEBD7; 
+    background-color: #c3f0ff;
     color: #00264d;
 }
 
 
 h1 h2 {
-    color: #7FFFD4;
+    color: #004080;
 }
 
 h1 {
     font-size: 2.5em;
     font-weight: bold;
-         font-family: 'McLaren', cursive;
-        line-height: 100%;
+    font-family: 'open sans', serif;
+    line-height: 100%;
     margin: .5rem;
 }
 
 h2 {
-    font-size: 1.75em; 
-         font-family: 'McLaren', cursive;
+    font-size: 1.75em;
+    font-family: 'open sans', sans-serif;
     text-align: center;
 
 }
@@ -137,27 +135,27 @@ h2 {
 h3 {
     font-size: 1.25em;
     font-weight: bold;
-    font-family: 'McLaren', cursive
-          color: #005ab3;
+    font-family: 'open sans', sans-serif;
+    color: #005ab3;
     margin: .5rem 2%;
 }
 
 h4,
 h5 {
     font-size: 1em;
-     font-family: 'McLaren', cursive;
+    font-family: 'open sans', sans-serif;
     color: #0059b3;
 }
 
 p {
     font-size: 1.25em;
-    font-family: 'McLaren', cursive;
+    font-family: 'open sans', sans-serif;
     padding: 0.2rem;
     color: #00264d;
     margin: .5rem 2%;
 }
 
-/*-- Banner --*/
+/*---------------- Preston Banner --------------*/
 #banner {
     margin: 0;
     background: #ffe44d;
@@ -171,7 +169,7 @@ p {
 .hideme {display: none;}
 
 
-/*--hero div --*/
+/*---------------- hero div --------------*/
 .herodiv {
     display: grid;
     position: relative;
@@ -180,10 +178,12 @@ p {
 
 .herodiv img {
     max-width: 100%;
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.weathersummary {
+.wsummary {
     display: grid;
     grid-template-columns: auto auto;
     position: absolute;
@@ -210,19 +210,19 @@ p {
     display: none;
 }
 
-/*-- article --*/
+/*---------------- article --------------*/
 .article {
     display: block;
-    border: 1px solid #7FFFD4;
+    border: 1px solid #0059b3;
     margin: 30px auto;
 }
 
 .article img{
     max-width: 100%;
-    height: auto;
+    max-height: 511px;
     float: none;
 }
-/*--- contact info ----*/
+/*---------------- contact info --------------*/
 .socialMediaLogo {
     padding-right: 10px;
 }
@@ -232,7 +232,7 @@ p {
     grid-template-columns: auto auto;
     column-gap: 20px;
     margin: 40px auto;
-    border: 1px solid #F5F5DC;
+    border: 1px solid #0059b3;
     padding: 30px;
 }
 
@@ -244,11 +244,11 @@ p {
     display: block;
 }
 
-/*---Gallery ---*/
+/*---------------- Gallery --------------*/
 figure {
     margin: 10px;
     padding: 10px;
-    border: 1px solid rgba(rgb(0,0,255);
+    border: 1px solid rgba(128, 128, 128, 0.205);
 }
 
 figcaption {
@@ -257,15 +257,15 @@ figcaption {
 
  figure img {
      width: 100%;
-     border: 1px solid #7FFFD4;
+     border: 1px solid #00264d;
  }
 
-.wGallery {
+.weatherGallery {
     display: block;
     margin: 0px 0px 25px 0px;
 }
 
-/*--Storm Center Form --*/
+/*---------------- Storm Center Form --------------*/
 
 form fieldset {
     margin:2rem 0;
@@ -311,8 +311,7 @@ form label.stormInfo {
 }
 
 form label.stormInfo select {
-    padding: 2
-px;
+    padding: 2px;
     font-size: .9rem;
     background-color: #d3f3fd6c;
     border:solid 1px #0059b3;
@@ -340,8 +339,7 @@ form label.addInfo {
     color: #0059b3;
     font-size: .75em;
     font-weight: bold;
-    font-family: 'McLaren', cursive;
- 
+    font-family: 'Poppins', sans-serif;
 }
 
 .addComment {
@@ -354,13 +352,13 @@ textarea {
     height: 100px;
     width: 100%;
     max-width: 20rem;
-    border:solid 1px #7FFFD4;
+    border:solid 1px #0059b3;
     border-radius: 4px;
 }
 
 form input.submitBtn {
     border: none;
-    background-color: #7FFFD4;
+    background-color: #0059b3;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -370,9 +368,65 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-    border-left: blue solid 6px;
+    border-left: red solid 6px;
 }
 
 form label.top input:required:valid {
-    border-left: Gray solid 6px;
+    border-left: green solid 6px;
+}
+
+/*---------------- Home Page --------------*/
+
+.homeArticle {
+    padding: .75rem;
+    border: 1px solid #555;
+}
+
+.homeArticle img {
+    width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.towns {
+    display: block;
+    padding: 10px;
+    margin: 20px;
+}
+
+.towns p, h3, .wireframe {
+    text-align: center;
+}
+
+.towns section {
+    background-color: #d3f3fd6c;
+    border: 1px solid #0059b3;
+    margin: 20px;
+    max-width: 500px;
+}
+
+.towns p {
+    font-size: 1em;
+    margin: 0; 
+    padding: 1px;
+}
+
+.towns h2 {
+    margin: 20px 0 0 0;
+}
+
+.towns h3 {
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+
+.towns img  {
+    width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
