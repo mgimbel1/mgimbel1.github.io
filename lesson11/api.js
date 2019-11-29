@@ -1,44 +1,33 @@
-var city = document.getElementById("currentCity").textContent;
-if (city.includes("Preston")) {
-  var weatherapi = "//api.openweathermap.org/data/2.5/weather?id=5604473&temp&units=imperial&APPID=35288c8a9bf8fbe38d102b914f4bd7b1";
-  var forecastapi = "//api.openweathermap.org/data/2.5/forecast?id=5604473&temp&units=imperial&APPID=35288c8a9bf8fbe38d102b914f4bd7b1";
-}
-else if (city.includes("Soda Springs")) {
-  var weatherapi = "//api.openweathermap.org/data/2.5/weather?id=5678757&temp&units=imperial&APPID=35288c8a9bf8fbe38d102b914f4bd7b1";
-  var forecastapi = "//api.openweathermap.org/data/2.5/forecast?id=5678757&temp&units=imperial&APPID=35288c8a9bf8fbe38d102b914f4bd7b1";
-}
-
-else {
-  if  (city.includes("Fish Haven")) 
-  var weatherapi = "//api.openweathermap.org/data/2.5/weather?zip=83287,us&temp&units=imperial&APPID=35288c8a9bf8fbe38d102b914f4bd7b1";
-  var forecastapi = "//api.openweathermap.org/data/2.5/forecast?zip=83287,us&temp&units=imperial&APPID=35288c8a9bf8fbe38d102b914f4bd7b1";
-}
-
-const weatherObject = new XMLHttpRequest();
-weatherObject.open ("GET",weatherapi, true );
+const weatherObject = new XMLHttpRequest ();
+weatherObject.open("GET", "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=c4f26b47558cfc6a6aebf07554d017ad&units=imperial", true);
 weatherObject.send();
-weatherObject.onload = function() {
-  let weatherInfo = JSON.parse(weatherObject.responseText);
-  console.log(weatherInfo);
+weatherObject.onload = function () {
 
-  document.getElementById('currentCondition').innerHTML = weatherInfo.weather[0].main;
-  document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp;
-  document.getElementById('humidity').innerHTML= weatherInfo.main.humidity;
-  document.getElementById('windSpeed').innerHTML = weatherInfo.wind.speed;
- 
-  function calcWindChill() {
-    var temp = parseFloat(document.getElementById('currentTemp').textContent);
-    var speed = parseFloat(document.getElementById('windSpeed').textContent);
+	let weatherInfo = JSON.parse (weatherObject.responseText);
+	console.log(weatherInfo);
+	document.getElementById("place").textContent = weatherInfo.name;
+	document.getElementById("currentTemp").textContent = weatherInfo.main.temp;
+	document.getElementById("humidity").textContent = weatherInfo.main.humidity;
+	document.getElementById("windSpeed").textContent = weatherInfo.wind.speed;
+	var descriptionp = weatherInfo.weather['0'].description;
+
+	document.getElementById("description").textContent = descriptionp;
+	console.log(descriptionp);
+
+	function doinputoutput() {
+    var a = parseFloat(document.getElementById('currentTemp').textContent);
+    var b = parseFloat(document.getElementById('windSpeed').textContent);
   
-    windchill = (35.74 + (0.6215 * temp) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * temp * Math.pow(speed, 0.16)));
+    result = (35.74 + (0.6215 * a) - (35.75 * Math.pow(b, 0.16)) + (0.4275 * a * Math.pow(b, 0.16)));
   
-    if (windchill <= 50 && speed > 3) {
-      document.getElementById('wChill').textContent = windchill.toFixed(0) + "\xB0F";
+    if (result <= 50 && b > 3) {
+      document.getElementById('output').textContent = result.toFixed(0);
     } else {
-      document.getElementById('wChill').textContent = "NA";
+      document.getElementById('output').textContent = "NA";
     }
   }
-  calcWindChill();
+  doinputoutput();
 
-} // end of onload
 
+
+}
