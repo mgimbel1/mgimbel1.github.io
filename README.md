@@ -1,2 +1,2 @@
 # mgimbel1.github.io
-My Website on Git Hub
+Marissa Gimbel on Git Hub 
