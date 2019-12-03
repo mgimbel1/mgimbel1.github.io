@@ -10,7 +10,7 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
     for (let i = 0; i <towns.length; i++ ) {
-         if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
+         if (towns[i].name == "fish haven" || towns[i].name == "preston" || towns[i].name == "soda springs") {
         
         let town = document.createElement('section');
         let data = document.createElement('div');
@@ -40,9 +40,7 @@ fetch(requestURL)
         town.appendChild(data);
         town.appendChild(image)
 
-        document.querySelector('div.towns').appendChild(town);
-        
+        document.querySelector('div.towns').appendChild(town);    
    }
    }
-
   });
