@@ -10,7 +10,7 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
     for (let i = 0; i <towns.length; i++ ) {
-        if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") { 
+         if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs") {
         
         let town = document.createElement('section');
         let data = document.createElement('div');
@@ -27,7 +27,7 @@ fetch(requestURL)
         p2.textContent = "Year Founded: " + towns[i].yearFounded;
         p3.textContent = "Current Population: " + towns[i].currentPopulation;
         p4.textContent = "Average Rainfall: " + towns[i].averageRainfall + " inches";
-        image.setAttribute('src', "images/home-photos/" + towns[i].photo);
+        image.setAttribute('src', "images/" + towns[i].photo);
         image.setAttribute('alt', "photo of "+ towns[i].name);
         image.setAttribute('class', 'townimage');
         data.setAttribute('class', 'towndata');
@@ -42,7 +42,7 @@ fetch(requestURL)
 
         document.querySelector('div.towns').appendChild(town);
         
-    }
-    }
+   }
+   }
 
   });
