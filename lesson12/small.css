@@ -1,0 +1,105 @@
+/*body rules here*/
+body {
+    background-color:#FFFDD0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+/*header rules*/
+header {
+    padding: .5rem 2%;
+}
+header h1 {
+    margin: 0;
+    font-size: 1rem;
+}
+header h2 {
+    margin: 0;
+    font-size: .5rem;
+}
+header, nav, main, footer {
+    margin: 0 auto;
+    max-width: 750px;
+}
+header, footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid thin black;
+}
+p {
+    text-align: left;
+}
+ #p1 {
+    text-align: center;
+    
+}
+
+#p2 {
+    text-align: center;
+}
+#p3 {
+    text-align: center;
+}
+button {
+    background-color: blue;
+    border-radius: 10px;
+    
+    }
+
+main {
+    max-width: 750px;
+    margin: 0 auto;
+    }
+
+h3 {
+   
+    background-color: white ;
+    color: black;
+    text-align: center;
+}
+main picture {
+    display: block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid black;
+    padding: 0 1rem;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+section:nth-child(2) {
+    display: none;
+    margin: 0.5rem;
+
+}
+
+header footer {
+    text-align: center;
+    background-color: black;
+}
+
+h2 {
+    color: white;
+
+}
+
+p {
+    text-align: left;
+}
