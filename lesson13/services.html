@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Temple Inn & Suites Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lesson 13 Marissa Gimbel Cit 230">
+	<link rel="shortcut icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Lora|Noto+Serif&display=swap" rel="stylesheet"> 
+ <link rel="stylesheet" href="normalize.css">
+ <link href="small.css" rel="stylesheet">
+ <link href="medium.css" rel="stylesheet">
+	<link href="large.css" rel="stylesheet">
+	</head>
+	<body>
+	<header>
+	<section class="heading">
+	<h1>Weather Works first</h1>
+	<div class="motto">Temples Inn & Suites</div>
+	</section>
+	</header>
+	<nav class="navigation">
+        <ul>
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="https://mgimbel1.github.io/ ">Home</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li class="active"><a href="Temple Inn & Suites Services</a></li>
+            <li><a href="#"></a></li>
+         </ul>
+        </nav>
+	<main>
+	 <form method="get" action="thanks.html">
+            <fieldset>	
+	<legend>Contact Information</legend>
+                <label class="top">Full Name* <input type="text" name="fullname" pattern="[^\s][A-z0-9À-ž\s]{5,}" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@weatherworksfirst.com"></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="12345678901" required></label>
+                <label class="top">Zipcode* <input type="number" name="zipcode" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="serviceInfo">Date <input type="date" name="stormDate"></label>
+                <label class="serviceInfo">Type <input list="stype" name="stormType">
+                    <datalist id="stype">
+                        <option value="   ">
+                        <option value="    ">
+                        <option value="    ">
+                        <option value="      ">
+                        <option value="        ">
+                        <option value="        ">
+                    </datalist>
+                </label>
+                <label class="rate">Select Storm Severity (1 - 10) &nbsp;<br>
+                    <input type="range" name="severity" id="rating" value="5" min="1" max="10" step="1"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                </label>
+                <label class="rate">
+                    The storm severity is level <span id="ratingvalue">5</span>.
+                </label>
+                <label class="stormInfo">Region
+                    <select name="regions">
+                        <option value="" disabled selected>Select Region</option>
+                        <option value="preston">Preston</option>
+                        <option value="sodasprings">Soda Springs</option>
+                        <option value="fishhaven">Fish Haven</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <Legend>Additional Information</Legend>
+                <label class="danger">Are You In Danger?</label>
+                <label class="addInfo"><input type="radio" name="danger" value="yes"> Yes</label>
+                <label class="addInfo"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                <label class="addInfo"><input type="radio" name="danger" value="no"> No</label><br>
+                <label class="addComment">Additional Comments<textarea name="comment"placeholder="Have something important to say report it. . ."></textarea></label>
+            </fieldset>
+            <input type="submit" value="Report A Storm" class="submitBtn">
+        </form>
+	</main>
+	<script src="imagehandling.js"></script>
+	<script src="adjustRating.js"></script>
+<footer>
+	 &copy; 2019 |Marissa A. Gimbel |Storm Center| <a id="b" href="https://www.byui.edu/online" target="_blank">BYUI Online student Learning </a>
+         <p id="lastMod"></p><script src="lastmodified.js"></script><script src="toggle.js"></script>
+</footer>
+</body>
+</html>
