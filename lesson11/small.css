@@ -8,14 +8,11 @@ header,
 nav {
     margin: 0 auto;
 }
-
 main,
 footer{
     max-width: 600px;
     margin: 0 auto;
 }
-/*----------------Nav-------------------*/
-/*-- Navigation ---*/
 nav {
     font-size: .75em;
     background-color: #7FFFD4
