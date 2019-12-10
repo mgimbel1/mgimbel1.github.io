@@ -6,7 +6,7 @@
     "telephone": "(1) 702-452-5011"
     "photo": "las_vegas_temple_lds.jpg"
     "email": "Log in your LDS account to send email to temple",
-    "ordinanceschedule": "To schedule living ordinances (such as own endowment or sealing)      	or group visits, please call "(1) 702-452-5011",
+    "ordinanceschedule": "To schedule living ordinances (such as own endowment or sealing)or group visits, please call "(1) 702-452-5011",
     "TempleClosures": [
       "Tuesday, 24 December 2019",
       "Wednesday, 25 December 2019",
@@ -37,8 +37,7 @@
   },
    {
     "name": "Salt Lake City, Utah  Temple",
-    "address": " 50 W North Temple St
-Salt Lake City UT 84150-9709 United States   ",
+    "address": " 50 W North Temple St. Salt Lake City UT 84150-9709 United States",
     "telephone": "(1) 801-240-2640",
      "photo": " Salt Lake City Temple.jpeg ",
     "email": "Log in your LDS account to send email to temple",
@@ -62,7 +61,7 @@ Salt Lake City UT 84150-9709 United States   ",
   },
     {
     "name": "Hong Kong China Temple",
-    "address": 2 Cornwall St Kowloon Tong Kowloon City, Hong Kong  ",
+    "address": 2 Cornwall St Kowloon Tong Kowloon City, Hong Kong ",
     "telephone": "temple closed for revoation",
      "photo": " hong_kong_china_temple_lds.jpg ",
     "email": "Log in your LDS account to send email to temple",
