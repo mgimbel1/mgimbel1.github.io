@@ -1,0 +1,125 @@
+{
+  "temples" : [
+  {
+    "name": "Las Vegas Nevada Temple",
+    "address": "827 Temple View Dr Las Vegas NV 89110-2920 United States",
+    "telephone": "(1) 702-452-5011"
+    "photo": "las_vegas_temple_lds.jpg"
+    "email": "Log in your LDS account to send email to temple",
+    "ordinanceschedule": "To schedule living ordinances (such as own endowment or sealing)      	or group visits, please call "(1) 702-452-5011",
+    "TempleClosures": [
+      "Tuesday, 24 December 2019",
+      "Wednesday, 25 December 2019",
+      "Tuesday, 31 December 2019",
+      "Wednesday, 1 January 2020",
+     "Monday, 6 January 2020 - Monday, 20 January 2020",
+    "Saturday, 4 April 2020",
+  "Saturday, 4 July 2020",
+"Monday, 6 July 2020 - Monday, 3 August 2020",
+"Saturday, 3 October 2020",
+"Wednesday, 25 November 2020 (Limited Hours)",
+"Thursday, 26 November 2020",
+"Thursday, 24 December 2020",
+"Friday, 25 December 2020",
+"Thursday, 31 December 2020"
+    ],
+       "services": [
+      "Clothing rental available",
+      "cafeteria available",
+      "No patron housing available",
+      "Distribution center nearby"
+    
+],   "Milestones": [
+      "7 April 1984: Announced",
+      "30 November 1985: Groundbreaking",
+      "16 December 1989: Dedicated — dedicatory prayer"
+    ]
+  },
+   {
+    "name": "Salt Lake City, Utah  Temple",
+    "address": " 50 W North Temple St
+Salt Lake City UT 84150-9709 United States   ",
+    "telephone": "(1) 801-240-2640",
+     "photo": " Salt Lake City Temple.jpeg ",
+    "email": "Log in your LDS account to send email to temple",
+    "To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (1) 801-240-2640"
+     "TempleClosures": [
+      "Tuesday, 24 December 2019",
+      "Wednesday, 25 December 2019",
+      "Tuesday, 31 December 2019",
+    ],
+          "services": [
+      "Clothing rental available",
+      " cafeteria available",
+      "No Patron housing available",
+      "Distribution center nearby"
+     
+    ],   "Milestones": [
+      "28 July 1847 : Announced",
+      "14 February 1853: Groundbreaking",
+      " 6 April 1893 : Dedicated — dedicatory prayer"
+    ]
+  },
+    {
+    "name": "Hong Kong China Temple",
+    "address": 2 Cornwall St Kowloon Tong Kowloon City, Hong Kong  ",
+    "telephone": "temple closed for revoation",
+     "photo": " hong_kong_china_temple_lds.jpg ",
+    "email": "Log in your LDS account to send email to temple",
+    "ordinanceschedule": "Closed",
+],
+ "TempleClosures": [
+"closed for revoation"
+    ],
+           "services": [
+      "none shown",
+     
+    ],
+              "Milestones": [
+      "none shown",
+    ]
+  },
+   {
+    "name": "Cedar City Utah Temple",
+    "address": "280 South Cove Dr Cedar City UT 84720 United  States,"
+    "telephone": "(1) 435-572-4150",       
+     "photo": "cedar_city_utah_temple_exterior.jpeg"
+    "email": "Log in your LDS account to send email to temple",
+    "ordinanceschedule": "To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (1) 435-572-4150"
+     "TempleClosures": [
+      "2019",
+"Monday, 23 December 2019 - Wednesday, 25 December 2019"
+"Monday, 30 December 2019 - Tuesday, 31 December 2019"
+"2020",
+"Wednesday, 1 January 2020",
+"Saturday, 4 April 2020",
+"Sunday, 12 April 2020 - Sunday, 26 April 2020",
+"Monday, 25 May 2020",
+"Saturday, 4 July 2020",
+"Friday, 24 July 2020",
+"Monday, 7 September 2020",
+"Saturday, 3 October 2020",
+"Sunday, 11 October 2020 - Sunday, 25 October 2020",
+"Wednesday, 25 November 2020 - Thursday, 26 November 2020",
+"Thursday, 24 December 2020 - Saturday, 26 December 2020",
+"Thursday, 31 December 2020",
+"2021",
+"Friday, 1 January 2021",
+
+    ],
+           "services": [
+      "Clothing rental available",
+      "No cafeteria available",
+      "No Patron housing available",
+      "Distribution center nearby"
+     
+    ],
+
+        "Milestones": [
+      "6 April 2013: Announced",
+      "8 August 2015: Groundbreaking",
+      "10 December 2017: Dedicated — dedicatory prayer"
+    ]
+  }
+ ]
+}
