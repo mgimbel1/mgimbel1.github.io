@@ -4,7 +4,7 @@
     "name": "Las Vegas Nevada Temple",
     "address": "827 Temple View Dr Las Vegas NV 89110-2920 United States",
     "telephone": "(1) 702-452-5011"
-    "photo": "las_vegas_temple_lds.jpg"
+    "photo":"las_vegas_temple_lds.jpg"
     "email": "Log in your LDS account to send email to temple",
     "ordinanceschedule": "To schedule living ordinances (such as own endowment or sealing)or group visits, please call "(1) 702-452-5011",
     "TempleClosures": [
@@ -61,7 +61,7 @@
   },
     {
     "name": "Hong Kong China Temple",
-    "address": 2 Cornwall St Kowloon Tong Kowloon City, Hong Kong ",
+    "address":" 2 Cornwall St Kowloon Tong Kowloon City, Hong Kong ",
     "telephone": "temple closed for revoation",
      "photo": " hong_kong_china_temple_lds.jpg ",
     "email": "Log in your LDS account to send email to temple",
@@ -70,13 +70,13 @@
  "TempleClosures": [
 "closed for revoation"
     ],
-           "services": [
+      "services": [
       "none shown",
      
     ],
-              "Milestones": [
+      "Milestones": [
       "none shown",
-    ]
+   
   },
    {
     "name": "Cedar City Utah Temple",
@@ -87,11 +87,11 @@
     "ordinanceschedule": "To schedule living ordinances (such as own endowment or sealing) or group visits, please call: (1) 435-572-4150"
      "TempleClosures": [
       "2019",
-"Monday, 23 December 2019 - Wednesday, 25 December 2019"
-"Monday, 30 December 2019 - Tuesday, 31 December 2019"
-"2020",
-"Wednesday, 1 January 2020",
-"Saturday, 4 April 2020",
+       "Monday, 23 December 2019 - Wednesday, 25 December 2019"
+       "Monday, 30 December 2019 - Tuesday, 31 December 2019"
+        "2020",
+         "Wednesday, 1 January 2020",
+           "Saturday, 4 April 2020",
 "Sunday, 12 April 2020 - Sunday, 26 April 2020",
 "Monday, 25 May 2020",
 "Saturday, 4 July 2020",
