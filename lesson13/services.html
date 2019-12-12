@@ -1,90 +1,98 @@
+  
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
-<meta charset="UTF-8">
-<title>Temple Inn & Suites Services</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lesson 13 Marissa Gimbel Cit 230">
-	<link rel="shortcut icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Arimo|Lora|Noto+Serif&display=swap" rel="stylesheet"> 
- <link rel="stylesheet" href="normalize.css">
- <link href="small.css" rel="stylesheet">
- <link href="medium.css" rel="stylesheet">
-	<link href="large.css" rel="stylesheet">
-	</head>
-	<body>
-	<header>
-	<section class="heading">
-	<h1>Weather Works first</h1>
-	<div class="motto">Temples Inn & Suites</div>
-	</section>
-	</header>
-	<nav class="navigation">
-        <ul>
-            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="https://mgimbel1.github.io/ ">Home</a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li class="active"><a href="Temple Inn & Suites Services</a></li>
-            <li><a href="#"></a></li>
-         </ul>
-        </nav>
-	<main>
-	 <form method="get" action="thanks.html">
-            <fieldset>	
-	<legend>Contact Information</legend>
-                <label class="top">Full Name* <input type="text" name="fullname" pattern="[^\s][A-z0-9À-ž\s]{5,}" required></label>
-                <label class="top">Email <input type="email" name="email" placeholder="someone@weatherworksfirst.com"></label>
-                <label class="top">Phone* <input type="tel" name="phone" placeholder="12345678901" required></label>
-                <label class="top">Zipcode* <input type="number" name="zipcode" required></label>
-            </fieldset>
+<title>Temple Inn & Suites</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Marissa A. Gimbel">
+<meta name="description" content="Temple Inn & Suites for cit 230">
+ <link rel="shortcut icon" href="temple favicon.PNG">
+  <link href="https://fonts.googleapis.com/css?family=Arimo|Lora|Noto+Serif&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" type="text/css" href="small.css"/>
+<link rel="stylesheet" type="text/css" href="medium.css"/>
+<link rel="stylesheet" type="text/css" href="large.css"/>
+<link rel="stylesheet" type="text/css" href="normalize.css"></head>
+<body>
+<div id="message"></div>  
+<div class="nav">
+ <nav>
+<ul class="navigation">
+<li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="temple.html">Temples</a></li>
+<li class="active"><a href="reservations.html">Reservations</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav> 
+ </div>
+<main>
+<h1 class="center">Reserve a room</h1>
+<div class="container">
+<form class="reservationForm" action="thankyou.html" method="get">
+<label for="fname">First Name
+<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+</label>
+<label for="lname">Last Name
+<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+</label>
+<label id="email">Email
+<input type="email" name="email" placeholder="email@yourmail.com" required>
+</label>
+<label id="phone">Phone
+<input type="tel" placeholder="09056588562" pattern="[0-9]{11}" >
+</label>
+<label>Check in: <input name="date" type="date" min="2018-12-20" max="2020-12-20" required>
+</label>
+<label>Check out: 
+<input name="date" type="date" min="2019-12-21" max="2021-12-30" required>
+</label>
 
-            <fieldset>
-                <legend>Storm Information</legend>
-                <label class="serviceInfo">Date <input type="date" name="stormDate"></label>
-                <label class="serviceInfo">Type <input list="stype" name="stormType">
-                    <datalist id="stype">
-                        <option value="   ">
-                        <option value="    ">
-                        <option value="    ">
-                        <option value="      ">
-                        <option value="        ">
-                        <option value="        ">
-                    </datalist>
-                </label>
-                <label class="rate">Select Storm Severity (1 - 10) &nbsp;<br>
-                    <input type="range" name="severity" id="rating" value="5" min="1" max="10" step="1"
-                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                </label>
-                <label class="rate">
-                    The storm severity is level <span id="ratingvalue">5</span>.
-                </label>
-                <label class="stormInfo">Region
-                    <select name="regions">
-                        <option value="" disabled selected>Select Region</option>
-                        <option value="preston">Preston</option>
-                        <option value="sodasprings">Soda Springs</option>
-                        <option value="fishhaven">Fish Haven</option>
-                    </select>
-                </label>
-            </fieldset>
-            <fieldset>
-                <Legend>Additional Information</Legend>
-                <label class="danger">Are You In Danger?</label>
-                <label class="addInfo"><input type="radio" name="danger" value="yes"> Yes</label>
-                <label class="addInfo"><input type="radio" name="danger" value="maybe"> Maybe</label>
-                <label class="addInfo"><input type="radio" name="danger" value="no"> No</label><br>
-                <label class="addComment">Additional Comments<textarea name="comment"placeholder="Have something important to say report it. . ."></textarea></label>
-            </fieldset>
-            <input type="submit" value="Report A Storm" class="submitBtn">
-        </form>
-	</main>
-	<script src="imagehandling.js"></script>
-	<script src="adjustRating.js"></script>
-<footer>
-	 &copy; 2019 |Marissa A. Gimbel |Storm Center| <a id="b" href="https://www.byui.edu/online" target="_blank">BYUI Online student Learning </a>
-         <p id="lastMod"></p><script src="lastmodified.js"></script><script src="toggle.js"></script>
-</footer>
+
+<label for="Location" >Location
+<select id="Location" name="Location" required>
+<option value="">Choose</option>
+<option value="Las Vegas Nevada">Las Vegas Nevada</option>
+<option value="Cedar City, Utah ">Cedar City Utah</option>
+<option value="Salt Lake City Utah">Salt Lake City Utah</option>
+<option value="Hong Kong China">Hong Kong China </option>
+</select>
+</label>
+<label id="country">Room Type
+<select id="RoomType" name="Room Type">
+<option value="">Choose</option>
+<option value="King">Cali King</option>
+<option value="Queen">Queen</option>
+<option  value="Single">Twin</option>
+<option  value="Double">Double</option>
+</select>
+</label>
+<label for="subject">Comment
+<textarea id="subject" name="subject" placeholder="Q/A and responds.." style="height:200px"></textarea>
+</label>
+<input type="submit" value="Make my Reservation!">
+</form>
+</div>
+ <div class="two">
+<section>
+<h2>Map</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.6036013384974!2d-111.89326495004813!3d40.77074247922398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f508e4890ee9%3A0x8c57d6417504663d!2sTemple%20Square!5e0!3m2!1sen!2sus!4v1576178986507!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>				
+</section>
+<section>
+<h2>Temple Inn & Suites</h2>
+<p>4800 Montgomery Lane #300, Bethesda, MD 20814 </p>
+<p>Tel: 1-123-456-7890 </p>
+<p>TempleInn&Suites2020@TemplesSuites.com</p>
+<div class="social">     
+<img src="https://img.icons8.com/ultraviolet/40/000000/twitter.png">
+ <img src="https://img.icons8.com/office/16/000000/facebook-new.png">
+<img src="https://img.icons8.com/office/16/000000/instagram-new.png">
+</div>
+</section>
+</div>	
+</main>
+<footer><p>&copy; Marissa A. Gimbel | Temple Inn & Suites | <a href="resources.html">Resources</a></p></footer>
+ <script src="toogle.js"></script>
 </body>
 </html>
