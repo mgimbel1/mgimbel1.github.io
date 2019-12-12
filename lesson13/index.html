@@ -1,107 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
-   <meta charset="UTF-8">
-    <title> Temple Inn & suites</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Lesson13 Marissa A. Gimbel Cit 230">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Arimo|Lora|Noto+Serif&display=swap" rel="stylesheet"> 
-    <link href="small.css" rel="stylesheet">
-    <link href="medium.css" rel="stylesheet">
-    <link href="large.css" rel="stylesheet">
+	<title>Temple Inn & Suites</title>
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="author" content="Marissa A. Gimbel">
+		<meta name="description" content="Temple Inn & Suites for cit 230">
+
+		<link rel="stylesheet" type="text/css" href="small.css"/>
+		<link rel="stylesheet" type="text/css" href="medium.css"/>
+		<link rel="stylesheet" type="text/css" href="large.css"/>
+		<link rel="stylesheet" type="text/css" href="normalize.css">
 </head>
 <body>
-<header>
-<picture>
-  <img src="temples.PNG" alt="icon" style="width:auto;">
-</picture>
-        <section class="heading">
-            <h1>Temple Inn& Suites</h1>
-            <div class="motto">Temple Inn & suites</div>
-        </section>
-    </header>
-    <ul>
-	<nav>
-	<ul class="nav">    
-            <li class="active"><a href="index.html">Home</a></li>
-	    <li><a href="ContactUs.html">reservations</a></li>
-            <li><a href="Locations.html">temples locations</a></li>
-            <li><a href="services.html">services</a></li>
-           <li><a href="temples.html">temples</a></li>	
-	</ul>
- </nav>		
-    <main>
-        <h2>Greetings!</h2>
-	 <div class="herodiv">
-<picture>
-  <source media="(min-width: 900px)" srcset="043 - Las Vegas Nevada Temple.jpg">	
-  <source media="(min-width: 650px)" srcset="043 - Las Vegas Nevada Temple.jpg">
-  <source media="(min-width: 465px)" srcset="043 - Las Vegas Nevada Temple.jpg">
-  <img src="043 - Las Vegas Nevada Temple.jpg " alt="Idaho" style="width:auto;">
-</picture>
-	        <section class="weathersummary">
-                <div class="summaryInfo1"><h3>Weather&nbsp;</h3></div>
-                <div class="summaryInfo2"><h3>Summary&nbsp;&nbsp;&nbsp;</h3></div>
-                <div class="summaryInfo1">Currently:&nbsp;</div>
-                <div class="summaryInfo2">Sunny</div>
-                <div class="summaryInfo1">High: &nbsp;</div>
-                <div class="summaryInfo2">40 &#8457;</div>
-                <div class="summaryInfo1">Wind Chill: &nbsp;</div>
-                <div class="summaryInfo2">30 &#8457;</div>
-                <div class="summaryInfo1">Humidity: &nbsp;</div>
-                <div class="summaryInfo2">20%</div>
-                <div class="summaryInfo1">Wind Speed: &nbsp;</div>
-                <div class="summaryInfo2">5 mph</div>
-		<div class="forecastContainer"></div>
+<div id="message"></div>
+<div class="nav">
+<picture><img src="temples.PNG" alt="Temple and Inn Suites Logo"></picture>
+</div>
+<nav>
+<ul class="navigation">            
+<li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="temple.html">Temples</a></li>
+<li><a href="reservations.html">Reservations</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+<li><a href="reservations.html">Book Now</a></li>
+</ul>
+</nav>
+<main>
+<img src="banner.png" alt=" Photo Sample" class="banner">
+<div class="bannerinfo">
+<h1>Temple Inn & Suites</h1>
+<p>We hope you enjoy your stay and are getting ready for a joyus ocassion of attending the temple. 
+	        We have many accomendations for you and your group, at this location we believe in helping many indiviuals whom need our services in order to attend the temple. That is our purpose.
+	        any questions please give us a call, at 1-702-890-8900 we look forward to your stay with us. If you are ready set up your reservation you can do so with our helpful staff member speak to Ms. Holiday for your Holiday needs this holiday.</p>
+	        <p>Temple Inn & Suites  specializes in many things for your occassion weddings, temples visits and we provide childcare while these joyus occassions happen.</p>
+<p>Thank you!</p>
+</div>
+<div class="flex">
+  <div class="Las Vegas" >
+                    		<h2> The Las Vegas Temple</h2>
+                        	<img src="las_vegas_temple_lds.jpg" alt="The Las Vegas Temple">
+                            <h3>Address</h3>
+               <p> 827 Temple View Dr  Las Vegas NV 89110-2920 United States </p>
+                            <h3>Telephone</h3>
+                            <p>(1) 702-452-5011  </p>
+                            <h3>Services</h3>
+                            <p>Clothing rental available</p>
+                            <p>Cafeteria available</p>
+                            <p>No patron housing available</p>
+                            <p>Distribution center nearby</p>
+             	</div>
+		<section class="one">
+			<h2>Free Amenities Include</h2>
+			<ul class="amenities">
+				<li>Breakfast</li>
+				<li>Excercise / Workout Room</li>
+				<li>Indoor Pool</li>
+				<li>Free WiFi</li>
+				<li>Smart TV's</li>
+				<li>Parking</li>
+				<li>Family history consultation</li>
+				<li>Family ordinance card services</li>
+			</ul>
 		</section>
-	        </div> 
-		 <section>
-	    <div class="forecastContainer">
-	    <h3>5 Day Forecast</h3>
-            <div class="forecast">
-            <div class="days">Tues</div>
-            <div class="days">Wed</div>
-	    <div class="days">Thurs</div>
-            <div class="days">Fri</div>
-            <div class="days">Sat</div>
-	
-                <div class="precip"><img src=" iconfinder_Citycons_sunny_1342926.png" alt="sunny icon"></div>
-                <div class="precip"><img src="iconfinder_weather-few-clouds_118961.png" alt="cloudy"></div>
-                <div class="precip"><img src="iconfinder_weather-snow_118966.png" alt= "snow icon"></div>
-                <div class="precip"><img src="iconfinder_Citycons_sunny_1342926.png" alt="sunny icon"></div>
-                <div class="precip"><img src="iconfinder_Citycons_sunny_1342926.png" alt="sunny icon"></div>
-                <div class="temp">45 &#8457;</div>
-                <div class="temp">40 &#8457;</div>
-                <div class="temp">30 &#8457;</div>
-                <div class="temp">32 &#8457;</div>
-                <div class="temp">35 &#8457;</div>
-		</div>   
-	        </div>    
-      <div class="article">
-      <picture>
-      <img src="Salt Lake City Temple.jpeg" alt="Temple" style="width:auto;">
-      </picture>
-	
-		<h3>    </h3> 
-		<p>                </p>
-        <p>   </p>We welcome to friendly service and nice atmosphere where you and your children can enjoy themselve as ease. 
-        </div>.
-	</section>		
-	<div class="contactInfo">contactInformation</div>	
-	<div class="address"> www.templeinn&suites.org</div>
-	<h3>Temple inn & Suites</h3>
-	<div class="address">  843 Temple St. </div>	
-	<h4></h4>
-        <div class="Temple"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.603416592978!2d-111.8932649504063!3d40.770746541857555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f508e4890ee9%3A0x8c57d6417504663d!2sTemple%20Square!5e0!3m2!1sen!2sus!4v1576032592501!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> alt="location"> </div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.6687745335835!2d-115.02211085025091!3d36.174613979984414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8dbf5016c3681%3A0x2e3e168f63cfdd85!2s827%20Temple%20View%20Dr%2C%20Las%20Vegas%2C%20NV%2089110!5e0!3m2!1sen!2sus!4v1576035516465!5m2!1sen!2sus" width="500" height="500" frameborder="0" style="border:0;" allowfullscreent=""></iframe>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3158.0387486475934!2d-113.09839975018717!3d37.671797279679105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b56189d6811ed3%3A0x42cf5b2aeee622e1!2s280%20S%20Cove%20Dr%2C%20Cedar%20City%2C%20UT%2084720!5e0!3m2!1sen!2sus!4v1576040159897!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen""></iframe>
-</main>		
- <footer>
-	 &copy; 2019 |Marissa A. Gimbel | Temple Inn& Suitess |Temples| <a id="b" href="https://www.byui.edu/online" target="_blank">BYUI Online student Learning </a>
-         <p id="lastMod"></p><script src="lastmodified.js"></script><script src="toggle.js"></script><script src="windchill.js"></script> 
-</footer>
+		</div>
+	<div class="two">
+	<section>
+	<h2>Map</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.6685965494285!2d-115.0221108506109!3d36.17461831026716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8dbf5016c3681%3A0x2e3e168f63cfdd85!2s827%20Temple%20View%20Dr%2C%20Las%20Vegas%2C%20NV%2089110!5e0!3m2!1sen!2sus!4v1576113463498!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>	
+</section>
+<section class="contact">
+<h2>Temple Inn & Suites</h2>
+<p>4800 Montgomery Ln #300, Bethesda, MD 20814 </p>
+<p>123-467-999 </p>
+<p>2020@templeandsuite.co.info</p>
+<div class="social">
+						<a href="https://twitter.com/" target="_blank" ><img src="images/social/twitter.png" alt="Twitter Social Icon"></a>
+						<a href="https://www.facebook.com/" target="_blank"><img src="images/social/facebook.png" alt="Facebook Social Icon"></a>
+						<a href="https://www.linkedin.com/" target="_blank"><img src="images/social/linkedin.png" alt="LinkedIn Social Icon"></a>
+					</div>
+				</section>
+			</div>	
+
+	</main>
+		
+	<footer><p>&copy; Marissa Gimbel | Temple Inn & Suites | <a href="resources.html">Resources</a></p></footer>
+<script src="tooglemenu.js"></script>
+<script src="banner.js"></script>
+
 </body>
 </html>
