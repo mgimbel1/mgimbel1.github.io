@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title> The Temple Inn & Suites:</title>
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Marissa A. Gimbel">
+	<meta name="description" content="Temple Inn & Suites for cit 230">
+	<link rel="shortcut icon" href="temple favicon.PNG">
+        <link href="https://fonts.googleapis.com/css?family=Arimo|Lora|Noto+Serif&display=swap" rel="stylesheet">  
+	<link rel="stylesheet" type="text/css" href="small.css"/>
+	<link rel="stylesheet" type="text/css" href="medium.css"/>
+        <link rel="stylesheet" type="text/css" href="large.css"/>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+</head>
+<body>
+<div id="message"></div>
+<div class="nav">	
+</div>
+<nav>
+<ul class="navigation">            
+<li><a href="#" onclick="toggleMenu()">&#9776;</a></li>
+<li><a href="index.html">Home</a></li>
+<li><a href="temple.html">Temples</a></li>
+<li><a href="reservations.html">Reservations</a></li>
+<li><a class="active" href="services.html">Services</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+<li><a href="child-care.html">Nanny</a></li>	
+</ul>
+</nav>
+<main>
+<img src="hotel.jpg" alt="picture">
+<h1 class="center">Reserve a room</h1>
+<div class="container">
+<form class="reservationForm" action="thanks.html" method="get">
+<legend>Contact Information</legend>
+<label class="top">Full Name* <input type="text" name="fullname" pattern="[^\s][A-z0-9À-ž\s]{5,}" required></label>
+<label class="top">Email <input type="email" name="email" placeholder="username@templeInn&suites.com"></label>
+<label class="top">Phone* <input type="tel" name="phone" placeholder="12345678901" required></label>
+<label class="top">Zipcode* <input type="number" name="zipcode" required></label>           
+</label>
+<label>Check in: <input name="date" type="date" min="2018-12-20" max="2020-12-20" required>
+</label>
+<label>Check out: 
+<input name="date" type="date" min="2019-12-21" max="2021-12-30" required>
+</label>
+<label for="Location" >Location
+<select id="Location" name="Location" required>
+<option value="">Choose breakfeast options</option>
+<option value="eggs,Pancakes with Orange Juice">eggs,Pancakes with Orange Juice</option>
+<option value="waffles">waffles</option>
+<option value="Pancakes">Pancakes</option>
+<option value="eggs">eggs</option>
+</select>
+</label>
+<label id="country"Activities 
+<select id="RoomType" name="Room Type">
+<option value="">Choose</option>
+<option value="Gym">Gym </option>
+<option value="Dancing">Dancing</option>
+<option  value="Reading">Reading scriptures</option>
+<option  value="Gaming">Gaming</option>
+</select>
+</label>
+<label for="subject">Comment
+<textarea id="subject" name="subject" placeholder="Q/A and responds.." style="height:200px"></textarea>
+</label>
+<input type="submit" value="Services">
+</form>
+</div>
+<div class="flex">
+  	</div>
+		<section class="one">
+			<h2>Free Amenities Include</h2>
+			<ul class="amenities">
+				<li>Breakfast</li>
+				<li>Excercise / Workout Room</li>
+				<li>Indoor Pool</li>
+				<li>Free WiFi</li>
+				<li>Smart TV's</li>
+				<li>Parking</li>
+				<li>Family history center</li>
+				<li>Family ordinance card services</li>
+</ul>
+</section>
+</div>
+<div class="two">
+<section>
+<h2>Map</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.40501970572!2d-77.09772585012946!3d38.98325177945717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576194576357!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</section>
+<section class="contact">
+<h2>Temple Inn & Suites</h2>
+<p>4800 Montgomery Lane #300, Bethesda, MD 20814 </p>
+<p>123-467-999 </p>
+<p>Temple@templeandsuites.com</p>
+<div class="social">
+<img src="https://img.icons8.com/ultraviolet/40/000000/twitter.png">
+ <img src="https://img.icons8.com/office/16/000000/facebook-new.png">
+<img src="https://img.icons8.com/office/16/000000/instagram-new.png">									   								   									   								   									   															   							   						
+</div>
+</section>
+</div>
+</main>		
+<footer><p>&copy;2019 Marissa Gimbel | Temple Inn & Suites | <a href="resources.html">Resources</a></p></footer>
+<script src="toggle.js"></script>
+</body>
+</html>
