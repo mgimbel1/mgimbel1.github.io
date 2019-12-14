@@ -1,29 +1,120 @@
 <!DOCTYPE html>
 <html lang="en-us">
-	<head>
-		<title>Temples</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<meta name="author" content="Marissa A. Gimbel">
-		<meta name="description" content="Temples Page Website for Cit-230">
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" type="text/css" href="prophets.css"/>
-	</head>
-	<body>
-		<header>
-			<h1>Church of Jesus Christ of Latter Day Saints temples</h1>
-		</header>
-		<main>
-	<button onclick="window.location.href=' https://mgimbel1.github.io/';">Home</button>
-			<div class="temples.json"></div>	
-		</main>
+<head>
+<title>Temple Inn & Suites Services</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Marissa A. Gimbel">
+<meta name="description" content="Temple Inn & Suites for cit 230">
+<link rel="shortcut icon" href="temple favicon.PNG">
+<link href="https://fonts.googleapis.com/css?family=Arimo|Lora|Noto+Serif&display=swap" rel="stylesheet">  
+<link rel="stylesheet" type="text/css" href="small.css"/>
+<link rel="stylesheet" type="text/css" href="medium.css"/>
+<link rel="stylesheet" type="text/css" href="large.css"/>
+<link rel="stylesheet" type="text/css" href="normalize.css"></head>
+
+</head>
+<body>
+		<div id="message"></div>
+	<div class="nav">
+
+	<nav>
+		<ul class="navigation">
+			
+			<li><a href="#" onclick="toggleMenu()()">&#9776;</a></li>
+			<li ><a href="index.html">Home</a></li>
+			<li class="active"><a href="temple.html">Temples</a></li>
+			<li><a href="reservations.html">Reservations</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="childcare.html">Nanny</a></li>
+		</ul>
+	</nav>
+	</div>
+	<main>
+	<div class="Weather">
+
+
 		
+		<div>
+		<h2><span id="place">city</span></h2>
+		
+		<p>Currently: <span id="description"> loading</span> </p>
+		<p>Temp: <span id="currentTemp"> </span>°F </p>
+		<p>WindChill: <span id="output"> </span> °F</p>
+		<p>Humidity: <span id="humidity"></span> %</p>
+		<p>Windspeed:<span id="windSpeed">5</span> mph </p>
+		</div>
 		
 	
+		
+		<div>
+
+		<h2><span id="place1">city</span></h2>
+		
+		<p>Currently: <span id="description1"> loading</span> </p>
+		<p>Temp: <span id="currentTemp1"> </span>°F </p>
+		<p>WindChill: <span id="output1"> </span> °F</p>
+		<p>Humidity: <span id="humidity1"></span> %</p>
+		<p>Windspeed:<span id="windSpeed1">5</span> mph </p>
+		</div>
 	
-<footer>
-	 &copy; 2019 |Marissa A. Gimbel |Church of Jesus Christ of Latter Day Saints | <a id="b" href="https://www.byui.edu/online" target="_blank">BYUI Online student Learning </a>
-		<p id="lastMod"></p><script src="lastmodified.js"></script><script src="temples.json"></script> 
-</footer>
+		
+		<div>
+		<h2><span id="place2">city</span></h2>
+		
+		<p>Currently: <span id="description2"> loading</span> </p>
+		<p>Temp: <span id="currentTemp2"> </span>°F </p>
+		<p>WindChill: <span id="output2"> </span> °F</p>
+		<p>Humidity: <span id="humidity2"></span> %</p>
+		<p>Windspeed:<span id="windSpeed2">5</span> mph </p>
+		</div>
+		
+		
+		<div>
+		<h2><span id="place3">city</span></h2>
+		
+		<p>Currently: <span id="description3"> loading</span> </p>
+		<p>Temp: <span id="currentTemp3"> </span>°F </p>
+		<p>WindChill: <span id="output3"> </span> °F</p>
+		<p>Humidity: <span id="humidity3"></span> %</p>
+		<p>Windspeed:<span id="windSpeed3">5</span> mph </p>
+		</div>
+	</div>
+
+
+
+
+		<div class="temples"></div>
+		<div class="all">
+		<h2>All Services</h2>
+		<p>Clothing rental available</p>
+		<p>cafeteria available</p>
+		<p>Patron housing available</p>
+		<p>Distribution center nearby</p>
+		</div>
+		<div class="two">
+				<div>
+					
+					
+				</div>
+				<div class="contact">
+					<h4>Temple Inn & Suites</h4>
+					<p>4800 Montgomery Ln #300, Bethesda, MD 20814 </p>
+					<p>123-467-999 </p>
+					<p>2020@templeandsuite.co.info</p>
+					<p>or</p>
+					<a href="contact.html">Reach Us Through Our Form!</a>
+	</div>
+	</div>		
+	</main>
+
+	<footer><p>&copy; Marissa A. Gimbel | Temple Inn & Suites | <a href="resources.html">Resources</a></p></footer>
+	<script src="templelist.js"></script>
+	<script src="tooglemenu.js"></script>	
+	<script src="weathernow.js"></script
+	<script src="calcu.js"></script>
+	<script src="cedar.js"></script>
+	<script src="saltlake.js"></script>
 </body>
 </html>
