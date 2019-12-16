@@ -1,80 +1,91 @@
 body {
-background-color: :#ffcc00;
-    font-family: 'open sans', sans-serif;
-    font-size: 100%;
-    line-height: 1.5;
+  background-color:#ffcc00;
+	margin: 2%;
+	font-family: 'Lora', serif
+
+}
+#message {
+	text-align: center;
+	padding: 1em;
+	color: blue;
+	font-weight: bolder;
+}
+main {
+	margin-top: 2em;
+	padding: 1em;
+
+
+
 }
 
-header,
-nav {
-    margin: 0 auto;
+.all {
+	text-align: center;
 }
 
-main,
-footer{
-    max-width: 600px;
-    margin: 0 auto;
+ul.navigation a
+{
+
+list-style: none;
+text-align: left;
+padding: 0;
+
+margin-top:2.5em;
 }
 
-/*---------------- Navigation --------------*/
-nav {
-    font-size: .75em;
-    background-color: #c3f0ff;
+.navigation a:hover 
+{
+color: #a94e9e;
+
+font-weight: 700;
 }
 
-nav ul {
-    padding: 0;
-    margin: 0;
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+<ul class="navigation responsive">
+*/
+.responsive li 
+{
+display: block;
 }
 
-.navigation {
-    list-style: none;
-    padding: 0;
-    text-align: left;
+main .banner {
+
+	max-width: 100%;
+
 }
 
-.navigation li:first-child {
-    display: block;
+.navigation li:nth-child(7)  a {
+	color: #e91752;
+	font-weight: bolder;
+
+
 }
 
-.navigation li {
-    display: none;
+
+.headinginfo
+{
+	text-align: center;
 }
 
-nav li a {
-    display: block;
-    text-align: left;
-    padding: 0.75rem;
-    text-decoration: none;
-    font-size: 0.95rem;
+.Las Vegas img{
+	max-width: 70%;
 }
 
-.active {
-    background-color: #ffe96cad;
-    color: #3aabc6;
-    font-weight: bold;
-}
-
-a:link {
-    color: #00264d;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #006fdd;
-}
-
-a:hover {
-    background-color: #0059b3;
-    color: #ffe44d;
-}
-
-a:active {
-    background-color: #ffe96cad;
-    color: #3aabc6;
-}
-
-/*---------------- Home Page --------------*/
 
 
+.services li{
+	list-style-type: none;
+	padding: 1em 1em 1em 0;
+	text-align: left;
 
+	}
+.h2{
+	
+	border-bottom: 2px solid black;
+	text-align: left;
+	}
+.services {
+	margin: 0 auto;
+	
+	text-align: left;
