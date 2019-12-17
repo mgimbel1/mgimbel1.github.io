@@ -7,4 +7,5 @@ console.log (weatherinfo);
 }
 document.getElementBYId('place').innterHTML = weatherinfo.name;
 document.getElementBYId('currentTemp').innterHTML = weatherinfo.name.main.temp;
+document.getElementBYId('WindSpeed').innterHTML = weatherinfo.name.;wind.speed;
 //end of onload
