@@ -77,6 +77,10 @@ main .banner {
 	padding: 1em 1em 1em 0;
 	text-align: left;
 
+iframe{
+    border-width: 0px;
+}	
+
 	}
 .one h2{
 	
