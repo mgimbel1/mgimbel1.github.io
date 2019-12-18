@@ -111,5 +111,18 @@ input[type=submit]:hover {
 color: red;
 font-weight: 700;
 }
-
+#Location, #RoomType, #subject{
+	margin: 1em 0;
+}
+.contact-form{
+	width:40%;
+	margin:0:auto;
+}
+.container{
+ border-radius:5px;
+ background-color:#f2f2f2;
+ padding:20px;
+ width:40%;
+ margin:0 auto;
+	
 	
