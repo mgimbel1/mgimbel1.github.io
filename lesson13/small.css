@@ -79,9 +79,6 @@ font-weight : 700;
 }
 #Location, #RoomType, #subject {
 margin : 1em 0;
-}
-@media all and (min-width: 1237px){
-}
 {
 .weather
 	 display: grid;
@@ -89,3 +86,17 @@ margin : 1em 0;
 	 text-align: center;
 }
 
+}
+
+
+.contact-form {
+	width:40%;
+  margin: 0 auto;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+ width:40%;
+  margin: 0 auto;
+}
