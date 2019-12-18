@@ -80,6 +80,8 @@ font-weight : 700;
 #Location, #RoomType, #subject {
 margin : 1em 0;
 }
+@media all and (min-width: 1237px){
+}
 {
 .weather
 	 display: grid;
