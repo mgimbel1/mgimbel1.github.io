@@ -1,4 +1,5 @@
 body {
+       background-color:#FFE4C4;	
 	margin:0px;
 	padding:0px;
 	text-align:center;
@@ -35,64 +36,8 @@ body {
 	text-align: center;
 }
 
-h2{margin-top:.5em;}
-	form{
-	 float:left;
-	 width:24em;
-	 margin:20px 0 0 50px; 
-	 padding:1em .75em .5em;
-	 border:1px solid #AAA;
-	}
-div.formsection{
-	float:left;
-	width:100%;
-	border-bottom:1px solid #AAA;
- }
-	input{
-		font-size:1px solid #AAA;
-	}
-	input:focus,textarea:focus, select:focus{
-	}
-	label{
-		display:black;
-		clear:both;
-		font-size:85%
-		font-weight:bold;
-		margin:.5em 0.0; 
-		padding-bottom:.5em;
-	}
-	input [type="submit"]
-	float:right;
-	margin:.5em 0;
-}
-
-.buttongroup{
-	float:left;
-}
-.buttongroup input{
-	float:left;
-	clear:both;
-	margin:0;
-	padding:0;
-	line-height:0;
-}
-.buttongroup label{
-	background-color:none;
-	width:24em;
-	float-left;
-        margin:0 0 0 .5em;
-	font-weight:normal;
-	clear:none;
-}
-.social {
-
-	list-style-type: none;
-	display: block;
-	  align-items: center;
-        justify-content: center;
-        flex-direction: column;	
-}
-
-iframe{
+.iframe{
     border-width: 0px;
 }	
+
+	
