@@ -18,11 +18,76 @@ position : absolute;
 left : 130px;
 width : 600px;
 }
-#nav {
-position : absolute;
-left : 0;
-width : 130px;
-background : transparent;
+body {
+    font-family: 'open sans', sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+header,
+nav {
+    margin: 0 auto;
+}
+main,
+footer{
+    max-width: 600px;
+    margin: 0 auto;
+}
+nav {
+    font-size: .75em;
+    background-color: #7FFFD4
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav li a {
+    display: block;
+    text-align: left;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.active {
+    background-color: #blue;
+    color: #3aabc6;
+    font-weight: bold;
+}
+
+a:link {
+    color: #00264d;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #006fdd;
+}
+
+a:hover {
+    background-color: #0059b3;
+    color: #ffe44d;
+}
+
+a:active {
+    background-color: #ffe96cad;
+    color: #3aabc6;
 }
 .temples {
 border-bottom : 1px solid black;
