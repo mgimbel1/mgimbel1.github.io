@@ -1,34 +1,14 @@
-@media all and (min-width: 200px) and (max-width: 767px) 
-{
-
-
-.weather
-{
-   display: grid;
-   grid-template-columns: 1fr;
-   text-align: center;
+@media only screen and (min-width: 38.5em) {
+header img {
+width : 100%;
 }
-
-
-.navigation li:first-child {display: block;}
-.navigation li {display: none;}
-.nav picture img {
-	max-width: 100%;
-  
-  float: none;
+nav ul {
+display : flex;
 }
-.navigation a 
-{
-display: block;
-color: black;
-padding: 0.75rem;
-text-align: left;
-text-decoration: none;
+.navigation li:first-child {
+display : none;
 }
-.temples img {
-	width: 100%;
-	height: auto;
-} 
-
-
+.navigation li {
+display : block;
+flex : 1 1 100%;
 }
