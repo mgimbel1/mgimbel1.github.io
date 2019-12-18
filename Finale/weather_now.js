@@ -2,8 +2,6 @@ var temple = document.getElementById("Las Vegas").textContent;
 if (temple.includes("Las Vegas")) {
   var weatherapi = "//api.openweathermap.org/data/2.5/weather?id=5475433&&temp&units=imperial&APPID=210c6be8650140bd61b5b896bccb52f1";
 }
-
-/*
 var temple = document.getElementById("Cedar").textContent;
 if (temple.includes("Cedar")) {
   var weatherapi = "//api.openweathermap.org/data/2.5/weather?id=5536630&temp&units=imperial&APPID=210c6be8650140bd61b5b896bccb52f1";
