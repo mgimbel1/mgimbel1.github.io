@@ -1,1 +1,459 @@
+body {
+background-color :#FFE4C4;        
+font-family : 'lora', serif;
+font-size : 100%;
+line-height : 1.5;
+}
+header, nav {
+margin : 0 auto;
+}
+main, footer {
+max-width : 100%;
+margin : 0 auto;
+}
+nav {
+font-size : 0.75em;
+background-color : #c3f0ff;
+}
+nav ul {
+padding : 0;
+margin : 0;
+}
+.navigation {
+list-style : none;
+padding : 0;
+text-align : left;
+}
+.navigation li:first-child {
+display : block;
+}
+.navigation li {
+display : none;
+}
+nav li a {
+display : block;
+text-align : left;
+padding : 0.75rem;
+text-decoration : none;
+font-size : 0.95rem;
+}
+header, footer {
+text-align : center;
+padding : 0.5rem;
+}
+.active {
+font-weight : bold;
+text-decoration-line : underline;
+}
+#banner {
+margin : 0;
+background : #ffe44d;
+color : #0059b3;
+font-size : 2rem;
+text-align : center;
+}
+.showme {
+display : block;
+}
+.hideme {
+display : none;
+}
+header {
+line-height : 0.5;
+background-color : #0059b3;
+color : #ffe44d;
+display : flex;
+align-items : center;
+justify-content : center;
+}
+header img {
+width : 80px;
+height : auto;
+}
+.motto {
+font-style : italic;
+font-size : 1.5em;
+padding : 0.2em;
+margin : 0;
+}
+.headings {
+display : flex;
+flex-direction : column;
+padding : 0;
+margin : 0;
+}
+footer {
+background-color : #c3f0ff;
+color : #00264d;
+}
+a:link {
+color : #00264d;
+text-decoration : none;
+}
+a:visited {
+color : #006fdd;
+}
+a:hover {
+background-color : #0059b3;
+color : #ffe44d;
+}
+a:active {
+background-color : #ffe96cad;
+color : #3aabc6;
+}
+img {
+max-width : 100%;
+height : auto;
+float : left;
+}
+h1 h2 {
+color : #004080;
+}
+h1 {
+font-size : 2.5em;
+font-weight : bold;
+font-family : 'open sans', serif;/*---------------- Header --------------*/
+header {
+    line-height: .5;
+    background-color: #0059b3;
+    color: #ffe44d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.motto {
+    font-style: italic;
+    font-size: 1.5em;
+    padding: .2em;
+    margin: 0;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: .5rem;
+}
+
+footer {
+    background-color: #c3f0ff;
+    color: #00264d;
+}
+
+
+h1 h2 {
+    color: #004080;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'open sans', serif;
+    line-height: 100%;
+    margin: .5rem;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-family: 'open sans', sans-serif;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+    color: #005ab3;
+    margin: .5rem 2%;
+}
+
+h4,
+h5 {
+    font-size: 1em;
+    font-family: 'open sans', sans-serif;
+    color: #0059b3;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'open sans', sans-serif;
+    padding: 0.2rem;
+    color: #00264d;
+    margin: .5rem 2%;
+}
+.temples {
+border-bottom : 1px solid black;
+}
+.temples section {
+text-align : center;
+}
+.temples section div {
+text-align : center;
+}
+input, select, textarea {
+width : 100%;
+padding : 12px;
+border : #ccc solid 1px;
+border-radius : 4px;
+box-sizing : border-box;
+}
+input[type="submit"] {
+background-color : #4CAF50;
+color : white;
+padding : 12px 20px;
+border : none;
+border-radius : 4px;
+cursor : pointer;
+}
+input[type="submit"]:hover {
+background-color : #45a049;
+}
+.container label {
+margin : 1em 0;
+}
+.container input {
+margin : 1em 0;
+}
+.center {
+text-align : center;
+}
+.input-field input, #messages {
+margin : 1em 0;
+}
+.two {
+display : flex;
+align-items : center;
+justify-content : center;
+flex-direction : column;
+width : 100%;
+text-align : center;
+margin : 0;
+min-height : 200px;
+}
+.active {
+color : red;
+font-weight : 700;
+}
+#Location, #RoomType, #subject {
+margin : 1em 0;
+{
+.weather
+	 display: grid;
+	 grid-template-columns: 1fr 1fr 1fr 1fr;
+	 text-align: center;
+}
+
+}
+.contact-form {
+	width:40%;
+  margin: 0 auto;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+ width:40%;
+  margin: 0 auto;
+}
+.responsive li {
+display : block;
+}
+line-height : 100%;
+margin : 0.5rem;
+}
+h2 {
+font-size : 1.75em;
+font-family : 'open sans', sans-serif;
+text-align : center;
+}
+h3 {
+font-size : 1.25em;
+font-weight : bold;
+font-family : 'open sans', sans-serif;
+text-align : center;
+color : #0059b3;
+margin : 0.5rem 2%;
+}
+h4, h5 {
+font-size : 1em;
+font-family : 'open sans', sans-serif;
+color : #0059b3;
+}
+p {
+font-size : 1.25em;
+font-family : 'open sans', sans-serif;
+padding : 0.2rem;
+color : #00264d;
+margin : 0.5rem 2%;
+}
+/*---------------- Header --------------*/
+header {
+    line-height: .5;
+    background-color: #0059b3;
+    color: #ffe44d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.motto {
+    font-style: italic;
+    font-size: 1.5em;
+    padding: .2em;
+    margin: 0;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: .5rem;
+}
+
+footer {
+    background-color: #c3f0ff;
+    color: #00264d;
+}
+
+
+h1 h2 {
+    color: #004080;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'open sans', serif;
+    line-height: 100%;
+    margin: .5rem;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-family: 'open sans', sans-serif;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+    color: #005ab3;
+    margin: .5rem 2%;
+}
+
+h4,
+h5 {
+    font-size: 1em;
+    font-family: 'open sans', sans-serif;
+    color: #0059b3;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'open sans', sans-serif;
+    padding: 0.2rem;
+    color: #00264d;
+    margin: .5rem 2%;
+}
+.temples {
+border-bottom : 1px solid black;
+}
+.temples section {
+text-align : center;
+}
+.temples section div {
+text-align : center;
+}
+input, select, textarea {
+width : 100%;
+padding : 12px;
+border : #ccc solid 1px;
+border-radius : 4px;
+box-sizing : border-box;
+}
+input[type="submit"] {
+background-color : #4CAF50;
+color : white;
+padding : 12px 20px;
+border : none;
+border-radius : 4px;
+cursor : pointer;
+}
+input[type="submit"]:hover {
+background-color : #45a049;
+}
+.container label {
+margin : 1em 0;
+}
+.container input {
+margin : 1em 0;
+}
+.center {
+text-align : center;
+}
+.input-field input, #messages {
+margin : 1em 0;
+}
+.two {
+display : flex;
+align-items : center;
+justify-content : center;
+flex-direction : column;
+width : 100%;
+text-align : center;
+margin : 0;
+min-height : 200px;
+}
+.active {
+color : red;
+font-weight : 700;
+}
+#Location, #RoomType, #subject {
+margin : 1em 0;
+{
+.weather
+	 display: grid;
+	 grid-template-columns: 1fr 1fr 1fr 1fr;
+	 text-align: center;
+}
+}
+.contact-form {
+	width:40%;
+  margin: 0 auto;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+ width:40%;
+  margin: 0 auto;}
+
+.responsive li {
+display : block;
+}
