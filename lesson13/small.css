@@ -89,6 +89,159 @@ a:active {
     background-color: #ffe96cad;
     color: #3aabc6;
 }
+body {
+    font-family: 'open sans', sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+header,
+nav {
+    margin: 0 auto;
+}
+main,
+footer{
+    max-width: 600px;
+    margin: 0 auto;
+}
+nav {
+    font-size: .75em;
+    background-color: #7FFFD4
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav li a {
+    display: block;
+    text-align: left;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.active {
+    background-color: #blue;
+    color: #3aabc6;
+    font-weight: bold;
+}
+
+a:link {
+    color: #00264d;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #006fdd;
+}
+
+a:hover {
+    background-color: #0059b3;
+    color: #ffe44d;
+}
+
+a:active {
+    background-color: #ffe96cad;
+    color: #3aabc6;
+}
+/*---------------- Header --------------*/
+header {
+    line-height: .5;
+    background-color: #0059b3;
+    color: #ffe44d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.motto {
+    font-style: italic;
+    font-size: 1.5em;
+    padding: .2em;
+    margin: 0;
+}
+
+header,
+footer {
+    text-align: center;
+    padding: .5rem;
+}
+
+footer {
+    background-color: #c3f0ff;
+    color: #00264d;
+}
+
+
+h1 h2 {
+    color: #004080;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'open sans', serif;
+    line-height: 100%;
+    margin: .5rem;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-family: 'open sans', sans-serif;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+    color: #005ab3;
+    margin: .5rem 2%;
+}
+
+h4,
+h5 {
+    font-size: 1em;
+    font-family: 'open sans', sans-serif;
+    color: #0059b3;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: 'open sans', sans-serif;
+    padding: 0.2rem;
+    color: #00264d;
+    margin: .5rem 2%;
+}
 .temples {
 border-bottom : 1px solid black;
 }
