@@ -1,1 +1,14 @@
-
+@media only screen and (min-width: 38.5em) {
+header img {
+width : 100%;
+}
+nav ul {
+display : flex;
+}
+.navigation li:first-child {
+display : none;
+}
+.navigation li {
+display : block;
+flex : 1 1 100%;
+}
