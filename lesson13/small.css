@@ -80,3 +80,13 @@ font-weight : 700;
 #Location, #RoomType, #subject {
 margin : 1em 0;
 }
+{
+	 display: grid;
+	 grid-template-columns: 1fr 1fr 1fr 1fr;
+	 text-align: center;
+}
+{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  text-align:center;
+}
