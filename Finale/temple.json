@@ -1,1 +1,40 @@
 
+{
+    "temples" : [
+    {
+    "name" : "Las Vegas Nv",
+    "closed" : [
+        "Tuesday, 24 December 2019",
+        "Wednesday, 25 December 2019",
+        "Tuesday, 31 December 2019"
+    ]
+    },
+    {
+    "name" : 	"Salt Lake City Utah",
+    "closed" : [
+        "Tuesday, 24 December 2019",
+        "Wednesday, 25 December 2019",
+        "Tuesday, 31 December 2019"
+    ]
+    
+    },
+    {
+    "name" : 	"Cedar City Utah ",
+    "closed" : [
+        "Monday, 23 December 2019",
+        "Tuesday, 24 December 2019",
+        "Wednesday, 25 December 2019",
+        "Tuesday, 31 December 2019"
+    ]
+    
+    },
+    {
+    "name" : 	"Laie Hawaii",
+    "closed" : [
+        "Tuesday, 24 December 2019",
+        "Wednesday, 25 December 2019",
+        "Tuesday, 31 December 2019"
+        ]
+      }
+     ]
+    }
