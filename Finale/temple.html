@@ -38,7 +38,7 @@
 </ul>
 </nav>
 </main>  
-  <h1>Current Weather</h1>
+	<h1>Current Weather</h1>
                     <div class="currentInfo">Currently:&nbsp;<span id="currentCondition">condition</span></div>
                     <div class="currentInfo">Currently: &nbsp;<span id="currentTemp">00</span>&#176;F</div>
                     <div class="currentInfo">Wind Chill: &nbsp;<span id="wChill"></span></div>
@@ -46,8 +46,80 @@
                     <div class="currentInfo">Wind Speed: &nbsp;<span id="windSpeed">00</span> mph</div>
                 </section>
             </div>
-<!--Footer here-->
-<footer> &copy; 2019 &bull; Marissa A. Gimbel &bull;</footer>
+<table>
+        <caption class="mediumBackground">Temple</caption>
+        <thead>
+            <tr>
+                <th>Temple recommend</th>
+                <th>Baptism</th>    
+		<th>weddings</th>    
+		<th>sealings</th>    
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+		   
+                <td>Salt Lake City Utah dedication</td>
+		<td>Milestones</td>
+		<td>6 April 1893</td>
+                <td>ground breaking</td>
+		<td>14 February 1853</td>
+		<td>Announcement</td>    
+		<td>28 July 1847</td>    
+            </tr>
+            <tr>
+                <td>Las Vegas Nv Temple</td>
+		<td>Milestones</td>
+		<td>Dedicated</td>
+		<td>16 December 1989</td>
+		<td>Groundbreaking</td>
+	        <td>30 November 1985</td>
+		<td>Announced</td>
+		<td>7 April 1984</td    3 October 1915</td>
+		    
+            </tr>
+            <tr>
+                <td>Cedar City Utah Temple</td>
+                <td>Milestones</td>
+		<td>Dedicated</td> 
+		<td>10 December 2017</td>
+		<td>Groundbreaking</td>
+		<td>8 August 2015
+		<td>Announced</td>	
+		<td>6 April 2013</td>    
+    
+		    
+            </tr>
+            <tr>
+                <td>Laie Hawaii Temple</td>
+                <td>Milestones</td>
+                <td>Dedicated</td>
+		<td>27 November 1919</td>
+		<td>Rededicated</td>
+		<td>13 June 1978
+		<td>vRededicated</td>
+		<td>21 November 2010</td> 
+		<td>Groundbreaking</td>
+		<td>8 February 1916</td>
+		<td>Announced</td>
+		<td>3 October 1915</td>    
+	</tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="mediumBackground">
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+     <script>
+        WebFont.load({
+            google: {
+                families: [ 'serif''lora']
+            }
+        });
+    </script>
 <script src="weathernow.js"></script>
 <script src="toggle.js"></script>	
 </body>
