@@ -52,5 +52,3 @@ fetch(requestURL)
       }
     }
   })
-
-
