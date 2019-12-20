@@ -1,13 +1,15 @@
-
 function preload()
- data =loadJSON("https://www.churchofjesuschrist.org/temples/list?lang=eng")
+createCanvas(200,200);
+data =loadJSON("https://www.churchofjesuschrist.org/temples/list?lang=eng",gotData,'jsonp');
  
  }
-function setup(){
 
-
- 
- 
+function gotData(data){
+background(0);
+println(data);
+for(var i = 0; i< data.number;i++){
+ellispe(random(width),random(height),16,16);
+}
  
 function draw(){ 
 
