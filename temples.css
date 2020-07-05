@@ -1,0 +1,63 @@
+header h1 {
+text-align: center;
+}
+.cards > section {
+  background-color: green;
+  text-align: center;
+}
+section img {
+	max-width: 100%;
+	width: 320px;
+	height: 400px;
+}
+.cards:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {	
+text-align: center;
+}
+@media all and (min-width: 1024px) 
+{
+ .cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: gray;
+  padding: 10px;
+}
+}
+@media all and (min-width: 768px) and (max-width: 1023px) 
+{
+.cards {
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.cards > section {
+  background-color: gray;
+  text-align: center;
+}
+.cards:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+}
+@media all and (min-width: 200px) and (max-width: 767px) 
+{
+.cards {
+  display: grid;
+  grid-template-columns:auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.cards > section {
+  background-color: gray;
+  text-align: center;
+}
+}
